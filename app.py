@@ -49,14 +49,21 @@ st.markdown(CSS_STYLE, unsafe_allow_html=True)
 
 # --- 4. LOAD DATA ---
 # load_resources: shots, stats, models_map, calibrators_map
-shots_df, stats_df, models_map, calibrators_map = load_resources()
-
-if shots_df is None:
-    st.stop()
+# We use a try-except block to allow "soft loading" in case global files are missing
+try:
+    shots_df, stats_df, models_map, calibrators_map = load_resources()
+except Exception as e:
+    print(f"Global load skipped: {e}")
+    shots_df = pd.DataFrame()
+    stats_df = pd.DataFrame()
+    models_map = {}
+    calibrators_map = {}
 
 # Prefer using per-league CSVs in Data/processed/leagues when available
+# NOTE: Casing changed to 'Data' to match server structure
 LEAGUES_DIR = os.path.join(ROOT_DIR, 'Data', 'processed', 'leagues')
 league_file_map = {}  # display_name -> file_key (sanitized)
+
 if os.path.exists(LEAGUES_DIR):
     for fn in os.listdir(LEAGUES_DIR):
         if fn.startswith('shots_') and fn.endswith('.csv'):
@@ -69,6 +76,7 @@ if os.path.exists(LEAGUES_DIR):
         # try per-league CSV first
         fk = league_file_map.get(display_name)
         if fk:
+            # NOTE: Casing changed to 'Data'
             sp = os.path.join(ROOT_DIR, 'Data', 'processed', 'leagues', f"stats_{fk}.csv")
             if os.path.exists(sp):
                 try:
@@ -264,6 +272,7 @@ def _ensure_year_column(df: pd.DataFrame, target_col: str = 'season_year') -> pd
 # Load per-league data from leagues folder when selected; otherwise fall back to global DataFrames
 # active_league is a display name; map to file key and require the files
 file_key = league_file_map.get(active_league)
+# NOTE: Casing changed to 'Data'
 shots_path = os.path.join(ROOT_DIR, 'Data', 'processed', 'leagues', f"shots_{file_key}.csv")
 stats_path = os.path.join(ROOT_DIR, 'Data', 'processed', 'leagues', f"stats_{file_key}.csv")
 
@@ -346,35 +355,46 @@ stats_source = f_stats if not f_stats.empty else active_stats
 normalized_stats = _ensure_season_norm(stats_source)
 normalized_shots = _ensure_season_norm(f_shots)
 
-# Choose model for the selected league (require a matching per-league model)
+# --- IMPROVED MODEL LOOKUP LOGIC ---
+# 1. Helper function to normalize names (e.g. "1 Bundesliga" -> "1_bundesliga")
+def sanitize_key(name):
+    return str(name).lower().strip().replace(' ', '_')
+
+# 2. Build a "smart map" where keys are normalized
+# This maps "1_bundesliga" -> model_object AND "1 bundesliga" -> model_object
+smart_model_map = {}
+if isinstance(models_map, dict):
+    for k, v in models_map.items():
+        smart_model_map[sanitize_key(k)] = v
+        smart_model_map[k] = v # keep original keys too
+
+# 3. Lookup using the sanitized version of the active league
 model = None
 calibrator = None
-if isinstance(models_map, dict):
-    # models_map keys are sanitized league keys built when training
-    if file_key in models_map:
-        model = models_map[file_key]
-        try:
-            if isinstance(calibrators_map, dict) and file_key in calibrators_map:
-                calibrator = calibrators_map[file_key]
-        except Exception:
-            calibrator = None
-    else:
-        # try more permissive matching
-        for k in models_map.keys():
-            if k.lower() == file_key.lower() or k.lower().replace('_',' ') == active_league.lower():
-                model = models_map[k]
-                try:
-                    if isinstance(calibrators_map, dict) and k in calibrators_map:
-                        calibrator = calibrators_map[k]
-                except Exception:
-                    calibrator = None
-                break
-    if model is None:
-        st.error(f"❌ No trained model found for league '{active_league}'. Train models first with `python src/model_trainer.py`.")
-        st.stop()
-else:
-    st.error("❌ Models map not available. Ensure models are trained and present in the `models/` folder.")
+target_key = sanitize_key(active_league)
+
+# Try finding the model using the sanitized key
+if target_key in smart_model_map:
+    model = smart_model_map[target_key]
+    # Try finding the matching calibrator
+    if isinstance(calibrators_map, dict):
+        smart_calib_map = {sanitize_key(k): v for k, v in calibrators_map.items()}
+        if target_key in smart_calib_map:
+            calibrator = smart_calib_map[target_key]
+
+# 4. Fallback: If still no model, try the file_key directly (if it exists)
+if model is None and file_key:
+    sanitized_file_key = sanitize_key(file_key)
+    if sanitized_file_key in smart_model_map:
+        model = smart_model_map[sanitized_file_key]
+
+# 5. Final Check
+if model is None:
+    st.error(f"❌ No trained model found for league '{active_league}'.")
+    st.write(f"🔍 Looked for key: `{target_key}`")
+    st.write(f"📂 Available keys in models_map: {list(smart_model_map.keys())}")
     st.stop()
+
 
 # Determine expected feature order from the loaded XGBoost model (fallback to known list)
 expected_features = None
@@ -430,44 +450,6 @@ try:
                 st.write('Could not load suggestions file:', e)
 except Exception:
     pass
-
-# Choose model for the selected league (fallback to global)
-model = None
-if isinstance(models_map, dict):
-    # Try exact match, then sanitized/truncated keys
-    if active_league in models_map:
-        model = models_map[active_league]
-    else:
-        # try sanitized match (models were saved with sanitized league names)
-        def sanitize(name):
-            return ''.join([c for c in str(name).strip().replace(' ', '_') if c.isalnum() or c in ['_','-']])
-        s = sanitize(active_league)
-        possible_key = None
-        for k in models_map.keys():
-            if k.lower() == s.lower() or k.lower() == active_league.lower() or k.lower().replace('_',' ') == active_league.lower():
-                possible_key = k; break
-        if possible_key:
-            model = models_map[possible_key]
-            try:
-                if isinstance(calibrators_map, dict) and possible_key in calibrators_map:
-                    calibrator = calibrators_map[possible_key]
-            except Exception:
-                calibrator = None
-        else:
-            model = models_map.get('Global Database') or models_map.get('global') or next(iter(models_map.values()), None)
-            # try to find a matching calibrator for the fallback model (best-effort)
-            try:
-                fallback_key = None
-                for k in (['Global Database', 'global'] + list(models_map.keys())):
-                    if k in calibrators_map:
-                        fallback_key = k; break
-                if fallback_key:
-                    calibrator = calibrators_map.get(fallback_key)
-            except Exception:
-                pass
-else:
-    model = models_map
-
 
 tab_ctx = TabContext(
     f_shots=f_shots,
@@ -597,7 +579,8 @@ with t4:
         # If user picked a different league than the app's active league, load that league's shots
         if sel_league != active_league:
             lk = league_file_map.get(sel_league)
-            p = os.path.join(ROOT_DIR, 'data', 'processed', 'leagues', f"shots_{lk}.csv")
+            # NOTE: Casing changed to 'Data'
+            p = os.path.join(ROOT_DIR, 'Data', 'processed', 'leagues', f"shots_{lk}.csv")
             if os.path.exists(p):
                 try:
                     df_filtered = pd.read_csv(p)
@@ -620,7 +603,8 @@ with t4:
                 # try to load per-league CSV for the selected league
                 lk = league_file_map.get(sel_league)
                 if lk:
-                    per_league_path = os.path.join(ROOT_DIR, 'data', 'processed', 'leagues', f"shots_{lk}.csv")
+                    # NOTE: Casing changed to 'Data'
+                    per_league_path = os.path.join(ROOT_DIR, 'Data', 'processed', 'leagues', f"shots_{lk}.csv")
                     if os.path.exists(per_league_path):
                         tmp = pd.read_csv(per_league_path)
                         team_col = next((c for c in team_col_candidates if c in tmp.columns), None)
@@ -728,5 +712,3 @@ with t4:
         st.pyplot(fig, use_container_width=True)
     else:
         st.info(f"No shot data found for {sel_player} in this period.")
-
-# (Model Insights tab removed per user request)
