@@ -1,0 +1,146 @@
+{
+  "1_bundesliga": {
+    "league_key": "1_bundesliga",
+    "model_file": "models\\goal_predictor_1_bundesliga.json",
+    "rows": 8863,
+    "trained_at": "2025-12-16T22:56:45.478352Z",
+    "auc": 0.7453187363070142,
+    "accuracy": 0.8973491257755217
+  },
+  "african_cup_of_nations": {
+    "league_key": "african_cup_of_nations",
+    "model_file": "models\\goal_predictor_african_cup_of_nations.json",
+    "rows": 1185,
+    "trained_at": "2025-12-16T22:56:46.976986Z",
+    "auc": 0.7799151343705799,
+    "accuracy": 0.8818565400843882
+  },
+  "champions_league": {
+    "league_key": "champions_league",
+    "model_file": "models\\goal_predictor_champions_league.json",
+    "rows": 94,
+    "trained_at": "2025-12-16T22:56:47.769505Z",
+    "auc": 0.4444444444444444,
+    "accuracy": 0.8947368421052632
+  },
+  "copa_america": {
+    "league_key": "copa_america",
+    "model_file": "models\\goal_predictor_copa_america.json",
+    "rows": 564,
+    "trained_at": "2025-12-16T22:56:48.930127Z",
+    "auc": 0.818627450980392,
+    "accuracy": 0.9026548672566371
+  },
+  "fa_womens_super_league": {
+    "league_key": "fa_womens_super_league",
+    "model_file": "models\\goal_predictor_fa_womens_super_league.json",
+    "rows": 8641,
+    "trained_at": "2025-12-16T22:56:50.688827Z",
+    "auc": 0.718988258852502,
+    "accuracy": 0.8796992481203008
+  },
+  "fifa_world_cup": {
+    "league_key": "fifa_world_cup",
+    "model_file": "models\\goal_predictor_fifa_world_cup.json",
+    "rows": 4506,
+    "trained_at": "2025-12-16T22:56:53.034583Z",
+    "auc": 0.8093079800498754,
+    "accuracy": 0.9046563192904656
+  },
+  "indian_super_league": {
+    "league_key": "indian_super_league",
+    "model_file": "models\\goal_predictor_indian_super_league.json",
+    "rows": 3095,
+    "trained_at": "2025-12-16T22:56:54.437117Z",
+    "auc": 0.795846764195388,
+    "accuracy": 0.8836833602584814
+  },
+  "la_liga": {
+    "league_key": "la_liga",
+    "model_file": "models\\goal_predictor_la_liga.json",
+    "rows": 21451,
+    "trained_at": "2025-12-16T23:01:53.771349Z",
+    "auc": 0.7641691618175998,
+    "accuracy": 0.8771848054066651
+  },
+  "liga_profesional": {
+    "league_key": "liga_profesional",
+    "model_file": "models\\goal_predictor_liga_profesional.json",
+    "rows": 56,
+    "trained_at": "2025-12-16T22:56:58.837849Z",
+    "auc": null,
+    "accuracy": 0.8333333333333334
+  },
+  "ligue_1": {
+    "league_key": "ligue_1",
+    "model_file": "models\\goal_predictor_ligue_1.json",
+    "rows": 10355,
+    "trained_at": "2025-12-16T22:57:01.227093Z",
+    "auc": 0.745321022379846,
+    "accuracy": 0.8966682761950748
+  },
+  "major_league_soccer": {
+    "league_key": "major_league_soccer",
+    "model_file": "models\\goal_predictor_major_league_soccer.json",
+    "rows": 146,
+    "trained_at": "2025-12-16T22:57:02.134067Z",
+    "auc": 0.7283950617283951,
+    "accuracy": 0.9
+  },
+  "nwsl": {
+    "league_key": "nwsl",
+    "model_file": "models\\goal_predictor_nwsl.json",
+    "rows": 1041,
+    "trained_at": "2025-12-16T22:57:03.276129Z",
+    "auc": 0.6964285714285715,
+    "accuracy": 0.937799043062201
+  },
+  "north_american_league": {
+    "league_key": "north_american_league",
+    "model_file": "models\\goal_predictor_north_american_league.json",
+    "rows": 50,
+    "trained_at": "2025-12-16T22:57:03.995934Z",
+    "auc": null,
+    "accuracy": 1.0
+  },
+  "premier_league": {
+    "league_key": "premier_league",
+    "model_file": "models\\goal_predictor_premier_league.json",
+    "rows": 10639,
+    "trained_at": "2025-12-16T22:57:06.339405Z",
+    "auc": 0.7418699813906625,
+    "accuracy": 0.9102443609022557
+  },
+  "serie_a": {
+    "league_key": "serie_a",
+    "model_file": "models\\goal_predictor_serie_a.json",
+    "rows": 10208,
+    "trained_at": "2025-12-16T22:57:08.397162Z",
+    "auc": 0.767154820761924,
+    "accuracy": 0.9133202742409402
+  },
+  "uefa_euro": {
+    "league_key": "uefa_euro",
+    "model_file": "models\\goal_predictor_uefa_euro.json",
+    "rows": 2329,
+    "trained_at": "2025-12-16T22:57:10.292944Z",
+    "auc": 0.8077959206113585,
+    "accuracy": 0.9055793991416309
+  },
+  "uefa_womens_euro": {
+    "league_key": "uefa_womens_euro",
+    "model_file": "models\\goal_predictor_uefa_womens_euro.json",
+    "rows": 1549,
+    "trained_at": "2025-12-16T22:57:11.627184Z",
+    "auc": 0.7516683076249863,
+    "accuracy": 0.9
+  },
+  "womens_world_cup": {
+    "league_key": "womens_world_cup",
+    "model_file": "models\\goal_predictor_womens_world_cup.json",
+    "rows": 3221,
+    "trained_at": "2025-12-16T22:57:13.505199Z",
+    "auc": 0.7686583850931678,
+    "accuracy": 0.8852713178294573
+  }
+}

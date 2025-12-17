@@ -1,0 +1,8 @@
+{
+  "league": "liga_profesional",
+  "rows": 56,
+  "auc": null,
+  "accuracy": 0.8333333333333334,
+  "brier": 0.0878753775956244,
+  "cv_auc": 0.5704656862745098
+}

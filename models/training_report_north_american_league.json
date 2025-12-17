@@ -1,0 +1,8 @@
+{
+  "league": "north_american_league",
+  "rows": 50,
+  "auc": null,
+  "accuracy": 1.0,
+  "brier": 0.013142093794478458,
+  "cv_auc": 0.5
+}
