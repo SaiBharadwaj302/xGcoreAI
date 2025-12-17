@@ -4,6 +4,7 @@ import pandas as pd
 import xgboost as xgb
 import streamlit as st
 import numpy as np
+import json
 
 # Safe import for physics
 try:
@@ -36,20 +37,42 @@ def resolve_processed_file(name: str) -> str:
             return str(candidate)
     return None
 
-# --- CUSTOM WRAPPER CLASS (HARDCODED FALLBACK) ---
+def extract_feature_names_from_json(model_path):
+    """
+    Manually parses the XGBoost JSON file to find feature names
+    when the Cloud version can't read metadata via API.
+    """
+    try:
+        with open(model_path, 'r') as f:
+            dump = json.load(f)
+        
+        # Check standard locations for feature names in XGBoost dumps
+        if 'learner' in dump and 'feature_names' in dump['learner']:
+            return dump['learner']['feature_names']
+        if 'feature_names' in dump:
+            return dump['feature_names']
+    except Exception:
+        pass
+    return None
+
+# --- CUSTOM WRAPPER CLASS (SMART VERSION) ---
 class SafeModel:
-    def __init__(self, booster):
+    def __init__(self, booster, model_path=None):
         self._booster = booster
         self.classes_ = np.array([0, 1])
-        
-        # 1. Try to get features from model
+        self.feature_names = None
+
+        # 1. Try getting features from the booster object
         try:
             self.feature_names = booster.feature_names
         except:
-            self.feature_names = None
-            
-        # 2. If model returns None/Empty, use this HARDCODED list
-        # This matches the training columns from your app.py logic
+            pass
+
+        # 2. If that failed, try parsing the JSON file directly
+        if not self.feature_names and model_path:
+            self.feature_names = extract_feature_names_from_json(model_path)
+
+        # 3. Fallback: Use the standard list from your training code
         if not self.feature_names:
             self.feature_names = [
                 'start_x', 'start_y', 'distance', 'visible_angle', 
@@ -61,13 +84,16 @@ class SafeModel:
     def predict_proba(self, X):
         data = X.copy() if isinstance(X, pd.DataFrame) else pd.DataFrame(X)
         
-        # --- ON-THE-FLY FEATURE ENGINEERING ---
+        # --- A. STANDARDIZE INPUTS ---
+        # Simulation might send 'x'/'y' instead of 'start_x'/'start_y'
         if 'x' in data.columns and 'start_x' not in data.columns:
             data['start_x'] = data['x']
         if 'y' in data.columns and 'start_y' not in data.columns:
             data['start_y'] = data['y']
 
+        # --- B. FEATURE ENGINEERING (Fill Missing Values) ---
         if 'start_x' in data.columns and 'start_y' in data.columns:
+            # 1. Distance & Angles
             if 'distance' not in data.columns:
                 data['distance'] = np.sqrt((120 - data['start_x'])**2 + (40 - data['start_y'])**2)
             if 'visible_angle' not in data.columns:
@@ -80,17 +106,24 @@ class SafeModel:
                 data['angle_cos'] = np.cos(data['visible_angle'])
             if 'dist_to_goal_center' not in data.columns:
                 data['dist_to_goal_center'] = np.abs(data['start_y'] - 40)
+            
+            # 2. Normalization (CRITICAL FIX FOR 0% ISSUE)
+            # This was missing before!
+            if 'start_x_norm' not in data.columns:
+                data['start_x_norm'] = data['start_x'] / 120.0
+            if 'start_y_norm' not in data.columns:
+                data['start_y_norm'] = data['start_y'] / 80.0
 
-        # --- ALIGNMENT ---
-        # Add missing columns as 0
+        # --- C. ALIGNMENT ---
+        # Add any other missing columns as 0.0
         for feat in self.feature_names:
             if feat not in data.columns:
                 data[feat] = 0.0
         
-        # FORCE ORDER (Critical Step)
+        # FORCE COLUMN ORDER
         data = data[self.feature_names]
 
-        # Predict
+        # --- D. PREDICT ---
         dmat = xgb.DMatrix(data, enable_categorical=True)
         preds = self._booster.predict(dmat)
         return np.column_stack((1 - preds, preds))
@@ -122,6 +155,7 @@ def load_resources():
                 try:
                     m = xgb.XGBClassifier()
                     m.load_model(path)
+                    # Check metadata
                     if not hasattr(m, '_estimator_type'):
                         raise ValueError("Missing metadata")
                     model_loaded = m
@@ -129,8 +163,8 @@ def load_resources():
                     try:
                         booster = xgb.Booster()
                         booster.load_model(path)
-                        # Wrap in SafeModel which now has the FALLBACK LIST
-                        model_loaded = SafeModel(booster)
+                        # Pass path so we can scan JSON for feature names
+                        model_loaded = SafeModel(booster, model_path=path)
                     except Exception as e:
                         st.error(f"❌ Failed to load `{fname}`: {e}")
 
@@ -149,7 +183,7 @@ def load_resources():
                 except Exception:
                     pass
 
-    # --- 4. CLEANUP ---
+    # --- 4. GLOBAL CLEANUP ---
     if not shots_df.empty:
         for col in ['body_part_code', 'technique_code', 'is_header', 'visible_angle', 'model_xg']:
             if col not in shots_df.columns: shots_df[col] = 0.0
