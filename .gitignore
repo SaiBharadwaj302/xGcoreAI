@@ -1,7 +1,7 @@
 # Ignore Data
 Data/
 data/raw/
-data/processed/
+
 models/
 
 # Ignore System Files
