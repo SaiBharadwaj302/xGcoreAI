@@ -98,15 +98,24 @@ def render_simulation_tab(tab: st.delta_generator.DeltaGenerator, ctx: TabContex
             except Exception:
                 prob = 0.0
 
-            # --- DISPLAY RESULT (NO PROBABILITY TEXT) ---
-            # We override phys_status if the ML model thinks it's a goal/miss
-            # or we can keep phys_status for physics and just use prob for color.
-            # Here we combine them or just show the ML decision.
-            
-            ml_status = "GOAL" if prob > 0.5 else "MISS"
-            final_status = ml_status 
-            
-            # Visual Indicator
+            # --- DISPLAY RESULT (physics + model) ---
+            ml_status = "GOAL" if prob >= 0.5 else "MISS"
+
+            # Use the simulated trajectory to gate the model decision.
+            # phys_status can be GOAL, MISS_HIGH, MISS_WIDE, or MISS_SHORT.
+            physics_goal = phys_status == "GOAL"
+            if physics_goal:
+                final_status = ml_status
+                physics_reason = "Trajectory clears crossbar and fits inside frame."
+            else:
+                final_status = "MISS"
+                if phys_status == "MISS_HIGH":
+                    physics_reason = "Ball clears distance but is above 2.44 m at the line."
+                elif phys_status == "MISS_WIDE":
+                    physics_reason = "Ball reaches line but is outside the 7.32 m width."
+                else:
+                    physics_reason = "Ball dies before the goal line (power/loft too low)."
+
             color = "#00f3ff" if final_status == "GOAL" else "#ff0055"
             st.markdown(
                 f"""
@@ -117,7 +126,7 @@ def render_simulation_tab(tab: st.delta_generator.DeltaGenerator, ctx: TabContex
                 unsafe_allow_html=True,
             )
 
-            st.caption(f"Dist: {dist:.1f}y | H: {end_height:.2f}m | T: {flight_time:.2f}s")
+            st.caption(f"Dist: {dist:.1f}y | H: {end_height:.2f}m | T: {flight_time:.2f}s | Physics: {physics_reason}")
 
         with c_viz:
             fig, ax = draw_cyber_pitch()
