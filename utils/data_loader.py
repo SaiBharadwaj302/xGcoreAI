@@ -9,7 +9,18 @@ import numpy as np
 try:
     from utils.physics import calculate_visible_angle
 except ImportError:
-    from physics import calculate_visible_angle
+    # Minimal fallback if physics utils are missing
+    def calculate_visible_angle(x, y):
+        # StatsBomb coords: Goal at (120, 40), posts at 36 and 44
+        if x >= 120: return 0.0
+        dx = 120 - x
+        dy1 = 36 - y
+        dy2 = 44 - y
+        a1 = np.arctan2(abs(dy1), dx)
+        a2 = np.arctan2(abs(dy2), dx)
+        # If y is between posts
+        if 36 < y < 44: return a1 + a2
+        return abs(a1 - a2)
 
 # 1. Define Paths
 ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -27,35 +38,60 @@ def resolve_processed_file(name: str) -> str:
             return str(candidate)
     return None
 
-# --- CUSTOM WRAPPER CLASS (UPDATED) ---
+# --- CUSTOM WRAPPER CLASS (SMART VERSION) ---
 class SafeModel:
     def __init__(self, booster):
         self._booster = booster
         self.classes_ = np.array([0, 1])
-        # Cache the expected feature names from the trained model
         try:
             self.feature_names = booster.feature_names
         except:
             self.feature_names = None
 
     def predict_proba(self, X):
-        data = X
+        data = X.copy() if isinstance(X, pd.DataFrame) else pd.DataFrame(X)
         
-        # --- CRITICAL FIX: FEATURE ALIGNMENT ---
-        # The simulation tab might send columns in a different order than training.
-        # We must force the input 'data' to match the booster's expected features exactly.
-        if self.feature_names is not None and isinstance(data, pd.DataFrame):
-            data = data.copy() # Don't modify the original
+        # 1. Coordinate Normalization (StatsBomb assumed: 120x80)
+        # Ensure we have start_x/start_y. Simulation might send 'x'/'y'.
+        if 'x' in data.columns and 'start_x' not in data.columns:
+            data['start_x'] = data['x']
+        if 'y' in data.columns and 'start_y' not in data.columns:
+            data['start_y'] = data['y']
+
+        # 2. On-the-fly Feature Engineering
+        # If the model needs features that are missing, calculate them now.
+        if 'start_x' in data.columns and 'start_y' in data.columns:
+            # Distance to goal center (120, 40)
+            if 'distance' not in data.columns:
+                data['distance'] = np.sqrt((120 - data['start_x'])**2 + (40 - data['start_y'])**2)
             
-            # 1. Add any missing columns (fill with 0)
+            # Visible Angle
+            if 'visible_angle' not in data.columns:
+                data['visible_angle'] = data.apply(
+                    lambda r: calculate_visible_angle(r['start_x'], r['start_y']), axis=1
+                )
+            
+            # Angle Sine/Cosine
+            if 'angle_sin' not in data.columns:
+                data['angle_sin'] = np.sin(data['visible_angle'])
+            if 'angle_cos' not in data.columns:
+                data['angle_cos'] = np.cos(data['visible_angle'])
+                
+            # Distance to center axis (y=40)
+            if 'dist_to_goal_center' not in data.columns:
+                data['dist_to_goal_center'] = np.abs(data['start_y'] - 40)
+
+        # 3. Align Columns with Model
+        if self.feature_names is not None:
+            # Add any other missing columns as 0 (e.g. is_header, body_part)
             for feat in self.feature_names:
                 if feat not in data.columns:
-                    data[feat] = 0
+                    data[feat] = 0.0
             
-            # 2. Reorder columns to match the trained model's order EXACTLY
+            # CRITICAL: Reorder columns to match training order exactly
             data = data[self.feature_names]
 
-        # --- PREDICTION ---
+        # 4. Predict
         dmat = xgb.DMatrix(data, enable_categorical=True)
         preds = self._booster.predict(dmat)
         return np.column_stack((1 - preds, preds))
@@ -73,7 +109,7 @@ def load_resources():
     stats_path = resolve_processed_file("player_stats_final.csv")
     stats_df = pd.read_csv(stats_path) if stats_path else pd.DataFrame()
 
-    # --- 3. LOAD MODELS (Robust Mode) ---
+    # --- 3. LOAD MODELS ---
     models_map = {}
     calibrators_map = {}
     
@@ -85,18 +121,15 @@ def load_resources():
                 
                 model_loaded = None
                 try:
-                    # Attempt 1: Standard Load
                     m = xgb.XGBClassifier()
                     m.load_model(path)
                     if not hasattr(m, '_estimator_type'):
                         raise ValueError("Missing metadata")
                     model_loaded = m
                 except Exception:
-                    # Attempt 2: Load as Raw Booster & Wrap
                     try:
                         booster = xgb.Booster()
                         booster.load_model(path)
-                        # Wrap it in our smarter SafeModel class
                         model_loaded = SafeModel(booster)
                     except Exception as e:
                         st.error(f"❌ Failed to load `{fname}`: {e}")
@@ -116,7 +149,7 @@ def load_resources():
                 except Exception:
                     pass
 
-    # --- 4. DATA PROCESSING ---
+    # --- 4. GLOBAL DATAFRAME CLEANUP ---
     if not shots_df.empty:
         for col in ['body_part_code', 'technique_code', 'is_header', 'visible_angle', 'model_xg']:
             if col not in shots_df.columns: shots_df[col] = 0.0
