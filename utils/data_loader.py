@@ -11,14 +11,12 @@ try:
 except ImportError:
     # Minimal fallback if physics utils are missing
     def calculate_visible_angle(x, y):
-        # StatsBomb coords: Goal at (120, 40), posts at 36 and 44
         if x >= 120: return 0.0
         dx = 120 - x
         dy1 = 36 - y
         dy2 = 44 - y
         a1 = np.arctan2(abs(dy1), dx)
         a2 = np.arctan2(abs(dy2), dx)
-        # If y is between posts
         if 36 < y < 44: return a1 + a2
         return abs(a1 - a2)
 
@@ -38,60 +36,61 @@ def resolve_processed_file(name: str) -> str:
             return str(candidate)
     return None
 
-# --- CUSTOM WRAPPER CLASS (SMART VERSION) ---
+# --- CUSTOM WRAPPER CLASS (HARDCODED FALLBACK) ---
 class SafeModel:
     def __init__(self, booster):
         self._booster = booster
         self.classes_ = np.array([0, 1])
+        
+        # 1. Try to get features from model
         try:
             self.feature_names = booster.feature_names
         except:
             self.feature_names = None
+            
+        # 2. If model returns None/Empty, use this HARDCODED list
+        # This matches the training columns from your app.py logic
+        if not self.feature_names:
+            self.feature_names = [
+                'start_x', 'start_y', 'distance', 'visible_angle', 
+                'body_part_code', 'technique_code', 'angle_sin', 'angle_cos', 
+                'dist_to_goal_center', 'is_header', 'start_x_norm', 
+                'start_y_norm', 'player_last5_conv'
+            ]
 
     def predict_proba(self, X):
         data = X.copy() if isinstance(X, pd.DataFrame) else pd.DataFrame(X)
         
-        # 1. Coordinate Normalization (StatsBomb assumed: 120x80)
-        # Ensure we have start_x/start_y. Simulation might send 'x'/'y'.
+        # --- ON-THE-FLY FEATURE ENGINEERING ---
         if 'x' in data.columns and 'start_x' not in data.columns:
             data['start_x'] = data['x']
         if 'y' in data.columns and 'start_y' not in data.columns:
             data['start_y'] = data['y']
 
-        # 2. On-the-fly Feature Engineering
-        # If the model needs features that are missing, calculate them now.
         if 'start_x' in data.columns and 'start_y' in data.columns:
-            # Distance to goal center (120, 40)
             if 'distance' not in data.columns:
                 data['distance'] = np.sqrt((120 - data['start_x'])**2 + (40 - data['start_y'])**2)
-            
-            # Visible Angle
             if 'visible_angle' not in data.columns:
                 data['visible_angle'] = data.apply(
                     lambda r: calculate_visible_angle(r['start_x'], r['start_y']), axis=1
                 )
-            
-            # Angle Sine/Cosine
             if 'angle_sin' not in data.columns:
                 data['angle_sin'] = np.sin(data['visible_angle'])
             if 'angle_cos' not in data.columns:
                 data['angle_cos'] = np.cos(data['visible_angle'])
-                
-            # Distance to center axis (y=40)
             if 'dist_to_goal_center' not in data.columns:
                 data['dist_to_goal_center'] = np.abs(data['start_y'] - 40)
 
-        # 3. Align Columns with Model
-        if self.feature_names is not None:
-            # Add any other missing columns as 0 (e.g. is_header, body_part)
-            for feat in self.feature_names:
-                if feat not in data.columns:
-                    data[feat] = 0.0
-            
-            # CRITICAL: Reorder columns to match training order exactly
-            data = data[self.feature_names]
+        # --- ALIGNMENT ---
+        # Add missing columns as 0
+        for feat in self.feature_names:
+            if feat not in data.columns:
+                data[feat] = 0.0
+        
+        # FORCE ORDER (Critical Step)
+        data = data[self.feature_names]
 
-        # 4. Predict
+        # Predict
         dmat = xgb.DMatrix(data, enable_categorical=True)
         preds = self._booster.predict(dmat)
         return np.column_stack((1 - preds, preds))
@@ -130,6 +129,7 @@ def load_resources():
                     try:
                         booster = xgb.Booster()
                         booster.load_model(path)
+                        # Wrap in SafeModel which now has the FALLBACK LIST
                         model_loaded = SafeModel(booster)
                     except Exception as e:
                         st.error(f"❌ Failed to load `{fname}`: {e}")
@@ -149,14 +149,12 @@ def load_resources():
                 except Exception:
                     pass
 
-    # --- 4. GLOBAL DATAFRAME CLEANUP ---
+    # --- 4. CLEANUP ---
     if not shots_df.empty:
         for col in ['body_part_code', 'technique_code', 'is_header', 'visible_angle', 'model_xg']:
             if col not in shots_df.columns: shots_df[col] = 0.0
-        
         if 'league' not in shots_df.columns:
             shots_df['league'] = shots_df.get('competition_name', '')
-
         if 'visible_angle' in shots_df.columns and shots_df['visible_angle'].sum() == 0:
              if 'start_x' in shots_df.columns and 'start_y' in shots_df.columns:
                  shots_df['visible_angle'] = shots_df.apply(lambda r: calculate_visible_angle(r['start_x'], r['start_y']), axis=1)
