@@ -14,10 +14,10 @@ except ImportError:
 # Paths need to be calculated relative to the utils folder, or root
 ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MODELS_DIR = os.path.join(ROOT_DIR, "models")
-LEAGUES_DIR = os.path.join(ROOT_DIR, "data", "processed", "leagues")
+LEAGUES_DIR = os.path.join(ROOT_DIR, "Data", "processed", "leagues")
 PROCESSED_DIRS = [
-    Path(ROOT_DIR) / "data" / "processed",
-    Path("/mount/src/xgcoreai/data/processed"),
+    Path(ROOT_DIR) / "Data" / "processed",
+    Path("/mount/src/xgcoreai/Data/processed"),
 ]
 
 def resolve_processed_file(name: str) -> str:
