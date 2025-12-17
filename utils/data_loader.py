@@ -1,5 +1,7 @@
 # utils/data_loader.py
 import os
+from pathlib import Path
+
 import pandas as pd
 import xgboost as xgb
 import streamlit as st
@@ -8,23 +10,42 @@ from utils.physics import calculate_visible_angle
 # Paths need to be calculated relative to the utils folder, or root
 # This moves up one level from 'utils' to root
 ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DATA_SHOTS = os.path.join(ROOT_DIR, "data", "processed", "shots_final.csv")
-DATA_STATS = os.path.join(ROOT_DIR, "data", "processed", "player_stats_final.csv")
-DATA_DNA = os.path.join(ROOT_DIR, "data", "processed", "player_dna_clustered.csv")
 MODELS_DIR = os.path.join(ROOT_DIR, "models")
 LEAGUES_DIR = os.path.join(ROOT_DIR, "data", "processed", "leagues")
+PROCESSED_DIRS = [
+    Path(ROOT_DIR) / "data" / "processed",
+    Path("/mount/src/xgcoreai/data/processed"),
+]
+
+
+def resolve_processed_file(name: str) -> str:
+    """Return the first matching processed file from the supported directories."""
+    for base in PROCESSED_DIRS:
+        candidate = base / name
+        if candidate.exists():
+            return str(candidate)
+    checked = ", ".join(str(p) for p in PROCESSED_DIRS)
+    raise FileNotFoundError(f"{name} not found. Checked: {checked}")
 
 @st.cache_resource
 def load_resources():
     missing_files = []
-    if not os.path.exists(DATA_SHOTS): missing_files.append(f"Shots Data ({DATA_SHOTS})")
-    if not os.path.exists(DATA_STATS): missing_files.append(f"Stats Data ({DATA_STATS})")
+    shots_path = None
+    stats_path = None
+    try:
+        shots_path = resolve_processed_file("shots_final.csv")
+    except FileNotFoundError as exc:
+        missing_files.append(f"Shots Data ({exc})")
+    try:
+        stats_path = resolve_processed_file("player_stats_final.csv")
+    except FileNotFoundError as exc:
+        missing_files.append(f"Stats Data ({exc})")
     if missing_files:
         for f in missing_files: st.error(f"❌ Missing File: {f}")
         return None, None, None, None
     try:
-        shots_df = pd.read_csv(DATA_SHOTS)
-        stats_df = pd.read_csv(DATA_STATS)
+        shots_df = pd.read_csv(shots_path)
+        stats_df = pd.read_csv(stats_path)
         # `player_dna_clustered.csv` (player DNA) has been removed from this build.
         # We no longer load or return a `dna_df` to keep the codebase free of clustering artifacts.
         # Load models: global model + per-league models
@@ -160,4 +181,4 @@ def load_resources():
         
         return shots_df, stats_df, models_map, calibrators_map
     except Exception as e:
-        st.error(f"❌ Error loading: {str(e)}"); return None, None, None, None, None
+        st.error(f"❌ Error loading: {str(e)}"); return None, None, None, None
