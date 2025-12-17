@@ -1,6 +1,6 @@
 # Ignore Data
 data/raw/
-models/
+
 
 # Ignore System Files
 __pycache__/
