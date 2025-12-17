@@ -99,28 +99,35 @@ def render_simulation_tab(tab: st.delta_generator.DeltaGenerator, ctx: TabContex
                 prob = 0.0
 
             # --- DISPLAY RESULT (physics + model) ---
-            ml_status = "GOAL" if prob >= 0.5 else "MISS"
-
-            # Use the simulated trajectory to gate the model decision.
-            # phys_status can be GOAL, MISS_HIGH, MISS_WIDE, or MISS_SHORT.
             physics_goal = phys_status == "GOAL"
+            physics_viability = 1.0 if physics_goal else 0.0
+
+            # Final status still used for drawing the dashed trajectory (goal only when physics + model agree)
+            blended_prob = float(prob) * physics_viability
+            final_status = "GOAL" if (physics_goal and blended_prob >= 0.35) else "MISS"
+
             if physics_goal:
-                final_status = ml_status
                 physics_reason = "Trajectory clears crossbar and fits inside frame."
+                verdict = "Most chance of a goal" if prob >= 0.65 else "Could go either way"
+                detail = "Physics OK; model confident." if prob >= 0.65 else "Physics OK; model moderate confidence."
             else:
-                final_status = "MISS"
                 if phys_status == "MISS_HIGH":
                     physics_reason = "Ball clears distance but is above 2.44 m at the line."
                 elif phys_status == "MISS_WIDE":
                     physics_reason = "Ball reaches line but is outside the 7.32 m width."
                 else:
                     physics_reason = "Ball dies before the goal line (power/loft too low)."
+                verdict = "Might miss despite model" if prob >= 0.35 else "Low chance, physics says miss"
+                detail = "Physics overrides outcome; probability shown for context."
 
-            color = "#00f3ff" if final_status == "GOAL" else "#ff0055"
+            pct = int(round(prob * 100))
+            color = "#00f3ff" if prob >= 0.5 else "#ff0055"
             st.markdown(
                 f"""
-                <div style='background:{color}33; padding:10px; border-left:5px solid {color}; border-radius:4px; text-align: center; margin-bottom: 10px;'>
-                    <h2 style='color:white; margin:0;'>{final_status}</h2>
+                <div style='background:{color}20; padding:12px; border-left:6px solid {color}; border-radius:4px; text-align: center; margin-bottom: 10px;'>
+                    <h2 style='color:white; margin:0;'>P(goal): {pct}%</h2>
+                    <div style='color:#cccccc; font-size:14px; margin-top:4px;'>{verdict}</div>
+                    <div style='color:#9aa0a6; font-size:12px; margin-top:2px;'>{detail}</div>
                 </div>
                 """,
                 unsafe_allow_html=True,
