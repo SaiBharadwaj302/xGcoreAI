@@ -20,7 +20,6 @@ from utils.helpers import (
     _ensure_year_column,
 )
 
-
 @dataclass(frozen=True)
 class TabContext:
     f_shots: pd.DataFrame
@@ -32,7 +31,6 @@ class TabContext:
     file_key: str
     model: Any
     calibrator: Any
-
 
 def render_simulation_tab(tab: st.delta_generator.DeltaGenerator, ctx: TabContext) -> None:
     with tab:
@@ -49,6 +47,7 @@ def render_simulation_tab(tab: st.delta_generator.DeltaGenerator, ctx: TabContex
             vis_angle = calculate_visible_angle(x_in, y_in)
             phys_status, end_height, flight_time, traj_dict = simulate_trajectory(x_in, y_in, power_in, loft_in, curl_in)
 
+            # Build input row for model
             row = pd.DataFrame([
                 {
                     'start_x': x_in,
@@ -59,38 +58,64 @@ def render_simulation_tab(tab: st.delta_generator.DeltaGenerator, ctx: TabContex
                     'technique_code': 4,
                 }
             ])
+            
+            # Predict Logic
+            prob = 0.0
             try:
                 row = _add_engineered_features(row)
+                
+                # Determine features
                 try:
                     row_features = list(ctx.model.get_booster().feature_names) if ctx.model is not None and ctx.model.get_booster() is not None else None
                 except Exception:
                     row_features = None
+                
                 if not row_features:
                     row_features = [
                         'start_x', 'start_y', 'distance', 'visible_angle', 'body_part_code', 'technique_code',
                         'angle_sin', 'angle_cos', 'dist_to_goal_center', 'is_header', 'start_x_norm', 'start_y_norm', 'player_last5_conv',
                     ]
+                
+                # Align columns
                 Xrow = pd.DataFrame()
                 for raw_feat in row_features:
                     Xrow[raw_feat] = row[raw_feat] if raw_feat in row.columns else 0
                 Xrow = Xrow.fillna(0)
-                if ctx.calibrator is not None:
-                    prob = float(ctx.calibrator.predict_proba(Xrow)[:, 1][0])
-                else:
-                    prob = float(ctx.model.predict_proba(Xrow)[:, 1][0])
+                
+                # Prediction Call
+                # Note: We support both probability (list) and raw score (float) returns here to be safe
+                if ctx.model:
+                    raw_pred = ctx.model.predict(Xrow)
+                    # Unpack if it returns an array/list
+                    if isinstance(raw_pred, (list, np.ndarray)):
+                        # If 2D array (prob matrix), take column 1. If 1D, take item 0.
+                        if len(raw_pred.shape) > 1 and raw_pred.shape[1] > 1:
+                            prob = float(raw_pred[0][1])
+                        else:
+                            prob = float(raw_pred[0])
+                    else:
+                        prob = float(raw_pred)
             except Exception:
                 prob = 0.0
 
-            c_m1, c_m2 = st.columns(2)
-            with c_m1:
-                st.metric("ML PROBABILITY", f"{prob:.1%}", delta_color="normal")
-            with c_m2:
-                color = "#00f3ff" if phys_status == "GOAL" else "#ff0055"
-                st.markdown(
-                    f"<div style='background:{color}33; padding:5px; border-left:3px solid {color}; border-radius:4px;'>"
-                    f"<strong style='color:white'>{phys_status}</strong></div>",
-                    unsafe_allow_html=True,
-                )
+            # --- DISPLAY RESULT (NO PROBABILITY TEXT) ---
+            # We override phys_status if the ML model thinks it's a goal/miss
+            # or we can keep phys_status for physics and just use prob for color.
+            # Here we combine them or just show the ML decision.
+            
+            ml_status = "GOAL" if prob > 0.5 else "MISS"
+            final_status = ml_status 
+            
+            # Visual Indicator
+            color = "#00f3ff" if final_status == "GOAL" else "#ff0055"
+            st.markdown(
+                f"""
+                <div style='background:{color}33; padding:10px; border-left:5px solid {color}; border-radius:4px; text-align: center; margin-bottom: 10px;'>
+                    <h2 style='color:white; margin:0;'>{final_status}</h2>
+                </div>
+                """,
+                unsafe_allow_html=True,
+            )
 
             st.caption(f"Dist: {dist:.1f}y | H: {end_height:.2f}m | T: {flight_time:.2f}s")
 
@@ -99,7 +124,9 @@ def render_simulation_tab(tab: st.delta_generator.DeltaGenerator, ctx: TabContex
             ax.scatter(x_in, y_in, s=200, c='#ff0055', edgecolors='white', zorder=10, marker='+')
             cone = plt.Polygon([[x_in, y_in], [120, 36], [120, 44]], color='#00f3ff', alpha=0.15)
             ax.add_patch(cone)
-            if phys_status == "GOAL":
+            
+            # Draw trajectory line if it's a Goal
+            if final_status == "GOAL":
                 con = ConnectionPatch(
                     xyA=(x_in, y_in),
                     xyB=(120, 40),
@@ -120,7 +147,12 @@ def render_simulation_tab(tab: st.delta_generator.DeltaGenerator, ctx: TabContex
         nearby = f_shots[f_shots['d'] <= 5]
         if not nearby.empty:
             if 'efficiency' not in nearby.columns:
-                nearby['efficiency'] = nearby['is_goal'] - nearby['model_xg']
+                # Handle missing model_xg safely
+                if 'model_xg' in nearby.columns:
+                    nearby['efficiency'] = nearby['is_goal'] - nearby['model_xg']
+                else:
+                    nearby['efficiency'] = nearby['is_goal']
+                    
             st.dataframe(
                 nearby.groupby(['player_name', 'league'])
                 .agg({'is_goal': 'sum', 'efficiency': 'sum'})
