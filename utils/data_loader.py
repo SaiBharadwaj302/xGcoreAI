@@ -27,6 +27,26 @@ def resolve_processed_file(name: str) -> str:
             return str(candidate)
     return None
 
+# --- CUSTOM WRAPPER CLASS ---
+# This class handles models trained on different XGBoost versions
+# so the app doesn't crash on "missing attributes" or "setters".
+class SafeModel:
+    def __init__(self, booster):
+        self._booster = booster
+        self.classes_ = np.array([0, 1]) # Fake classes for compatibility
+
+    def predict_proba(self, X):
+        # Raw boosters need DMatrix, not DataFrames
+        # We ensure feature names match if possible, but raw predict is robust
+        dmat = xgb.DMatrix(X, enable_categorical=True)
+        preds = self._booster.predict(dmat)
+        # XGBoost raw predict returns 1D array of probs for class 1
+        # Scikit-learn expects [prob_0, prob_1]
+        return np.column_stack((1 - preds, preds))
+
+    def get_booster(self):
+        return self._booster
+
 @st.cache_resource
 def load_resources():
     # --- 1. LOAD SHOTS ---
@@ -37,7 +57,7 @@ def load_resources():
     stats_path = resolve_processed_file("player_stats_final.csv")
     stats_df = pd.read_csv(stats_path) if stats_path else pd.DataFrame()
 
-    # --- 3. LOAD MODELS (With Force-Load Logic) ---
+    # --- 3. LOAD MODELS (Robust Mode) ---
     models_map = {}
     calibrators_map = {}
     
@@ -47,34 +67,29 @@ def load_resources():
             if fname.startswith('goal_predictor_') and fname.endswith('.json'):
                 league_key = fname[len('goal_predictor_'):-len('.json')]
                 path = os.path.join(MODELS_DIR, fname)
+                
+                model_loaded = None
+                
+                # Attempt 1: Try Standard Load (might fail on version mismatch)
                 try:
-                    # Attempt 1: Standard Load
                     m = xgb.XGBClassifier()
                     m.load_model(path)
-                    
-                    # Fix for missing estimator_type in strict environments
+                    # Check if it's usable (has estimator_type)
                     if not hasattr(m, '_estimator_type'):
-                        m._estimator_type = "classifier"
-                    
-                    models_map[league_key] = m
-                    models_map[league_key.replace('_', ' ')] = m
-
+                        raise ValueError("Missing metadata") 
+                    model_loaded = m
                 except Exception:
+                    # Attempt 2: Load as Raw Booster & Wrap (Failsafe)
                     try:
-                        # Attempt 2: "Force Load" (Load as raw booster, then wrap)
-                        # This bypasses the sklearn metadata check causing your error
                         booster = xgb.Booster()
                         booster.load_model(path)
-                        
-                        m = xgb.XGBClassifier()
-                        m._Booster = booster
-                        m._estimator_type = "classifier"
-                        m.classes_ = np.array([0, 1])  # Assume binary classification
-                        
-                        models_map[league_key] = m
-                        models_map[league_key.replace('_', ' ')] = m
+                        model_loaded = SafeModel(booster)
                     except Exception as e:
-                        st.error(f"❌ Could not force-load model `{fname}`: {e}")
+                        st.error(f"❌ Failed to load `{fname}`: {e}")
+
+                if model_loaded:
+                    models_map[league_key] = model_loaded
+                    models_map[league_key.replace('_', ' ')] = model_loaded
         
             # Load Calibrators
             elif fname.endswith('_calibrator.joblib'):
@@ -90,15 +105,12 @@ def load_resources():
 
     # --- 4. DATA PROCESSING ---
     if not shots_df.empty:
-        # Fill missing columns
         for col in ['body_part_code', 'technique_code', 'is_header', 'visible_angle', 'model_xg']:
             if col not in shots_df.columns: shots_df[col] = 0.0
         
-        # Ensure League column
         if 'league' not in shots_df.columns:
             shots_df['league'] = shots_df.get('competition_name', '')
 
-        # Recalculate angles if missing (safety check)
         if 'visible_angle' in shots_df.columns and shots_df['visible_angle'].sum() == 0:
              if 'start_x' in shots_df.columns and 'start_y' in shots_df.columns:
                  shots_df['visible_angle'] = shots_df.apply(lambda r: calculate_visible_angle(r['start_x'], r['start_y']), axis=1)
