@@ -27,21 +27,37 @@ def resolve_processed_file(name: str) -> str:
             return str(candidate)
     return None
 
-# --- CUSTOM WRAPPER CLASS ---
-# This class handles models trained on different XGBoost versions
-# so the app doesn't crash on "missing attributes" or "setters".
+# --- CUSTOM WRAPPER CLASS (UPDATED) ---
 class SafeModel:
     def __init__(self, booster):
         self._booster = booster
-        self.classes_ = np.array([0, 1]) # Fake classes for compatibility
+        self.classes_ = np.array([0, 1])
+        # Cache the expected feature names from the trained model
+        try:
+            self.feature_names = booster.feature_names
+        except:
+            self.feature_names = None
 
     def predict_proba(self, X):
-        # Raw boosters need DMatrix, not DataFrames
-        # We ensure feature names match if possible, but raw predict is robust
-        dmat = xgb.DMatrix(X, enable_categorical=True)
+        data = X
+        
+        # --- CRITICAL FIX: FEATURE ALIGNMENT ---
+        # The simulation tab might send columns in a different order than training.
+        # We must force the input 'data' to match the booster's expected features exactly.
+        if self.feature_names is not None and isinstance(data, pd.DataFrame):
+            data = data.copy() # Don't modify the original
+            
+            # 1. Add any missing columns (fill with 0)
+            for feat in self.feature_names:
+                if feat not in data.columns:
+                    data[feat] = 0
+            
+            # 2. Reorder columns to match the trained model's order EXACTLY
+            data = data[self.feature_names]
+
+        # --- PREDICTION ---
+        dmat = xgb.DMatrix(data, enable_categorical=True)
         preds = self._booster.predict(dmat)
-        # XGBoost raw predict returns 1D array of probs for class 1
-        # Scikit-learn expects [prob_0, prob_1]
         return np.column_stack((1 - preds, preds))
 
     def get_booster(self):
@@ -63,26 +79,24 @@ def load_resources():
     
     if os.path.exists(MODELS_DIR):
         for fname in os.listdir(MODELS_DIR):
-            # Load JSON Models
             if fname.startswith('goal_predictor_') and fname.endswith('.json'):
                 league_key = fname[len('goal_predictor_'):-len('.json')]
                 path = os.path.join(MODELS_DIR, fname)
                 
                 model_loaded = None
-                
-                # Attempt 1: Try Standard Load (might fail on version mismatch)
                 try:
+                    # Attempt 1: Standard Load
                     m = xgb.XGBClassifier()
                     m.load_model(path)
-                    # Check if it's usable (has estimator_type)
                     if not hasattr(m, '_estimator_type'):
-                        raise ValueError("Missing metadata") 
+                        raise ValueError("Missing metadata")
                     model_loaded = m
                 except Exception:
-                    # Attempt 2: Load as Raw Booster & Wrap (Failsafe)
+                    # Attempt 2: Load as Raw Booster & Wrap
                     try:
                         booster = xgb.Booster()
                         booster.load_model(path)
+                        # Wrap it in our smarter SafeModel class
                         model_loaded = SafeModel(booster)
                     except Exception as e:
                         st.error(f"❌ Failed to load `{fname}`: {e}")
@@ -91,7 +105,6 @@ def load_resources():
                     models_map[league_key] = model_loaded
                     models_map[league_key.replace('_', ' ')] = model_loaded
         
-            # Load Calibrators
             elif fname.endswith('_calibrator.joblib'):
                 league_key = fname[len('goal_predictor_'):-len('_calibrator.joblib')]
                 path = os.path.join(MODELS_DIR, fname)
