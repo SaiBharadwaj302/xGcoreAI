@@ -30,7 +30,7 @@ except ImportError as e:
     st.stop()
 
 # --- 3. PAGE CONFIGURATION ---
-st.set_page_config(page_title="VantagePoint Ultra", layout="wide", initial_sidebar_state="collapsed")
+st.set_page_config(page_title="xGcoreAI", layout="wide", initial_sidebar_state="collapsed")
 st.markdown(CSS_STYLE, unsafe_allow_html=True)
 
 # --- 4. LOAD DATA ---
