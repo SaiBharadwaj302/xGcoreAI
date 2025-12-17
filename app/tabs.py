@@ -1,135 +1,308 @@
-import streamlit as st
-import pandas as pd
 import numpy as np
-import plotly.graph_objects as go
+import pandas as pd
+import os
+import streamlit as st
+import matplotlib.pyplot as plt
+import mplcursors
+from matplotlib.lines import Line2D
+from matplotlib.patches import ConnectionPatch
 from dataclasses import dataclass
-from typing import Optional, List, Dict, Any
+from typing import Any, Dict
 
-# Fix: Import specific logic from simulations, NOT physics
+from utils.physics import calculate_visible_angle, simulate_trajectory
 from utils.simulations import generate_best_xi
-from utils.helpers import sanitize
+from utils.visualisations import draw_cyber_pitch
+from utils.helpers import (
+    _add_engineered_features,
+    _ensure_season_norm,
+    _filter_by_season,
+    _season_sort_key,
+    _ensure_year_column,
+)
 
-@dataclass
+@dataclass(frozen=True)
 class TabContext:
-    """Holds the state required by various tabs to render."""
     f_shots: pd.DataFrame
     normalized_stats: pd.DataFrame
     normalized_shots: pd.DataFrame
     shots_df: pd.DataFrame
     league_file_map: Dict[str, str]
     active_league: str
-    file_key: Optional[str]
+    file_key: str
     model: Any
     calibrator: Any
 
-def render_simulation_tab(tab, ctx: TabContext):
+def render_simulation_tab(tab: st.delta_generator.DeltaGenerator, ctx: TabContext) -> None:
     with tab:
-        st.markdown("### 🎯 MATCH SIMULATION & PREDICTION")
-        
-        c1, c2 = st.columns(2)
-        with c1:
-            st.info("Select two teams to compare their aggregate stats and win probability based on xG performance.")
-            
-            # Team Selection
-            if 'team_name' in ctx.f_shots.columns:
-                teams = sorted(ctx.f_shots['team_name'].dropna().unique())
-                team_a = st.selectbox("Home Team", teams, index=0, key="sim_team_a")
-                team_b = st.selectbox("Away Team", teams, index=1 if len(teams) > 1 else 0, key="sim_team_b")
-                
-                if team_a and team_b:
-                    # Simple comparison logic
-                    stats_a = ctx.f_shots[ctx.f_shots['team_name'] == team_a]
-                    stats_b = ctx.f_shots[ctx.f_shots['team_name'] == team_b]
-                    
-                    xg_a = stats_a['model_xg'].sum() if 'model_xg' in stats_a.columns else 0
-                    xg_b = stats_b['model_xg'].sum() if 'model_xg' in stats_b.columns else 0
-                    
-                    st.metric(f"{team_a} Total xG", f"{xg_a:.2f}")
-                    st.metric(f"{team_b} Total xG", f"{xg_b:.2f}")
-                    
-                    # Basic Win Prob Visualization (Heuristic)
-                    total_xg = xg_a + xg_b + 0.001
-                    prob_a = xg_a / total_xg
-                    prob_b = xg_b / total_xg
-                    
-                    st.progress(prob_a, text=f"Win Probability: {team_a} ({prob_a:.0%}) vs {team_b} ({prob_b:.0%})")
-            else:
-                st.warning("Team data not found in this dataset.")
+        c_ui, c_viz = st.columns([1, 2])
+        with c_ui:
+            st.markdown("#### POSITION VECTOR")
+            x_in = st.slider("X (Depth)", 60, 120, 95)
+            y_in = st.slider("Y (Width)", 0, 80, 40)
+            power_in = st.slider("Shot Power (m/s)", 10, 40, 28)
+            loft_in = st.slider("Loft Angle (deg)", 0, 45, 12)
+            curl_in = st.slider("Curve / Spin", -10.0, 10.0, 0.0)
 
-def render_squad_genome_tab(tab, ctx: TabContext, formations: List[str]):
+            dist = np.sqrt((120 - x_in) ** 2 + (40 - y_in) ** 2)
+            vis_angle = calculate_visible_angle(x_in, y_in)
+            phys_status, end_height, flight_time, traj_dict = simulate_trajectory(x_in, y_in, power_in, loft_in, curl_in)
+
+            # Build input row for model
+            row = pd.DataFrame([
+                {
+                    'start_x': x_in,
+                    'start_y': y_in,
+                    'distance': dist,
+                    'visible_angle': vis_angle,
+                    'body_part_code': 3,
+                    'technique_code': 4,
+                }
+            ])
+            
+            # Predict Logic
+            prob = 0.0
+            try:
+                row = _add_engineered_features(row)
+                
+                # Determine features
+                try:
+                    row_features = list(ctx.model.get_booster().feature_names) if ctx.model is not None and ctx.model.get_booster() is not None else None
+                except Exception:
+                    row_features = None
+                
+                if not row_features:
+                    row_features = [
+                        'start_x', 'start_y', 'distance', 'visible_angle', 'body_part_code', 'technique_code',
+                        'angle_sin', 'angle_cos', 'dist_to_goal_center', 'is_header', 'start_x_norm', 'start_y_norm', 'player_last5_conv',
+                    ]
+                
+                # Align columns
+                Xrow = pd.DataFrame()
+                for raw_feat in row_features:
+                    Xrow[raw_feat] = row[raw_feat] if raw_feat in row.columns else 0
+                Xrow = Xrow.fillna(0)
+                
+                # Prediction Call
+                # Note: We support both probability (list) and raw score (float) returns here to be safe
+                if ctx.model:
+                    raw_pred = ctx.model.predict(Xrow)
+                    # Unpack if it returns an array/list
+                    if isinstance(raw_pred, (list, np.ndarray)):
+                        # If 2D array (prob matrix), take column 1. If 1D, take item 0.
+                        if len(raw_pred.shape) > 1 and raw_pred.shape[1] > 1:
+                            prob = float(raw_pred[0][1])
+                        else:
+                            prob = float(raw_pred[0])
+                    else:
+                        prob = float(raw_pred)
+            except Exception:
+                prob = 0.0
+
+            # --- DISPLAY RESULT (NO PROBABILITY TEXT) ---
+            # We override phys_status if the ML model thinks it's a goal/miss
+            # or we can keep phys_status for physics and just use prob for color.
+            # Here we combine them or just show the ML decision.
+            
+            ml_status = "GOAL" if prob > 0.5 else "MISS"
+            final_status = ml_status 
+            
+            # Visual Indicator
+            color = "#00f3ff" if final_status == "GOAL" else "#ff0055"
+            st.markdown(
+                f"""
+                <div style='background:{color}33; padding:10px; border-left:5px solid {color}; border-radius:4px; text-align: center; margin-bottom: 10px;'>
+                    <h2 style='color:white; margin:0;'>{final_status}</h2>
+                </div>
+                """,
+                unsafe_allow_html=True,
+            )
+
+            st.caption(f"Dist: {dist:.1f}y | H: {end_height:.2f}m | T: {flight_time:.2f}s")
+
+        with c_viz:
+            fig, ax = draw_cyber_pitch()
+            ax.scatter(x_in, y_in, s=200, c='#ff0055', edgecolors='white', zorder=10, marker='+')
+            cone = plt.Polygon([[x_in, y_in], [120, 36], [120, 44]], color='#00f3ff', alpha=0.15)
+            ax.add_patch(cone)
+            
+            # Draw trajectory line if it's a Goal
+            if final_status == "GOAL":
+                con = ConnectionPatch(
+                    xyA=(x_in, y_in),
+                    xyB=(120, 40),
+                    coordsA="data",
+                    coordsB="data",
+                    axesA=ax,
+                    axesB=ax,
+                    color='#00f3ff',
+                    ls='--',
+                    alpha=0.5,
+                )
+                ax.add_artist(con)
+            st.pyplot(fig, use_container_width=True)
+
+        st.markdown("#### MATCHING SIGNATURES")
+        f_shots = ctx.f_shots.copy()
+        f_shots['d'] = np.sqrt((f_shots['start_x'] - x_in) ** 2 + (f_shots['start_y'] - y_in) ** 2)
+        nearby = f_shots[f_shots['d'] <= 5]
+        if not nearby.empty:
+            if 'efficiency' not in nearby.columns:
+                # Handle missing model_xg safely
+                if 'model_xg' in nearby.columns:
+                    nearby['efficiency'] = nearby['is_goal'] - nearby['model_xg']
+                else:
+                    nearby['efficiency'] = nearby['is_goal']
+                    
+            st.dataframe(
+                nearby.groupby(['player_name', 'league'])
+                .agg({'is_goal': 'sum', 'efficiency': 'sum'})
+                .reset_index()
+                .sort_values('efficiency', ascending=False)
+                .head(5),
+                use_container_width=True,
+            )
+        else:
+            st.info("NO MATCHES")
+
+        try:
+            overperf_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'models', f'overperformers_{ctx.file_key}.csv')
+        except Exception:
+            overperf_path = None
+        if overperf_path and os.path.exists(overperf_path):
+            op_df = pd.read_csv(overperf_path)
+            if 'overperf' in op_df.columns:
+                op_df = op_df.sort_values('overperf', ascending=False)
+            st.markdown('#### Top Overperformers (Actual Goals − xG)')
+            st.dataframe(
+                op_df[['player_name', 'actual_goals', 'xg', 'attempts', 'overperf']].head(10),
+                use_container_width=True,
+            )
+        else:
+            st.info('No overperformer report available for this league.')
+
+
+def render_squad_genome_tab(tab: st.delta_generator.DeltaGenerator, ctx: TabContext, formations: list[str]) -> None:
     with tab:
-        st.markdown("### 🧬 SQUAD GENOME (BEST XI)")
-        
-        c1, c2, c3 = st.columns([1, 2, 1])
-        with c1:
-            formation = st.selectbox("Formation", formations, key="best_xi_fmt")
-            
-            # Team Filter for Best XI
-            teams = ["All Teams"]
-            if 'team_name' in ctx.normalized_stats.columns:
-                teams += sorted(ctx.normalized_stats['team_name'].dropna().unique().tolist())
-            
-            sel_team = st.selectbox("Filter Team", teams, key="best_xi_team")
-            
-        with c2:
-            st.caption("Generating optimal lineup using Linear Programming...")
-            
-            # Filter Data
-            df_pool = ctx.normalized_stats.copy()
-            if sel_team != "All Teams":
-                df_pool = df_pool[df_pool['team_name'] == sel_team]
-            
-            if df_pool.empty:
-                st.warning("Not enough player data to generate a lineup.")
+        c_opt, c_view = st.columns([1, 3])
+        with c_opt:
+            fmt = st.selectbox("SYSTEM", formations)
+            seasons_set = set()
+            try:
+                if not ctx.normalized_stats.empty:
+                    seasons_set.update(ctx.normalized_stats['season_norm'].dropna().astype(str).unique())
+            except Exception:
+                pass
+            try:
+                if not ctx.normalized_shots.empty:
+                    seasons_set.update(ctx.normalized_shots['season_norm'].dropna().astype(str).unique())
+            except Exception:
+                pass
+
+            if not seasons_set:
+                seasons = ['All Time']
             else:
-                # Run Optimization
-                best_xi, team_stats = generate_best_xi(df_pool, formation)
-                
-                # Display Pitch
-                _render_best_xi_pitch(best_xi)
-                
-        with c3:
-            st.markdown("#### Team Rating")
-            st.metric("ATTACK", f"{team_stats.get('ATT', 0):.0f}")
-            st.metric("MIDFIELD", f"{team_stats.get('MID', 0):.0f}")
-            st.metric("DEFENSE", f"{team_stats.get('DEF', 0):.0f}")
-            
-            st.markdown("#### Selected Players")
-            st.dataframe(pd.DataFrame(best_xi)[['role', 'name', 'val']], hide_index=True)
+                seasons = list(seasons_set)
+                if 'All Time' not in seasons:
+                    seasons.append('All Time')
+            seasons = sorted(seasons, key=_season_sort_key, reverse=True)
+            season_choice = st.selectbox('Season', seasons, index=0)
+            show_all = st.checkbox('Show best lineup for every season', value=False)
 
-def _render_best_xi_pitch(best_xi):
-    """Draws the Best XI on a Plotly pitch."""
-    fig = go.Figure()
+        def render_lineup_table(df_stats: pd.DataFrame, title: str | None = None) -> None:
+            if df_stats is None or df_stats.empty:
+                st.info(f'No players available for {title or "selected season"}.')
+                return
+            best_xi, _ = generate_best_xi(df_stats, fmt)
+            table = (
+                pd.DataFrame(best_xi)[['role', 'name', 'val']]
+                .rename(columns={'role': 'Role', 'name': 'Player', 'val': 'Rating'})
+            )
+            fig, ax = draw_cyber_pitch()
+            color_map = {
+                'att_score': '#ff6b6d',
+                'mid_score': '#ffd166',
+                'def_score': '#4cc9f0',
+                'combined': '#94d2bd'
+            }
+            x_vals, y_vals, colors = [], [], []
+            for player in best_xi:
+                x_vals.append(player.get('x', 50))
+                y_vals.append(player.get('y', 40))
+                typ = player.get('type', 'combined')
+                colors.append(color_map.get(typ, '#ff0055'))
+            scatter = ax.scatter(x_vals, y_vals, c=colors, edgecolors='#00f3ff', s=400, zorder=10)
+            for player, x, y in zip(best_xi, x_vals, y_vals):
+                name = player.get('name', '')
+                ax.text(x, y + 3, name, color='white', ha='center', va='top', fontsize=8, weight='bold')
+            legend_handles = [
+                Line2D([], [], marker='o', color='w', markerfacecolor=color_map['att_score'], markersize=10, label='Attackers'),
+                Line2D([], [], marker='o', color='w', markerfacecolor=color_map['mid_score'], markersize=10, label='Midfielders'),
+                Line2D([], [], marker='o', color='w', markerfacecolor=color_map['def_score'], markersize=10, label='Defenders'),
+                Line2D([], [], marker='o', color='w', markerfacecolor=color_map['combined'], markersize=10, label='Fullback'),
+            ]
+            ax.legend(handles=legend_handles, loc='upper right', title='Role Group')
+            st.markdown(f'#### Pitch View {"- " + title if title else ""}')
+            st.pyplot(fig, use_container_width=True)
+            st.markdown(f'#### Selected Lineup {"- " + title if title else ""}')
+            st.dataframe(table, use_container_width=True)
 
-    # Pitch Outline
-    fig.add_shape(type="rect", x0=0, y0=0, x1=120, y1=80, line=dict(color="#334155", width=2), fillcolor="#0f172a")
-    fig.add_shape(type="line", x0=60, y0=0, x1=60, y1=80, line=dict(color="#334155", width=2))
-    fig.add_shape(type="circle", x0=50, y0=30, x1=70, y1=50, line=dict(color="#334155", width=2))
-    
-    # Player Markers
-    for p in best_xi:
-        # Check if coordinates exist
-        if 'x' in p and 'y' in p:
-            # Color based on score
-            val = p.get('val', 50)
-            color = "#00f3ff" if val > 80 else ("#facc15" if val > 65 else "#f43f5e")
-            
-            fig.add_trace(go.Scatter(
-                x=[p['x']], y=[p['y']],
-                mode='markers+text',
-                marker=dict(size=20, color=color, line=dict(width=2, color='white')),
-                text=[f"<b>{p['role']}</b><br>{p['name']}"],
-                textposition="bottom center",
-                hoverinfo='text',
-                showlegend=False
-            ))
+        def _build_season_stats_from_shots(season_choice: str) -> pd.DataFrame:
+            try:
+                ss = _filter_by_season(ctx.normalized_shots, season_choice)
+                if ss.empty:
+                    return pd.DataFrame()
+                agg = ss.groupby('player_name').agg({'is_goal': 'sum', 'start_x': 'count'}).rename(columns={'start_x': 'shots'}).reset_index()
+            except Exception:
+                return pd.DataFrame()
+            rows = []
+            for _, r in agg.iterrows():
+                pname = r['player_name']
+                player_rows = ss[ss['player_name'] == pname]
+                def mode_col(df: pd.DataFrame, col: str) -> str:
+                    if col in df.columns and not df[col].dropna().empty:
+                        return str(df[col].mode().iloc[0])
+                    return ''
+                primary_pos = mode_col(player_rows, 'primary_pos')
+                team = (
+                    mode_col(player_rows, 'team')
+                    if 'team' in player_rows.columns
+                    else mode_col(player_rows, 'team_name')
+                    if 'team_name' in player_rows.columns
+                    else ''
+                )
+                goals = int(r['is_goal']) if 'is_goal' in r else int(player_rows['is_goal'].sum()) if 'is_goal' in player_rows.columns else 0
+                shots_count = int(r['shots'])
+                att_score = int(shots_count * 5 + goals * 50)
+                rows.append({
+                    'player_name': pname,
+                    'league': ctx.active_league,
+                    'team_name': team,
+                    'primary_pos': primary_pos,
+                    'goals': goals,
+                    'shots': shots_count,
+                    'passes': 0,
+                    'tackles': 0,
+                    'interceptions': 0,
+                    'clearances': 0,
+                    'blocks': 0,
+                    'def_score': 0,
+                    'mid_score': 0,
+                    'att_score': att_score,
+                    'extracted_year': 0,
+                    'season': season_choice,
+                })
+            return pd.DataFrame(rows)
 
-    fig.update_layout(
-        xaxis=dict(range=[-5, 125], showgrid=False, visible=False),
-        yaxis=dict(range=[-5, 85], showgrid=False, visible=False),
-        height=500,
-        margin=dict(l=10, r=10, t=10, b=10),
-        paper_bgcolor='rgba(0,0,0,0)',
-        plot_bgcolor='rgba(0,0,0,0)'
-    )
-    st.plotly_chart(fig, use_container_width=True)
+        with c_view:
+            if show_all:
+                for s in seasons:
+                    df_s = _filter_by_season(ctx.normalized_stats, s)
+                    if df_s.empty:
+                        df_s = _build_season_stats_from_shots(s)
+                    with st.expander(f"{s} - Best XI", expanded=False):
+                        render_lineup_table(df_s, title=s)
+            else:
+                sel_df = _filter_by_season(ctx.normalized_stats, season_choice)
+                if sel_df.empty:
+                    sel_df = _build_season_stats_from_shots(season_choice)
+                render_lineup_table(sel_df, title=season_choice)
