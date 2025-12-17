@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+models/*.pickle
+models/*.pkl
+.DS_Store
+.git
