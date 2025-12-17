@@ -1,0 +1,11 @@
+# Ignore Data
+Data/
+data/raw/
+data/processed/
+models/
+
+# Ignore System Files
+__pycache__/
+*.pyc
+.DS_Store
+.env
