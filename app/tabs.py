@@ -9,7 +9,7 @@ from matplotlib.patches import ConnectionPatch
 from dataclasses import dataclass
 from typing import Any, Dict
 
-from utils.physics import calculate_visible_angle, simulate_trajectory
+
 from utils.simulations import generate_best_xi
 from utils.visualisations import draw_cyber_pitch
 from utils.helpers import (
