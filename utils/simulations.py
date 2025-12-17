@@ -11,7 +11,7 @@ except ImportError:
     print("⚠️ 'pulp' library not found. Install it for perfect lineups: pip install pulp")
     pulp = None
 
-from utils.config import TACTICS
+
 
 def generate_best_xi(df, formation="4-3-3"):
     """

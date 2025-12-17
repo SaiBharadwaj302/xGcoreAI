@@ -26,19 +26,3 @@ CSS_STYLE = """
     .ai-report { border: 1px solid #00f3ff; background: rgba(0, 243, 255, 0.05); padding: 15px; border-radius: 8px; font-family: 'Orbitron', sans-serif; margin-top: 20px; }
     </style>
 """
-
-# --- TACTICAL MATRIX ---
-TACTICS = {
-    "Balanced": {"ATT": 1.0, "MID": 1.0, "DEF": 1.0, "desc": "Standard formation."},
-    "Gegenpress": {"ATT": 1.15, "MID": 1.1, "DEF": 0.85, "desc": "High intensity. High risk, high reward."},
-    "Catenaccio": {"ATT": 0.8, "MID": 0.9, "DEF": 1.3, "desc": "Defensive fortress. Hard to break down."},
-    "Tiki-Taka": {"ATT": 0.95, "MID": 1.25, "DEF": 0.9, "desc": "Total possession control."},
-    "Route One": {"ATT": 1.1, "MID": 0.8, "DEF": 1.0, "desc": "Direct long balls. Bypasses midfield."}
-}
-
-# --- TRAINING / MODEL CONFIG ---
-ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-# Minimum rows required to train a per-league model (can be overridden with env var)
-MIN_ROWS_PER_LEAGUE = int(os.environ.get('MIN_ROWS_PER_LEAGUE', '50'))
-# Path to models manifest
-MANIFEST_PATH = os.path.join(ROOT_DIR, 'models', 'manifest.json')
