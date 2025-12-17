@@ -110,5 +110,3 @@ streamlit run app.py
 - `Data/raw/` and `Data/processed/` stay out of GitHub by default; preprocess raw exports with src/preprocess.py.
 - `utils/visualisations.py` contains shared plotting utilities, including mplsoccer pitches and radar helpers.
 - The global loader scans `models/manifest.json` to auto-populate league metadata and performance metrics.
-
-[^1]: You may train new models with the provided scripts; pre-trained JSON models are already distributed in models/.
