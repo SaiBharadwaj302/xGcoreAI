@@ -1,0 +1,835 @@
+player_name,season_norm,goals,shots,passes,team_name,primary_pos,att_score,mid_score,def_score,league,season_name,season,extracted_year
+Abdallah Dipo Sima,2022/2023,0,2,0,Angers,Left Center Forward,10,0,0,Ligue 1,2022/2023,2022/2023,2022
+Abdelaziz Barrada,2015/2016,1,26,0,Marseille,Left Center Midfield,180,0,0,Ligue 1,2015/2016,2015/2016,2015
+Abdelhamid El Kaoutari,2015/2016,1,3,0,Stade de Reims,Left Center Back,65,0,0,Ligue 1,2015/2016,2015/2016,2015
+Abdou Diallo,2021/2022,0,2,0,Paris Saint-Germain,Left Back,10,0,0,Ligue 1,2021/2022,2021/2022,2021
+Abdou Kader Mangane,2015/2016,1,15,0,Gazélec Ajaccio,Right Center Back,125,0,0,Ligue 1,2015/2016,2015/2016,2015
+Abdoul Razzagui Camara,2015/2016,2,29,0,Angers,Left Wing,245,0,0,Ligue 1,2015/2016,2015/2016,2015
+Abdoulaye Doucouré,2015/2016,2,30,0,Rennes,Center Attacking Midfield,250,0,0,Ligue 1,2015/2016,2015/2016,2015
+Abdoulaye Sadio Diallo,2015/2016,2,16,0,Bastia,Center Attacking Midfield,180,0,0,Ligue 1,2015/2016,2015/2016,2015
+Abdoulaye Touré,2015/2016,0,2,0,Nantes,Left Defensive Midfield,10,0,0,Ligue 1,2015/2016,2015/2016,2015
+Abdoulaye Traoré,2015/2016,0,2,0,Bordeaux,Center Defensive Midfield,10,0,0,Ligue 1,2015/2016,2015/2016,2015
+Abdul Majeed Waris,2015/2016,11,55,0,Lorient,Left Center Forward,825,0,0,Ligue 1,2015/2016,2015/2016,2015
+Achraf Hakimi Mouh,2021/2022,1,9,0,Paris Saint-Germain,Right Back,95,0,0,Ligue 1,2021/2022,2021/2022,2021
+Achraf Hakimi Mouh,2022/2023,5,16,0,Paris Saint-Germain,Right Wing Back,330,0,0,Ligue 1,2022/2023,2022/2023,2022
+Adam Ounas,2015/2016,5,44,0,Bordeaux,Right Wing,470,0,0,Ligue 1,2015/2016,2015/2016,2015
+Adama Traoré,2015/2016,0,5,0,AS Monaco,Left Defensive Midfield,25,0,0,Ligue 1,2015/2016,2015/2016,2015
+Adil Aouchiche,2021/2022,0,2,0,Saint-Étienne,Left Midfield,10,0,0,Ligue 1,2021/2022,2021/2022,2021
+Ado Onaiwu,2022/2023,0,2,0,Toulouse,Center Forward,10,0,0,Ligue 1,2022/2023,2022/2023,2022
+Adrien Hunou,2022/2023,0,2,0,Angers,Left Center Midfield,10,0,0,Ligue 1,2022/2023,2022/2023,2022
+Adrien Rabiot,2015/2016,1,14,0,Paris Saint-Germain,Right Center Midfield,120,0,0,Ligue 1,2015/2016,2015/2016,2015
+Adrien Regattin,2015/2016,1,33,0,Toulouse,Left Wing,215,0,0,Ligue 1,2015/2016,2015/2016,2015
+Adrien Thomasson,2015/2016,2,39,0,Nantes,Right Wing,295,0,0,Ligue 1,2015/2016,2015/2016,2015
+Adryan Oliveira Tavares,2015/2016,3,31,0,Nantes,Left Wing,305,0,0,Ligue 1,2015/2016,2015/2016,2015
+Alaeddine Yahia,2015/2016,1,16,0,Caen,Right Center Back,130,0,0,Ligue 1,2015/2016,2015/2016,2015
+Alan Virginius,2022/2023,0,1,0,Lille,Right Wing,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Alassane Pléa,2015/2016,6,47,0,OGC Nice,Left Center Forward,535,0,0,Ligue 1,2015/2016,2015/2016,2015
+Alassane Touré,2015/2016,1,7,0,Gazélec Ajaccio,Right Wing Back,85,0,0,Ligue 1,2015/2016,2015/2016,2015
+Alberth Josué Elis Martínez,2021/2022,0,2,0,Bordeaux,Right Wing,10,0,0,Ligue 1,2021/2022,2021/2022,2021
+Aldo Kalulu Kyatengwa,2015/2016,2,5,0,Lyon,Left Center Forward,125,0,0,Ligue 1,2015/2016,2015/2016,2015
+Alejandro Bedoya,2015/2016,3,46,0,Nantes,Center Attacking Midfield,380,0,0,Ligue 1,2015/2016,2015/2016,2015
+Aleksandar Pešić,2015/2016,2,15,0,Toulouse,Left Center Forward,175,0,0,Ligue 1,2015/2016,2015/2016,2015
+Aleksandr Golovin,2021/2022,0,3,0,AS Monaco,Right Wing,15,0,0,Ligue 1,2021/2022,2021/2022,2021
+Alexander Djiku,2015/2016,0,2,0,Bastia,Right Center Back,10,0,0,Ligue 1,2015/2016,2015/2016,2015
+Alexander Toft Søderlund,2015/2016,2,20,0,Saint-Étienne,Center Forward,200,0,0,Ligue 1,2015/2016,2015/2016,2015
+Alexandre Coeff,2015/2016,0,8,0,Gazélec Ajaccio,Right Back,40,0,0,Ligue 1,2015/2016,2015/2016,2015
+Alexandre Lacazette,2015/2016,21,95,0,Lyon,Center Forward,1525,0,0,Ligue 1,2015/2016,2015/2016,2015
+Alexandre Lacazette,2022/2023,0,5,0,Lyon,Left Center Forward,25,0,0,Ligue 1,2022/2023,2022/2023,2022
+Alexandre Mendy,2015/2016,1,10,0,OGC Nice,Left Center Forward,100,0,0,Ligue 1,2015/2016,2015/2016,2015
+Alexi Peuget,2015/2016,0,6,0,Stade de Reims,Center Defensive Midfield,30,0,0,Ligue 1,2015/2016,2015/2016,2015
+Alexis Alejandro Sánchez Sánchez,2022/2023,0,6,0,Marseille,Center Forward,30,0,0,Ligue 1,2022/2023,2022/2023,2022
+Alexis Alégué Elandi,2015/2016,1,3,0,Nantes,Left Wing,65,0,0,Ligue 1,2015/2016,2015/2016,2015
+Alexis Blin,2015/2016,0,13,0,Toulouse,Center Defensive Midfield,65,0,0,Ligue 1,2015/2016,2015/2016,2015
+Alexis Flips,2022/2023,0,1,0,Stade de Reims,Left Midfield,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Almamy Touré,2015/2016,3,10,0,AS Monaco,Right Back,200,0,0,Ligue 1,2015/2016,2015/2016,2015
+Aloïs Confais,2015/2016,0,4,0,Troyes,Right Back,20,0,0,Ligue 1,2015/2016,2015/2016,2015
+Aly Ndom,2015/2016,0,4,0,Stade de Reims,Left Center Midfield,20,0,0,Ligue 1,2015/2016,2015/2016,2015
+Amadou Onana,2021/2022,0,2,0,Lille,Right Defensive Midfield,10,0,0,Ligue 1,2021/2022,2021/2022,2021
+Amine Gouiri,2021/2022,0,4,0,OGC Nice,Left Center Forward,20,0,0,Ligue 1,2021/2022,2021/2022,2021
+Amine Gouiri,2022/2023,0,1,0,Rennes,Left Wing,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Amine Harit,2022/2023,0,2,0,Marseille,Left Attacking Midfield,10,0,0,Ligue 1,2022/2023,2022/2023,2022
+Amos Youga,2015/2016,0,13,0,Gazélec Ajaccio,Right Center Midfield,65,0,0,Ligue 1,2015/2016,2015/2016,2015
+Andrea Raggi,2015/2016,2,8,0,AS Monaco,Left Back,140,0,0,Ligue 1,2015/2016,2015/2016,2015
+Andreaw Gravillon,2021/2022,0,1,0,Stade de Reims,Right Center Back,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Andrei Girotto,2021/2022,0,2,0,Nantes,Center Defensive Midfield,10,0,0,Ligue 1,2021/2022,2021/2022,2021
+André Biyogo Poko,2015/2016,0,23,0,Bordeaux,Right Midfield,115,0,0,Ligue 1,2015/2016,2015/2016,2015
+André-Frank Zambo Anguissa,2015/2016,0,4,0,Marseille,Center Attacking Midfield,20,0,0,Ligue 1,2015/2016,2015/2016,2015
+Andy Delort,2015/2016,12,143,0,Caen,Center Forward,1315,0,0,Ligue 1,2015/2016,2015/2016,2015
+Andy Delort,2021/2022,1,3,0,OGC Nice,Right Center Forward,65,0,0,Ligue 1,2021/2022,2021/2022,2021
+Angel Gomes,2021/2022,0,1,0,Lille,Right Center Forward,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Angel Gomes,2022/2023,0,2,0,Lille,Center Attacking Midfield,10,0,0,Ligue 1,2022/2023,2022/2023,2022
+Ante Palaversa,2022/2023,1,1,0,Troyes,Left Wing,55,0,0,Ligue 1,2022/2023,2022/2023,2022
+Anthony Caci,2021/2022,1,1,0,Strasbourg,Right Wing Back,55,0,0,Ligue 1,2021/2022,2021/2022,2021
+Anthony Rouault,2022/2023,0,1,0,Toulouse,Right Center Back,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Anthony Weber,2015/2016,1,5,0,Stade de Reims,Left Center Back,75,0,0,Ligue 1,2015/2016,2015/2016,2015
+Antoine Conte,2015/2016,0,9,0,Stade de Reims,Right Center Back,45,0,0,Ligue 1,2015/2016,2015/2016,2015
+Antoine Devaux,2015/2016,1,23,0,Stade de Reims,Right Defensive Midfield,165,0,0,Ligue 1,2015/2016,2015/2016,2015
+Antoine Rabillard,2015/2016,1,3,0,Marseille,Right Back,65,0,0,Ligue 1,2015/2016,2015/2016,2015
+Arbër Zeneli,2022/2023,0,1,0,Stade de Reims,Left Midfield,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Arial Benabent Mendy,2021/2022,0,1,0,Clermont Foot,Left Back,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Arkadiusz Milik,2021/2022,0,1,0,Marseille,Center Forward,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Armand Lauriente,2021/2022,0,3,0,Lorient,Left Center Forward,15,0,0,Ligue 1,2021/2022,2021/2022,2021
+Arnaud Kalimuendo Muinga,2021/2022,0,3,0,Lens,Center Forward,15,0,0,Ligue 1,2021/2022,2021/2022,2021
+Arnaud Kalimuendo Muinga,2022/2023,1,4,0,Rennes,Center Forward,70,0,0,Ligue 1,2022/2023,2022/2023,2022
+Arnaud Nordin,2021/2022,0,2,0,Saint-Étienne,Right Wing,10,0,0,Ligue 1,2021/2022,2021/2022,2021
+Arnaud Nordin,2022/2023,1,1,0,Montpellier,Center Defensive Midfield,55,0,0,Ligue 1,2022/2023,2022/2023,2022
+Arnaud Souquet,2021/2022,0,1,0,Montpellier,Right Wing Back,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Arnold Bouka Moutou,2015/2016,2,8,0,Angers,Left Wing,140,0,0,Ligue 1,2015/2016,2015/2016,2015
+Arnold Mvuemba,2015/2016,0,4,0,Lyon,Left Center Midfield,20,0,0,Ligue 1,2015/2016,2015/2016,2015
+Arthur Theate,2022/2023,0,1,0,Rennes,Left Center Back,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Atila Turan,2015/2016,2,13,0,Stade de Reims,Left Center Midfield,165,0,0,Ligue 1,2015/2016,2015/2016,2015
+Aurélien Djani Tchouaméni,2021/2022,0,4,0,AS Monaco,Left Defensive Midfield,20,0,0,Ligue 1,2021/2022,2021/2022,2021
+Axel Disasi,2021/2022,0,1,0,AS Monaco,Left Center Back,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Axel Ngando,2015/2016,2,14,0,Bastia,Center Attacking Midfield,170,0,0,Ligue 1,2015/2016,2015/2016,2015
+Ayman Kari,2022/2023,0,2,0,Lorient,Right Defensive Midfield,10,0,0,Ligue 1,2022/2023,2022/2023,2022
+Aïssa Mandi,2015/2016,5,20,0,Stade de Reims,Center Back,350,0,0,Ligue 1,2015/2016,2015/2016,2015
+Babacar Gueye,2015/2016,1,14,0,Troyes,Center Forward,120,0,0,Ligue 1,2015/2016,2015/2016,2015
+Bafodé Diakité,2022/2023,1,2,0,Lille,Right Back,60,0,0,Ligue 1,2022/2023,2022/2023,2022
+Bakary Adama Soumaoro,2015/2016,1,13,0,Lille,Left Center Back,115,0,0,Ligue 1,2015/2016,2015/2016,2015
+Bakary Koné,2015/2016,0,3,0,Lyon,Right Center Back,15,0,0,Ligue 1,2015/2016,2015/2016,2015
+Baptiste Guillaume,2015/2016,0,10,0,Lille,Center Forward,50,0,0,Ligue 1,2015/2016,2015/2016,2015
+Baptiste Santamaría,2021/2022,0,3,0,Rennes,Left Center Midfield,15,0,0,Ligue 1,2021/2022,2021/2022,2021
+Batista Mendy,2022/2023,0,3,0,Angers,Center Defensive Midfield,15,0,0,Ligue 1,2022/2023,2022/2023,2022
+Benjamin André,2015/2016,0,22,0,Rennes,Left Defensive Midfield,110,0,0,Ligue 1,2015/2016,2015/2016,2015
+Benjamin Bourigeaud,2021/2022,0,4,0,Rennes,Right Wing,20,0,0,Ligue 1,2021/2022,2021/2022,2021
+Benjamin Bourigeaud,2022/2023,0,1,0,Rennes,Right Defensive Midfield,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Benjamin Corgnet,2015/2016,1,11,0,Saint-Étienne,Center Attacking Midfield,105,0,0,Ligue 1,2015/2016,2015/2016,2015
+Benjamin Jeannot,2015/2016,7,64,0,Lorient,Right Center Forward,670,0,0,Ligue 1,2015/2016,2015/2016,2015
+Benjamin Mendy,2015/2016,1,8,0,Marseille,Left Back,90,0,0,Ligue 1,2015/2016,2015/2016,2015
+Benjamin Moukandjo Bilé,2015/2016,13,57,0,Lorient,Left Center Forward,935,0,0,Ligue 1,2015/2016,2015/2016,2015
+Benjamin Nivet,2015/2016,2,30,0,Troyes,Center Attacking Midfield,250,0,0,Ligue 1,2015/2016,2015/2016,2015
+Benjamin Pavard,2015/2016,0,4,0,Lille,Left Center Back,20,0,0,Ligue 1,2015/2016,2015/2016,2015
+Benjamin Stambouli,2015/2016,0,3,0,Paris Saint-Germain,Right Center Midfield,15,0,0,Ligue 1,2015/2016,2015/2016,2015
+Benoît Assou-Ekotto,2015/2016,0,11,0,Saint-Étienne,Left Back,55,0,0,Ligue 1,2015/2016,2015/2016,2015
+Bernardo Mota Veiga de Carvalho e Silva,2015/2016,7,40,0,AS Monaco,Right Wing,550,0,0,Ligue 1,2015/2016,2015/2016,2015
+Bevic Moussiti-Oko,2022/2023,0,1,0,AC Ajaccio,Left Center Forward,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Bilal Brahimi,2022/2023,0,2,0,OGC Nice,Left Back,10,0,0,Ligue 1,2022/2023,2022/2023,2022
+Billy Ketkeophomphone,2015/2016,5,59,0,Angers,Center Forward,545,0,0,Ligue 1,2015/2016,2015/2016,2015
+Birama Touré,2015/2016,0,14,0,Nantes,Left Defensive Midfield,70,0,0,Ligue 1,2015/2016,2015/2016,2015
+Birama Touré,2022/2023,0,2,0,Auxerre,Left Defensive Midfield,10,0,0,Ligue 1,2022/2023,2022/2023,2022
+Blaise Matuidi,2015/2016,4,16,0,Paris Saint-Germain,Left Center Midfield,280,0,0,Ligue 1,2015/2016,2015/2016,2015
+Bonke Innocent,2022/2023,0,1,0,Lorient,Right Defensive Midfield,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Boubacar Kamara,2021/2022,0,1,0,Marseille,Left Defensive Midfield,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Bouna Sarr,2015/2016,2,16,0,Marseille,Right Wing,180,0,0,Ligue 1,2015/2016,2015/2016,2015
+Bradley Barcola,2022/2023,1,2,0,Lyon,Left Center Forward,60,0,0,Ligue 1,2022/2023,2022/2023,2022
+Bradley Locko,2021/2022,0,1,0,Stade de Reims,Left Attacking Midfield,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Branco van den Boomen,2022/2023,1,7,0,Toulouse,Left Center Midfield,85,0,0,Ligue 1,2022/2023,2022/2023,2022
+Brayan Andrés Perea Vargas,2015/2016,0,6,0,Troyes,Center Forward,30,0,0,Ligue 1,2015/2016,2015/2016,2015
+Brecht Dejaegere,2022/2023,0,1,0,Toulouse,Right Center Midfield,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Brice Dja Djédjé,2015/2016,0,10,0,Marseille,Right Back,50,0,0,Ligue 1,2015/2016,2015/2016,2015
+Brou Benjamin Angoua,2015/2016,1,4,0,Guingamp,Right Center Back,70,0,0,Ligue 1,2015/2016,2015/2016,2015
+Bruno Guimarães Rodriguez Moura,2021/2022,0,1,0,Lyon,Left Defensive Midfield,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Bryan Dabo,2015/2016,5,35,0,Montpellier,Right Center Midfield,425,0,0,Ligue 1,2015/2016,2015/2016,2015
+Burak Yılmaz,2021/2022,0,2,0,Lille,Left Center Forward,10,0,0,Ligue 1,2021/2022,2021/2022,2021
+Caio Henrique Oliveira Silva,2022/2023,0,1,0,AS Monaco,Left Wing Back,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Calvin Anele Ngcongca,2015/2016,0,4,0,Troyes,Right Center Back,20,0,0,Ligue 1,2015/2016,2015/2016,2015
+Calvin Stengs,2021/2022,0,1,0,OGC Nice,Left Midfield,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Carlos Baleba,2022/2023,0,1,0,Lille,Left Wing,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Carlos Eduardo de Castro Lourenço,2015/2016,0,3,0,Troyes,Right Center Back,15,0,0,Ligue 1,2015/2016,2015/2016,2015
+Carlos Soler Barragán,2022/2023,3,8,0,Paris Saint-Germain,Right Center Midfield,190,0,0,Ligue 1,2022/2023,2022/2023,2022
+Cengiz Ünder,2021/2022,0,4,0,Marseille,Left Wing,20,0,0,Ligue 1,2021/2022,2021/2022,2021
+Cengiz Ünder,2022/2023,0,3,0,Marseille,Right Attacking Midfield,15,0,0,Ligue 1,2022/2023,2022/2023,2022
+Chaker Alhadhur,2015/2016,0,1,0,Caen,Left Back,5,0,0,Ligue 1,2015/2016,2015/2016,2015
+Chancel Mbemba Mangulu,2022/2023,0,3,0,Marseille,Right Center Back,15,0,0,Ligue 1,2022/2023,2022/2023,2022
+Chaouki Ben Saada,2015/2016,1,24,0,Troyes,Center Attacking Midfield,170,0,0,Ligue 1,2015/2016,2015/2016,2015
+Charles Diers,2015/2016,1,7,0,Angers,Left Center Midfield,85,0,0,Ligue 1,2015/2016,2015/2016,2015
+Charles Traoré,2015/2016,0,1,0,Troyes,Left Back,5,0,0,Ligue 1,2015/2016,2015/2016,2015
+Cheick Oumar Doucoure,2021/2022,0,3,0,Lens,Right Defensive Midfield,15,0,0,Ligue 1,2021/2022,2021/2022,2021
+Cheick Tidiane Diabaté,2015/2016,9,36,0,Bordeaux,Center Forward,630,0,0,Ligue 1,2015/2016,2015/2016,2015
+Cheikh Ahmadou Bamba Mbacke Dieng,2022/2023,1,3,0,Lorient,Center Forward,65,0,0,Ligue 1,2022/2023,2022/2023,2022
+Cheikh M''Bengue,2015/2016,0,5,0,Rennes,Left Back,25,0,0,Ligue 1,2015/2016,2015/2016,2015
+Cheikh N''Doye,2015/2016,9,71,0,Angers,Right Center Midfield,805,0,0,Ligue 1,2015/2016,2015/2016,2015
+Chris Mavinga,2015/2016,0,9,0,Troyes,Left Back,45,0,0,Ligue 1,2015/2016,2015/2016,2015
+Christian Kouakou Yao,2015/2016,1,5,0,Caen,Right Wing,75,0,0,Ligue 1,2015/2016,2015/2016,2015
+Christophe Jallet,2015/2016,1,20,0,Lyon,Right Back,150,0,0,Ligue 1,2015/2016,2015/2016,2015
+Christophe Kerbrat,2015/2016,0,4,0,Guingamp,Right Center Back,20,0,0,Ligue 1,2015/2016,2015/2016,2015
+Christopher Maboulou,2015/2016,0,3,0,Bastia,Center Forward,15,0,0,Ligue 1,2015/2016,2015/2016,2015
+Christopher Nkunku,2015/2016,0,1,0,Paris Saint-Germain,Left Center Midfield,5,0,0,Ligue 1,2015/2016,2015/2016,2015
+Claudio Beauvue,2015/2016,6,75,0,Lyon,Right Center Forward,675,0,0,Ligue 1,2015/2016,2015/2016,2015
+Clément Chantôme,2015/2016,1,14,0,Bordeaux,Right Defensive Midfield,120,0,0,Ligue 1,2015/2016,2015/2016,2015
+Clément Grenier,2015/2016,2,14,0,Lyon,Left Center Midfield,170,0,0,Ligue 1,2015/2016,2015/2016,2015
+Corentin Jean,2015/2016,3,55,0,Troyes,Center Forward,425,0,0,Ligue 1,2015/2016,2015/2016,2015
+Corentin Jean,2021/2022,1,1,0,Lens,Right Wing Back,55,0,0,Ligue 1,2021/2022,2021/2022,2021
+Corentin Tolisso,2015/2016,5,62,0,Lyon,Left Center Midfield,560,0,0,Ligue 1,2015/2016,2015/2016,2015
+Corentin Tolisso,2022/2023,0,1,0,Lyon,Left Defensive Midfield,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Cédric Hountondji,2022/2023,0,1,0,Angers,Center Back,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Cédric Yambéré,2015/2016,3,21,0,Bordeaux,Left Center Back,255,0,0,Ligue 1,2015/2016,2015/2016,2015
+Dado Prso,2003/2004,0,1,0,AS Monaco,Right Wing,5,0,0,Ligue 1,2003/2004,2003/2004,2003
+Damien Da Silva,2015/2016,2,18,0,Caen,Left Center Back,190,0,0,Ligue 1,2015/2016,2015/2016,2015
+Damjan Đoković,2015/2016,2,41,0,Gazélec Ajaccio,Left Center Midfield,305,0,0,Ligue 1,2015/2016,2015/2016,2015
+Dango Aboubacar Faissal Ouattara,2021/2022,0,7,0,Lorient,Right Midfield,35,0,0,Ligue 1,2021/2022,2021/2022,2021
+Daniel Congré,2015/2016,2,10,0,Montpellier,Left Center Back,150,0,0,Ligue 1,2015/2016,2015/2016,2015
+Danilo Luís Hélio Pereira,2021/2022,4,15,0,Paris Saint-Germain,Center Defensive Midfield,275,0,0,Ligue 1,2021/2022,2021/2022,2021
+Danilo Luís Hélio Pereira,2022/2023,1,15,0,Paris Saint-Germain,Left Center Back,125,0,0,Ligue 1,2022/2023,2022/2023,2022
+Dante Bonfim da Costa Santos,2021/2022,0,1,0,OGC Nice,Left Center Back,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Dante Bonfim da Costa Santos,2022/2023,0,3,0,OGC Nice,Left Center Back,15,0,0,Ligue 1,2022/2023,2022/2023,2022
+Danylo Ignatenko,2021/2022,0,1,0,Bordeaux,Right Defensive Midfield,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Darlin Zidane Yongwa Ngameni,2022/2023,1,1,0,Lorient,Left Wing Back,55,0,0,Ligue 1,2022/2023,2022/2023,2022
+David Ducourtioux,2015/2016,0,30,0,Gazélec Ajaccio,Right Center Midfield,150,0,0,Ligue 1,2015/2016,2015/2016,2015
+David Luiz Moreira Marinho,2015/2016,1,14,0,Paris Saint-Germain,Left Center Back,120,0,0,Ligue 1,2015/2016,2015/2016,2015
+"David N""Gog",2015/2016,3,20,0,Stade de Reims,Center Forward,250,0,0,Ligue 1,2015/2016,2015/2016,2015
+David N'Gog,2015/2016,0,2,0,Stade de Reims,Center Forward,10,0,0,Ligue 1,2015/2016,2015/2016,2015
+David Pereira da Costa,2021/2022,0,1,0,Lens,Left Wing,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Deiver Andrés Machado Mena,2022/2023,0,1,0,Lens,Left Wing Back,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Denis Bouanga,2015/2016,1,7,0,Lorient,Right Wing,85,0,0,Ligue 1,2015/2016,2015/2016,2015
+Denis Bouanga,2021/2022,2,6,0,Saint-Étienne,Right Wing,130,0,0,Ligue 1,2021/2022,2021/2022,2021
+Deniz Hümmet,2015/2016,0,1,0,Troyes,Center Forward,5,0,0,Ligue 1,2015/2016,2015/2016,2015
+Dennis Appiah,2015/2016,1,10,0,Caen,Right Back,100,0,0,Ligue 1,2015/2016,2015/2016,2015
+Dennis Appiah,2022/2023,0,1,0,Nantes,Left Wing Back,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Didier Ndong Ibrahim,2015/2016,2,33,0,Lorient,Right Defensive Midfield,265,0,0,Ligue 1,2015/2016,2015/2016,2015
+Diego Alejandro Rolan Silva,2015/2016,5,45,0,Bordeaux,Left Wing,475,0,0,Ligue 1,2015/2016,2015/2016,2015
+Diego Armando Valentin Contento,2015/2016,2,13,0,Bordeaux,Left Back,165,0,0,Ligue 1,2015/2016,2015/2016,2015
+Diego Rigonato Rodrigues,2015/2016,3,36,0,Stade de Reims,Left Wing,330,0,0,Ligue 1,2015/2016,2015/2016,2015
+Dimitri Liénard,2021/2022,0,1,0,Strasbourg,Left Wing Back,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Dimitri Liénard,2022/2023,0,1,0,Strasbourg,Right Wing Back,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Dimitri Payet,2021/2022,0,2,0,Marseille,Center Attacking Midfield,10,0,0,Ligue 1,2021/2022,2021/2022,2021
+Dion Lopy,2021/2022,0,2,0,Stade de Reims,Center Defensive Midfield,10,0,0,Ligue 1,2021/2022,2021/2022,2021
+Djamel Bakar,2015/2016,0,6,0,Montpellier,Center Forward,30,0,0,Ligue 1,2015/2016,2015/2016,2015
+Djed Spence,2022/2023,0,1,0,Rennes,Right Wing Back,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Djibril Sidibé,2015/2016,4,41,0,Lille,Left Back,405,0,0,Ligue 1,2015/2016,2015/2016,2015
+Dorian Caddy,2015/2016,0,8,0,OGC Nice,Right Center Forward,40,0,0,Ligue 1,2015/2016,2015/2016,2015
+Dorian Lévêque,2015/2016,1,8,0,Guingamp,Left Back,90,0,0,Ligue 1,2015/2016,2015/2016,2015
+Duje Ćaleta-Car,2021/2022,1,1,0,Marseille,Left Center Back,55,0,0,Ligue 1,2021/2022,2021/2022,2021
+Dušan Veškovac,2015/2016,0,1,0,Troyes,Right Center Back,5,0,0,Ligue 1,2015/2016,2015/2016,2015
+Dylan Daniel Mahmoud Bronn,2021/2022,0,1,0,Metz,Right Center Back,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Edinson Roberto Cavani Gómez,2015/2016,19,86,0,Paris Saint-Germain,Left Wing,1380,0,0,Ligue 1,2015/2016,2015/2016,2015
+Edon Zhegrova,2022/2023,0,1,0,Lille,Center Attacking Midfield,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Edouard Cissé,2003/2004,0,1,0,AS Monaco,Right Center Midfield,5,0,0,Ligue 1,2003/2004,2003/2004,2003
+Edson André Sitoe,2015/2016,0,5,0,Rennes,Center Back,25,0,0,Ligue 1,2015/2016,2015/2016,2015
+El Bilal Toure,2021/2022,0,3,0,Stade de Reims,Left Center Forward,15,0,0,Ligue 1,2021/2022,2021/2022,2021
+Elbasan Rashani,2022/2023,0,2,0,Clermont Foot,Left Attacking Midfield,10,0,0,Ligue 1,2022/2023,2022/2023,2022
+Elderson Uwa Echiejile,2015/2016,0,6,0,AS Monaco,Left Back,30,0,0,Ligue 1,2015/2016,2015/2016,2015
+Ellyes Joris Skhiri,2015/2016,2,5,0,Montpellier,Center Defensive Midfield,125,0,0,Ligue 1,2015/2016,2015/2016,2015
+Emiliano Sala,2015/2016,6,60,0,Nantes,Center Forward,600,0,0,Ligue 1,2015/2016,2015/2016,2015
+Emmanuel Imorou,2015/2016,1,2,0,Caen,Left Back,60,0,0,Ligue 1,2015/2016,2015/2016,2015
+Enock Kwateng,2021/2022,0,1,0,Bordeaux,Right Wing Back,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Enzo Crivelli,2015/2016,3,27,0,Bordeaux,Center Forward,285,0,0,Ligue 1,2015/2016,2015/2016,2015
+Enzo Gianni Tchato Mbiayi,2022/2023,1,1,0,Montpellier,Right Back,55,0,0,Ligue 1,2022/2023,2022/2023,2022
+Enzo Le Fée,2021/2022,0,4,0,Lorient,Left Midfield,20,0,0,Ligue 1,2021/2022,2021/2022,2021
+Enzo Le Fée,2022/2023,1,2,0,Lorient,Left Attacking Midfield,60,0,0,Ligue 1,2022/2023,2022/2023,2022
+Eric Bertrand Bailly,2022/2023,0,1,0,Marseille,Right Center Back,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Eric Junior Dina Ebimbe,2021/2022,0,2,0,Paris Saint-Germain,Left Center Midfield,10,0,0,Ligue 1,2021/2022,2021/2022,2021
+Erik Palmer-Brown,2021/2022,0,2,0,Troyes,Center Back,10,0,0,Ligue 1,2021/2022,2021/2022,2021
+Erin Jorge Gomes Pinheiro,2015/2016,0,1,0,Saint-Étienne,Right Defensive Midfield,5,0,0,Ligue 1,2015/2016,2015/2016,2015
+Ermir Lenjani,2015/2016,1,21,0,Nantes,Left Wing,155,0,0,Ligue 1,2015/2016,2015/2016,2015
+Evaeverson Lemos da Silva Brandão,2015/2016,2,26,0,Bastia,Center Forward,230,0,0,Ligue 1,2015/2016,2015/2016,2015
+Evann Guessand,2022/2023,0,1,0,Nantes,Left Wing,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Ezequiel Iván Lavezzi,2015/2016,2,13,0,Paris Saint-Germain,Center Forward,165,0,0,Ligue 1,2015/2016,2015/2016,2015
+Fabien Camus,2015/2016,5,65,0,Troyes,Left Wing,575,0,0,Ligue 1,2015/2016,2015/2016,2015
+Fabien Lemoine,2015/2016,0,19,0,Saint-Étienne,Right Defensive Midfield,95,0,0,Ligue 1,2015/2016,2015/2016,2015
+Fabián Ruiz Peña,2022/2023,2,18,0,Paris Saint-Germain,Left Center Midfield,190,0,0,Ligue 1,2022/2023,2022/2023,2022
+Falaye Sacko,2021/2022,0,1,0,Saint-Étienne,Right Wing Back,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Fali Candé,2021/2022,0,1,0,Metz,Left Wing Back,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Fallou Diagne,2015/2016,5,17,0,Rennes,Right Center Back,335,0,0,Ligue 1,2015/2016,2015/2016,2015
+Fares Chaïbi,2022/2023,0,3,0,Toulouse,Left Wing,15,0,0,Ligue 1,2022/2023,2022/2023,2022
+Farid El Melali,2022/2023,0,2,0,Angers,Right Midfield,10,0,0,Ligue 1,2022/2023,2022/2023,2022
+Farès Bahlouli,2015/2016,1,6,0,AS Monaco,Center Attacking Midfield,80,0,0,Ligue 1,2015/2016,2015/2016,2015
+Fernando Morientes Sánchez,2003/2004,0,1,0,AS Monaco,Center Forward,5,0,0,Ligue 1,2003/2004,2003/2004,2003
+Flavien Tait,2021/2022,1,1,0,Rennes,Left Center Midfield,55,0,0,Ligue 1,2021/2022,2021/2022,2021
+Florent Balmont,2015/2016,0,30,0,Lille,Right Center Midfield,150,0,0,Ligue 1,2015/2016,2015/2016,2015
+Florent Mollet,2021/2022,0,1,0,Montpellier,Left Wing,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Florent Mollet,2022/2023,0,1,0,Nantes,Center Attacking Midfield,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Florentin Pogba,2015/2016,0,10,0,Saint-Étienne,Left Center Back,50,0,0,Ligue 1,2015/2016,2015/2016,2015
+Florian Marange,2015/2016,0,2,0,Bastia,Center Attacking Midfield,10,0,0,Ligue 1,2015/2016,2015/2016,2015
+Florian Raspentino,2015/2016,1,8,0,Bastia,Center Forward,90,0,0,Ligue 1,2015/2016,2015/2016,2015
+Florian Sotoca,2015/2016,0,1,0,Montpellier,Right Wing,5,0,0,Ligue 1,2015/2016,2015/2016,2015
+Florian Sotoca,2021/2022,0,2,0,Lens,Right Wing,10,0,0,Ligue 1,2021/2022,2021/2022,2021
+Florian Tardieu,2021/2022,1,2,0,Troyes,Left Defensive Midfield,60,0,0,Ligue 1,2021/2022,2021/2022,2021
+Florian Thauvin,2015/2016,2,25,0,Marseille,Right Wing,225,0,0,Ligue 1,2015/2016,2015/2016,2015
+Floyd Ayité,2015/2016,7,69,0,Bastia,Right Center Forward,695,0,0,Ligue 1,2015/2016,2015/2016,2015
+Folarin Balogun,2022/2023,1,6,0,Stade de Reims,Center Forward,80,0,0,Ligue 1,2022/2023,2022/2023,2022
+Franck Honorat,2015/2016,0,2,0,OGC Nice,Left Center Forward,10,0,0,Ligue 1,2015/2016,2015/2016,2015
+Franck Honorat,2022/2023,1,3,0,Stade Brestois,Right Midfield,65,0,0,Ligue 1,2022/2023,2022/2023,2022
+Franck Signorino,2015/2016,0,1,0,Stade de Reims,Left Back,5,0,0,Ligue 1,2015/2016,2015/2016,2015
+Franck Tabanou,2015/2016,0,4,0,Saint-Étienne,Left Back,20,0,0,Ligue 1,2015/2016,2015/2016,2015
+François Bellugou,2015/2016,0,3,0,Lorient,Left Defensive Midfield,15,0,0,Ligue 1,2015/2016,2015/2016,2015
+François Clerc,2015/2016,0,5,0,Saint-Étienne,Right Back,25,0,0,Ligue 1,2015/2016,2015/2016,2015
+François Kamano,2015/2016,3,41,0,Bastia,Right Wing,355,0,0,Ligue 1,2015/2016,2015/2016,2015
+François Modesto,2015/2016,0,8,0,Bastia,Left Center Back,40,0,0,Ligue 1,2015/2016,2015/2016,2015
+Frédéric Bulot,2015/2016,1,20,0,Stade de Reims,Right Midfield,150,0,0,Ligue 1,2015/2016,2015/2016,2015
+Frédéric Guilbert,2015/2016,0,10,0,Bordeaux,Right Back,50,0,0,Ligue 1,2015/2016,2015/2016,2015
+Frédéric Guilbert,2021/2022,0,1,0,Strasbourg,Right Wing Back,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Frédéric Guilbert,2022/2023,0,2,0,Strasbourg,Left Wing Back,10,0,0,Ligue 1,2022/2023,2022/2023,2022
+Fábio Alexandre da Silva Coentrão,2015/2016,3,10,0,AS Monaco,Left Back,200,0,0,Ligue 1,2015/2016,2015/2016,2015
+Fábio Henrique Tavares,2015/2016,6,28,0,AS Monaco,Right Back,440,0,0,Ligue 1,2015/2016,2015/2016,2015
+Fábio Pereira da Silva,2022/2023,0,1,0,Nantes,Right Wing Back,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Férébory Doré,2015/2016,0,11,0,Angers,Right Center Midfield,55,0,0,Ligue 1,2015/2016,2015/2016,2015
+Gabriel Boschilia,2015/2016,0,2,0,AS Monaco,Center Attacking Midfield,10,0,0,Ligue 1,2015/2016,2015/2016,2015
+Gabriel Gudmundsson,2021/2022,0,2,0,Lille,Left Back,10,0,0,Ligue 1,2021/2022,2021/2022,2021
+Gabriel Gudmundsson,2022/2023,0,1,0,Lille,Right Wing,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Gadji Celi Carmen Junior Tallo,2015/2016,0,36,0,Lille,Center Forward,180,0,0,Ligue 1,2015/2016,2015/2016,2015
+Gauthier Hein,2022/2023,0,4,0,Auxerre,Right Wing,20,0,0,Ligue 1,2022/2023,2022/2023,2022
+Gaël Angoula,2015/2016,0,2,0,Angers,Right Back,10,0,0,Ligue 1,2015/2016,2015/2016,2015
+Gaël Danic,2015/2016,5,41,0,Bastia,Left Wing,455,0,0,Ligue 1,2015/2016,2015/2016,2015
+Gaël Kakuta,2021/2022,0,1,0,Lens,Right Wing,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Gaëtan Charbonnier,2015/2016,4,22,0,Stade de Reims,Center Forward,310,0,0,Ligue 1,2015/2016,2015/2016,2015
+Gaëtan Laborde,2015/2016,0,1,0,Bordeaux,Left Midfield,5,0,0,Ligue 1,2015/2016,2015/2016,2015
+Gaëtan Laborde,2021/2022,1,5,0,Rennes,Right Center Forward,75,0,0,Ligue 1,2021/2022,2021/2022,2021
+Gaëtan Laborde,2022/2023,1,2,0,OGC Nice,Center Forward,60,0,0,Ligue 1,2022/2023,2022/2023,2022
+Gaëtan Perrin,2015/2016,1,2,0,Lyon,Left Center Midfield,60,0,0,Ligue 1,2015/2016,2015/2016,2015
+Gaëtan Perrin,2022/2023,0,1,0,Auxerre,Right Wing,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Gedeon Kalulu Kyatengwa,2022/2023,0,1,0,Lorient,Right Wing Back,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Georges-Kévin Nkoudou Mbida,2015/2016,5,48,0,Marseille,Left Wing,490,0,0,Ligue 1,2015/2016,2015/2016,2015
+Georginio Wijnaldum,2021/2022,1,11,0,Paris Saint-Germain,Right Center Midfield,105,0,0,Ligue 1,2021/2022,2021/2022,2021
+Gilles Cioni,2015/2016,0,3,0,Bastia,Right Back,15,0,0,Ligue 1,2015/2016,2015/2016,2015
+Gilles Sunu,2015/2016,2,46,0,Angers,Center Forward,330,0,0,Ligue 1,2015/2016,2015/2016,2015
+Giovanni-Guy Yann Sio,2015/2016,7,71,0,Rennes,Center Forward,705,0,0,Ligue 1,2015/2016,2015/2016,2015
+Gnaly Maxwell Cornet,2015/2016,8,30,0,Lyon,Left Wing,550,0,0,Ligue 1,2015/2016,2015/2016,2015
+Goran Karanović,2015/2016,1,6,0,Angers,Center Forward,80,0,0,Ligue 1,2015/2016,2015/2016,2015
+Gregory van der Wiel,2015/2016,2,8,0,Paris Saint-Germain,Right Back,140,0,0,Ligue 1,2015/2016,2015/2016,2015
+Grejohn Kyei,2015/2016,3,20,0,Stade de Reims,Center Forward,250,0,0,Ligue 1,2015/2016,2015/2016,2015
+Grejohn Kyei,2022/2023,1,2,0,Clermont Foot,Center Forward,60,0,0,Ligue 1,2022/2023,2022/2023,2022
+Grégory Bourillon,2015/2016,1,3,0,Angers,Center Defensive Midfield,65,0,0,Ligue 1,2015/2016,2015/2016,2015
+Grégory Pujol,2015/2016,5,28,0,Gazélec Ajaccio,Right Center Forward,390,0,0,Ligue 1,2015/2016,2015/2016,2015
+Guido Marcelo Carrillo,2015/2016,4,48,0,AS Monaco,Center Forward,440,0,0,Ligue 1,2015/2016,2015/2016,2015
+Guillaume Gillet,2015/2016,1,22,0,Nantes,Left Defensive Midfield,160,0,0,Ligue 1,2015/2016,2015/2016,2015
+Guillermo Alfonso Maripán Loaysa,2021/2022,0,1,0,AS Monaco,Right Center Back,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Gélson da Conceição Tavares Fernandes,2015/2016,1,9,0,Rennes,Center Defensive Midfield,95,0,0,Ligue 1,2015/2016,2015/2016,2015
+Habibou Mouhamadou Diallo,2021/2022,0,3,0,Strasbourg,Right Center Forward,15,0,0,Ligue 1,2021/2022,2021/2022,2021
+Habibou Mouhamadou Diallo,2022/2023,0,5,0,Strasbourg,Center Forward,25,0,0,Ligue 1,2022/2023,2022/2023,2022
+Hamari Traoré,2015/2016,2,20,0,Stade de Reims,Right Wing Back,200,0,0,Ligue 1,2015/2016,2015/2016,2015
+Hamari Traoré,2021/2022,0,1,0,Rennes,Right Back,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Hamari Traoré,2022/2023,1,3,0,Rennes,Right Wing Back,65,0,0,Ligue 1,2022/2023,2022/2023,2022
+Hamza Sakhi,2022/2023,0,1,0,Auxerre,Right Defensive Midfield,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Han-Noah Massengo,2022/2023,0,1,0,Auxerre,Right Defensive Midfield,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Hassane Kamara,2015/2016,0,1,0,Stade de Reims,Left Back,5,0,0,Ligue 1,2015/2016,2015/2016,2015
+Hatem Ben Arfa,2015/2016,17,92,0,OGC Nice,Center Attacking Midfield,1310,0,0,Ligue 1,2015/2016,2015/2016,2015
+Hatem Ben Arfa,2021/2022,0,1,0,Lille,Right Center Forward,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Henri Bedimo Nsamè,2015/2016,0,6,0,Lyon,Left Back,30,0,0,Ligue 1,2015/2016,2015/2016,2015
+Henri Bienvenu Ntsama,2015/2016,0,5,0,Troyes,Right Midfield,25,0,0,Ligue 1,2015/2016,2015/2016,2015
+Henri Saivet,2015/2016,2,29,0,Bordeaux,Left Defensive Midfield,245,0,0,Ligue 1,2015/2016,2015/2016,2015
+Hervin Scicchitano Ongenda,2015/2016,1,5,0,Paris Saint-Germain,Left Wing,75,0,0,Ligue 1,2015/2016,2015/2016,2015
+Hervé Bazile,2015/2016,0,33,0,Caen,Left Midfield,165,0,0,Ligue 1,2015/2016,2015/2016,2015
+Hichem Boudaoui,2022/2023,0,1,0,OGC Nice,Left Defensive Midfield,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Himad Abdelli,2022/2023,0,4,0,Angers,Left Midfield,20,0,0,Ligue 1,2022/2023,2022/2023,2022
+Houboulang Mendes,2021/2022,0,1,0,Lorient,Right Back,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Houssem Aouar,2021/2022,0,1,0,Lyon,Left Wing,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Hugo Ekitike,2021/2022,0,2,0,Stade de Reims,Center Forward,10,0,0,Ligue 1,2021/2022,2021/2022,2021
+Hugo Ekitike,2022/2023,2,19,0,Paris Saint-Germain,Center Attacking Midfield,195,0,0,Ligue 1,2022/2023,2022/2023,2022
+Hugo Magnetti,2022/2023,0,1,0,Stade Brestois,Left Center Midfield,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Hugo Rodriguez,2015/2016,0,1,0,Stade de Reims,Center Attacking Midfield,5,0,0,Ligue 1,2015/2016,2015/2016,2015
+Hélder Wander Sousa Azevedo Costa,2015/2016,3,24,0,AS Monaco,Left Wing,270,0,0,Ligue 1,2015/2016,2015/2016,2015
+Ibrahim Amadou,2015/2016,1,13,0,Lille,Center Defensive Midfield,115,0,0,Ligue 1,2015/2016,2015/2016,2015
+Ibrahima Koné,2022/2023,0,2,0,Lorient,Center Forward,10,0,0,Ligue 1,2022/2023,2022/2023,2022
+Ibrahima Niane,2022/2023,0,2,0,Angers,Right Center Forward,10,0,0,Ligue 1,2022/2023,2022/2023,2022
+Ibrahima Sissoko,2022/2023,0,1,0,Strasbourg,Center Defensive Midfield,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Idrissa Gana Gueye,2021/2022,0,17,0,Paris Saint-Germain,Left Center Midfield,85,0,0,Ligue 1,2021/2022,2021/2022,2021
+Ignatius Kpene Ganago,2022/2023,1,5,0,Nantes,Left Center Forward,75,0,0,Ligue 1,2022/2023,2022/2023,2022
+Ike Ugbo,2021/2022,1,1,0,Troyes,Center Forward,55,0,0,Ligue 1,2021/2022,2021/2022,2021
+Ike Ugbo,2022/2023,0,2,0,Troyes,Right Defensive Midfield,10,0,0,Ligue 1,2022/2023,2022/2023,2022
+Ikoma Loïs Openda,2022/2023,0,8,0,Lens,Center Forward,40,0,0,Ligue 1,2022/2023,2022/2023,2022
+Ilan Kebbal,2021/2022,0,1,0,Stade de Reims,Right Center Forward,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Isaac Kiese Thelin,2015/2016,0,6,0,Bordeaux,Center Forward,30,0,0,Ligue 1,2015/2016,2015/2016,2015
+Islam Slimani,2022/2023,0,2,0,Stade Brestois,Center Forward,10,0,0,Ligue 1,2022/2023,2022/2023,2022
+Ismaily Gonçalves dos Santos,2022/2023,0,1,0,Lille,Left Back,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Ismaël Gharbi,2022/2023,0,3,0,Paris Saint-Germain,Center Attacking Midfield,15,0,0,Ligue 1,2022/2023,2022/2023,2022
+Ismaël Tiémoko Diomandé,2015/2016,0,5,0,Saint-Étienne,Right Defensive Midfield,25,0,0,Ligue 1,2015/2016,2015/2016,2015
+Ismaël Traoré,2015/2016,1,13,0,Angers,Right Center Back,115,0,0,Ligue 1,2015/2016,2015/2016,2015
+Issa Diop,2015/2016,1,6,0,Toulouse,Right Center Back,80,0,0,Ligue 1,2015/2016,2015/2016,2015
+Issa Kabore,2021/2022,0,1,0,Troyes,Right Wing Back,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Issiaga Sylla,2015/2016,0,23,0,Gazélec Ajaccio,Right Back,115,0,0,Ligue 1,2015/2016,2015/2016,2015
+Issiaga Sylla,2022/2023,0,1,0,Toulouse,Left Wing Back,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Issiar Dia,2015/2016,0,6,0,Gazélec Ajaccio,Right Center Forward,30,0,0,Ligue 1,2015/2016,2015/2016,2015
+Ivan Ricardo Neves Abreu Cavaleiro,2015/2016,1,14,0,AS Monaco,Left Wing,120,0,0,Ligue 1,2015/2016,2015/2016,2015
+Jaba Kankava,2015/2016,0,11,0,Stade de Reims,Left Defensive Midfield,55,0,0,Ligue 1,2015/2016,2015/2016,2015
+Jacques François Moubandje,2015/2016,0,4,0,Toulouse,Left Back,20,0,0,Ligue 1,2015/2016,2015/2016,2015
+Jacques Zoua Daogari,2015/2016,4,48,0,Gazélec Ajaccio,Left Center Forward,440,0,0,Ligue 1,2015/2016,2015/2016,2015
+Jacques-Alaixys Romao,2015/2016,1,9,0,Marseille,Left Defensive Midfield,95,0,0,Ligue 1,2015/2016,2015/2016,2015
+Jamel Saihi,2015/2016,0,7,0,Montpellier,Center Defensive Midfield,35,0,0,Ligue 1,2015/2016,2015/2016,2015
+Jaroslav Plašil,2015/2016,3,20,0,Bordeaux,Right Center Midfield,250,0,0,Ligue 1,2015/2016,2015/2016,2015
+Jason Berthomier,2021/2022,0,2,0,Clermont Foot,Center Attacking Midfield,10,0,0,Ligue 1,2021/2022,2021/2022,2021
+Javier Manquillo Gaitán,2015/2016,0,7,0,Marseille,Left Back,35,0,0,Ligue 1,2015/2016,2015/2016,2015
+Javier Matías Pastore,2015/2016,2,20,0,Paris Saint-Germain,Right Center Midfield,200,0,0,Ligue 1,2015/2016,2015/2016,2015
+Jean Carlos Francisco Deza Sánchez,2015/2016,0,4,0,Montpellier,Left Defensive Midfield,20,0,0,Ligue 1,2015/2016,2015/2016,2015
+Jean Emile Junior Onana Onana,2021/2022,0,2,0,Bordeaux,Right Defensive Midfield,10,0,0,Ligue 1,2021/2022,2021/2022,2021
+Jean Michaël Seri,2015/2016,3,51,0,OGC Nice,Left Center Midfield,405,0,0,Ligue 1,2015/2016,2015/2016,2015
+Jean Pierre Nsamé,2015/2016,0,1,0,Angers,Right Wing,5,0,0,Ligue 1,2015/2016,2015/2016,2015
+Jean-Armel Kana-Biyik,2015/2016,2,9,0,Toulouse,Right Center Back,145,0,0,Ligue 1,2015/2016,2015/2016,2015
+Jean-Charles Castelletto,2021/2022,0,2,0,Nantes,Right Center Back,10,0,0,Ligue 1,2021/2022,2021/2022,2021
+Jean-Charles Castelletto,2022/2023,0,1,0,Nantes,Right Center Back,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Jean-Christophe Bahebeck,2015/2016,1,27,0,Saint-Étienne,Left Wing,185,0,0,Ligue 1,2015/2016,2015/2016,2015
+Jean-Clair Todibo,2022/2023,0,1,0,OGC Nice,Center Back,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Jean-Daniel Akpa Akpro,2015/2016,1,20,0,Toulouse,Right Center Midfield,150,0,0,Ligue 1,2015/2016,2015/2016,2015
+Jean-Kevin Duverne,2022/2023,0,1,0,Stade Brestois,Left Back,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Jean-Kévin Augustin,2015/2016,1,9,0,Paris Saint-Germain,Right Wing,95,0,0,Ligue 1,2015/2016,2015/2016,2015
+Jean-Mattéo Bahoya Négoce,2022/2023,0,3,0,Angers,Left Center Forward,15,0,0,Ligue 1,2022/2023,2022/2023,2022
+Jean-Philippe Krasso,2021/2022,0,1,0,Saint-Étienne,Right Back,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Jean-Ricner Bellegarde,2021/2022,0,2,0,Strasbourg,Left Center Midfield,10,0,0,Ligue 1,2021/2022,2021/2022,2021
+Jean-Ricner Bellegarde,2022/2023,0,2,0,Strasbourg,Center Attacking Midfield,10,0,0,Ligue 1,2022/2023,2022/2023,2022
+Jean-Victor Makengo,2015/2016,0,2,0,Caen,Left Center Midfield,10,0,0,Ligue 1,2015/2016,2015/2016,2015
+Jeff Louis,2015/2016,1,20,0,Caen,Right Midfield,150,0,0,Ligue 1,2015/2016,2015/2016,2015
+Jemerson de Jesus Nascimento,2015/2016,0,1,0,AS Monaco,Right Back,5,0,0,Ligue 1,2015/2016,2015/2016,2015
+Jens-Lys Michel Cajuste,2022/2023,0,1,0,Stade de Reims,Left Center Midfield,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Jeremie Boga,2015/2016,3,21,0,Rennes,Center Forward,255,0,0,Ligue 1,2015/2016,2015/2016,2015
+Jessy Pi,2015/2016,3,54,0,Troyes,Left Defensive Midfield,420,0,0,Ligue 1,2015/2016,2015/2016,2015
+Jim Allevinah,2021/2022,0,1,0,Clermont Foot,Right Wing,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Jim Allevinah,2022/2023,0,1,0,Clermont Foot,Right Wing,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Jimmy Briand,2015/2016,7,65,0,Guingamp,Right Center Forward,675,0,0,Ligue 1,2015/2016,2015/2016,2015
+Jimmy Cabot,2015/2016,4,31,0,Troyes,Left Midfield,355,0,0,Ligue 1,2015/2016,2015/2016,2015
+Jodel Dossou,2021/2022,1,3,0,Clermont Foot,Right Wing,65,0,0,Ligue 1,2021/2022,2021/2022,2021
+Johan Audel,2015/2016,2,32,0,Nantes,Left Wing,260,0,0,Ligue 1,2015/2016,2015/2016,2015
+Johan Gastien,2021/2022,0,1,0,Clermont Foot,Left Defensive Midfield,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Johan Gastien,2022/2023,1,3,0,Clermont Foot,Left Defensive Midfield,65,0,0,Ligue 1,2022/2023,2022/2023,2022
+Johan Martial,2015/2016,0,1,0,Troyes,Right Center Back,5,0,0,Ligue 1,2015/2016,2015/2016,2015
+John Tshibumbu,2015/2016,3,32,0,Gazélec Ajaccio,Right Wing,310,0,0,Ligue 1,2015/2016,2015/2016,2015
+Jonas Martin,2015/2016,4,31,0,Montpellier,Left Center Midfield,355,0,0,Ligue 1,2015/2016,2015/2016,2015
+Jonas Martin,2021/2022,0,2,0,Rennes,Center Defensive Midfield,10,0,0,Ligue 1,2021/2022,2021/2022,2021
+Jonathan Bamba,2015/2016,1,9,0,Saint-Étienne,Left Wing,95,0,0,Ligue 1,2015/2016,2015/2016,2015
+Jonathan Bamba,2021/2022,0,2,0,Lille,Left Midfield,10,0,0,Ligue 1,2021/2022,2021/2022,2021
+Jonathan Bamba,2022/2023,2,7,0,Lille,Left Wing,135,0,0,Ligue 1,2022/2023,2022/2023,2022
+Jonathan Brison,2015/2016,0,1,0,Saint-Étienne,Left Back,5,0,0,Ligue 1,2015/2016,2015/2016,2015
+Jonathan Clauss,2021/2022,0,3,0,Lens,Right Wing Back,15,0,0,Ligue 1,2021/2022,2021/2022,2021
+Jonathan Clauss,2022/2023,0,3,0,Marseille,Right Wing Back,15,0,0,Ligue 1,2022/2023,2022/2023,2022
+Jonathan David,2021/2022,1,4,0,Lille,Right Center Forward,70,0,0,Ligue 1,2021/2022,2021/2022,2021
+Jonathan David,2022/2023,1,10,0,Lille,Center Forward,100,0,0,Ligue 1,2022/2023,2022/2023,2022
+Jonathan Delaplace,2015/2016,0,18,0,Caen,Right Center Midfield,90,0,0,Ligue 1,2015/2016,2015/2016,2015
+Jonathan Martins-Pereira,2015/2016,0,7,0,Guingamp,Right Back,35,0,0,Ligue 1,2015/2016,2015/2016,2015
+Jordan Adéoti,2015/2016,0,8,0,Caen,Right Defensive Midfield,40,0,0,Ligue 1,2015/2016,2015/2016,2015
+Jordan Ferri,2015/2016,2,32,0,Lyon,Right Center Midfield,260,0,0,Ligue 1,2015/2016,2015/2016,2015
+Jordan Leborgne,2015/2016,0,8,0,Caen,Right Center Midfield,40,0,0,Ligue 1,2015/2016,2015/2016,2015
+Jordan Veretout,2022/2023,0,2,0,Marseille,Left Defensive Midfield,10,0,0,Ligue 1,2022/2023,2022/2023,2022
+Joris Chotard,2021/2022,0,1,0,Montpellier,Right Defensive Midfield,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Joris Gnagnon,2015/2016,0,3,0,Rennes,Left Center Midfield,15,0,0,Ligue 1,2015/2016,2015/2016,2015
+Joris Marveaux,2015/2016,1,4,0,Montpellier,Left Defensive Midfield,70,0,0,Ligue 1,2015/2016,2015/2016,2015
+João Filipe Iria Santos Moutinho,2015/2016,1,22,0,AS Monaco,Left Defensive Midfield,160,0,0,Ligue 1,2015/2016,2015/2016,2015
+Juan Bernat Velasco,2021/2022,0,1,0,Paris Saint-Germain,Left Back,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Juan Bernat Velasco,2022/2023,1,6,0,Paris Saint-Germain,Left Wing Back,80,0,0,Ligue 1,2022/2023,2022/2023,2022
+Juan Fernando Quintero Paniagua,2015/2016,1,16,0,Rennes,Center Attacking Midfield,130,0,0,Ligue 1,2015/2016,2015/2016,2015
+Jubal Rocha Mendes Junior,2022/2023,0,1,0,Auxerre,Center Back,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Jules Iloki,2015/2016,1,18,0,Nantes,Right Wing,140,0,0,Ligue 1,2015/2016,2015/2016,2015
+Julian Draxler,2021/2022,0,2,0,Paris Saint-Germain,Right Center Midfield,10,0,0,Ligue 1,2021/2022,2021/2022,2021
+Julian Jeanvier,2022/2023,0,1,0,Auxerre,Left Center Back,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Julian Palmieri,2015/2016,2,17,0,Bastia,Left Midfield,185,0,0,Ligue 1,2015/2016,2015/2016,2015
+Julien Bègue,2015/2016,0,2,0,Guingamp,Right Midfield,10,0,0,Ligue 1,2015/2016,2015/2016,2015
+Julien Cardy,2015/2016,0,5,0,Guingamp,Right Defensive Midfield,25,0,0,Ligue 1,2015/2016,2015/2016,2015
+Julien Féret,2015/2016,4,33,0,Caen,Left Center Midfield,365,0,0,Ligue 1,2015/2016,2015/2016,2015
+Julien Rodriguez,2003/2004,0,1,0,AS Monaco,Right Center Back,5,0,0,Ligue 1,2003/2004,2003/2004,2003
+Julien Romain,2015/2016,2,2,0,Bastia,Left Wing,110,0,0,Ligue 1,2015/2016,2015/2016,2015
+Junya Ito,2022/2023,0,2,0,Stade de Reims,Right Midfield,10,0,0,Ligue 1,2022/2023,2022/2023,2022
+Jussiê Ferreira Vieira,2015/2016,0,2,0,Bordeaux,Center Forward,10,0,0,Ligue 1,2015/2016,2015/2016,2015
+Justin Kluivert,2021/2022,0,2,0,OGC Nice,Right Midfield,10,0,0,Ligue 1,2021/2022,2021/2022,2021
+Jérémie Bréchet,2015/2016,0,1,0,Gazélec Ajaccio,Left Center Back,5,0,0,Ligue 1,2015/2016,2015/2016,2015
+Jérémy Clément,2015/2016,0,1,0,Saint-Étienne,Left Defensive Midfield,5,0,0,Ligue 1,2015/2016,2015/2016,2015
+Jérémy Morel,2015/2016,0,9,0,Lyon,Left Back,45,0,0,Ligue 1,2015/2016,2015/2016,2015
+Jérémy Pied,2015/2016,0,21,0,OGC Nice,Right Back,105,0,0,Ligue 1,2015/2016,2015/2016,2015
+Jérémy Sorbon,2015/2016,2,8,0,Guingamp,Left Center Back,140,0,0,Ligue 1,2015/2016,2015/2016,2015
+Jérémy Toulalan,2015/2016,0,6,0,AS Monaco,Right Defensive Midfield,30,0,0,Ligue 1,2015/2016,2015/2016,2015
+Jérôme Le Moigne,2015/2016,0,13,0,Gazélec Ajaccio,Center Defensive Midfield,65,0,0,Ligue 1,2015/2016,2015/2016,2015
+Jérôme Roussillon,2015/2016,3,16,0,Montpellier,Left Back,230,0,0,Ligue 1,2015/2016,2015/2016,2015
+Kalifa Coulibaly,2021/2022,0,2,0,Nantes,Center Forward,10,0,0,Ligue 1,2021/2022,2021/2022,2021
+Kamaldeen Sulemana,2021/2022,0,3,0,Rennes,Left Midfield,15,0,0,Ligue 1,2021/2022,2021/2022,2021
+Kamil Grosicki,2015/2016,9,52,0,Rennes,Right Wing,710,0,0,Ligue 1,2015/2016,2015/2016,2015
+Karim Azamoum,2015/2016,2,14,0,Troyes,Right Center Midfield,170,0,0,Ligue 1,2015/2016,2015/2016,2015
+Karim Rekik,2015/2016,1,5,0,Marseille,Left Center Back,75,0,0,Ligue 1,2015/2016,2015/2016,2015
+Karl Brillant Toko Ekambi,2021/2022,0,2,0,Lyon,Left Wing,10,0,0,Ligue 1,2021/2022,2021/2022,2021
+Karl Brillant Toko Ekambi,2022/2023,1,7,0,Rennes,Left Wing,85,0,0,Ligue 1,2022/2023,2022/2023,2022
+Kasper Dolberg,2021/2022,0,3,0,OGC Nice,Left Center Forward,15,0,0,Ligue 1,2021/2022,2021/2022,2021
+Kevin Danso,2021/2022,0,1,0,Lens,Center Back,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Kevin Danso,2022/2023,0,1,0,Lens,Center Back,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Kevin Gameiro,2021/2022,1,5,0,Strasbourg,Left Center Forward,75,0,0,Ligue 1,2021/2022,2021/2022,2021
+Kevin Gameiro,2022/2023,1,1,0,Strasbourg,Center Defensive Midfield,55,0,0,Ligue 1,2022/2023,2022/2023,2022
+Kevin Volland,2022/2023,1,1,0,AS Monaco,Right Center Forward,55,0,0,Ligue 1,2022/2023,2022/2023,2022
+Khalid Boutaïb,2015/2016,5,52,0,Gazélec Ajaccio,Right Center Forward,510,0,0,Ligue 1,2015/2016,2015/2016,2015
+Khéphren Thuram-Ulien,2022/2023,0,3,0,OGC Nice,Left Wing,15,0,0,Ligue 1,2022/2023,2022/2023,2022
+Kolbeinn Sigþórsson,2015/2016,3,34,0,Nantes,Center Forward,320,0,0,Ligue 1,2015/2016,2015/2016,2015
+Komnen Andrić,2022/2023,0,2,0,Clermont Foot,Center Forward,10,0,0,Ligue 1,2022/2023,2022/2023,2022
+Konrad De La Fuente,2021/2022,0,1,0,Marseille,Right Back,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Kylian Mbappé Lottin,2015/2016,1,5,0,AS Monaco,Right Wing,75,0,0,Ligue 1,2015/2016,2015/2016,2015
+Kylian Mbappé Lottin,2021/2022,22,94,0,Paris Saint-Germain,Center Forward,1570,0,0,Ligue 1,2021/2022,2021/2022,2021
+Kylian Mbappé Lottin,2022/2023,27,128,0,Paris Saint-Germain,Left Center Forward,1990,0,0,Ligue 1,2022/2023,2022/2023,2022
+Kévin Bérigaud,2015/2016,3,22,0,Montpellier,Center Forward,260,0,0,Ligue 1,2015/2016,2015/2016,2015
+Kévin Malcuit,2015/2016,0,2,0,Saint-Étienne,Right Back,10,0,0,Ligue 1,2015/2016,2015/2016,2015
+Kévin Mayi,2015/2016,3,30,0,Gazélec Ajaccio,Left Wing,300,0,0,Ligue 1,2015/2016,2015/2016,2015
+Kévin Monnet-Paquet,2015/2016,2,44,0,Saint-Étienne,Left Wing,320,0,0,Ligue 1,2015/2016,2015/2016,2015
+Kévin Soni,2015/2016,0,1,0,Bordeaux,Center Attacking Midfield,5,0,0,Ligue 1,2015/2016,2015/2016,2015
+Kévin Théophile-Catherine,2015/2016,1,7,0,Saint-Étienne,Right Center Back,85,0,0,Ligue 1,2015/2016,2015/2016,2015
+Lacina Traoré,2015/2016,3,18,0,AS Monaco,Center Forward,240,0,0,Ligue 1,2015/2016,2015/2016,2015
+Lamine Koné,2015/2016,2,21,0,Lorient,Right Center Back,205,0,0,Ligue 1,2015/2016,2015/2016,2015
+Lars Christian Jacobsen,2015/2016,0,3,0,Guingamp,Right Back,15,0,0,Ligue 1,2015/2016,2015/2016,2015
+Lassana Coulibaly,2015/2016,1,11,0,Bastia,Right Defensive Midfield,105,0,0,Ligue 1,2015/2016,2015/2016,2015
+Lassana Diarra,2015/2016,1,10,0,Marseille,Left Defensive Midfield,100,0,0,Ligue 1,2015/2016,2015/2016,2015
+Lassine Sinayoko,2022/2023,1,4,0,Auxerre,Left Wing,70,0,0,Ligue 1,2022/2023,2022/2023,2022
+Laurent Abergel,2021/2022,0,1,0,Lorient,Left Defensive Midfield,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Laurent Dos Santos,2015/2016,0,1,0,Guingamp,Left Back,5,0,0,Ligue 1,2015/2016,2015/2016,2015
+Layvin Kurzawa,2015/2016,4,20,0,Paris Saint-Germain,Left Back,300,0,0,Ligue 1,2015/2016,2015/2016,2015
+Leandro Daniel Paredes,2021/2022,1,6,0,Paris Saint-Germain,Center Defensive Midfield,80,0,0,Ligue 1,2021/2022,2021/2022,2021
+Lenny Nangis,2015/2016,0,10,0,Lille,Right Wing,50,0,0,Ligue 1,2015/2016,2015/2016,2015
+Leo Leroy,2021/2022,0,1,0,Montpellier,Right Midfield,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Leonardo Julián Balerdi Rossa,2022/2023,0,2,0,Marseille,Center Back,10,0,0,Ligue 1,2022/2023,2022/2023,2022
+Lilian Brassier,2022/2023,0,2,0,Stade Brestois,Left Center Back,10,0,0,Ligue 1,2022/2023,2022/2023,2022
+Lindsay Rose,2015/2016,0,6,0,Lorient,Right Center Back,30,0,0,Ligue 1,2015/2016,2015/2016,2015
+Lionel Andrés Messi Cuccittini,2021/2022,6,89,0,Paris Saint-Germain,Right Wing,745,0,0,Ligue 1,2021/2022,2021/2022,2021
+Lionel Andrés Messi Cuccittini,2022/2023,16,129,0,Paris Saint-Germain,Right Center Forward,1445,0,0,Ligue 1,2022/2023,2022/2023,2022
+Lionel Mathis,2015/2016,0,11,0,Guingamp,Right Defensive Midfield,55,0,0,Ligue 1,2015/2016,2015/2016,2015
+Lorenz Assignon,2022/2023,0,1,0,Rennes,Center Forward,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Lorik Agim Cana,2015/2016,0,9,0,Nantes,Left Center Back,45,0,0,Ligue 1,2015/2016,2015/2016,2015
+Lossémy Karaboué,2015/2016,0,24,0,Troyes,Right Midfield,120,0,0,Ligue 1,2015/2016,2015/2016,2015
+Louis Poggi,2015/2016,0,10,0,Gazélec Ajaccio,Right Midfield,50,0,0,Ligue 1,2015/2016,2015/2016,2015
+Lovro Majer,2021/2022,0,2,0,Rennes,Right Center Midfield,10,0,0,Ligue 1,2021/2022,2021/2022,2021
+Lovro Majer,2022/2023,0,2,0,Rennes,Right Defensive Midfield,10,0,0,Ligue 1,2022/2023,2022/2023,2022
+Loïc Perrin,2015/2016,3,17,0,Saint-Étienne,Left Center Back,235,0,0,Ligue 1,2015/2016,2015/2016,2015
+Lucas Ariel Ocampos,2015/2016,1,22,0,Marseille,Right Wing,160,0,0,Ligue 1,2015/2016,2015/2016,2015
+Lucas Deaux,2015/2016,0,4,0,Nantes,Left Defensive Midfield,20,0,0,Ligue 1,2015/2016,2015/2016,2015
+Lucas Perrin,2022/2023,0,1,0,Strasbourg,Left Center Back,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Lucas Rodrigues Moura da Silva,2015/2016,9,62,0,Paris Saint-Germain,Left Wing,760,0,0,Ligue 1,2015/2016,2015/2016,2015
+Lucas Silva Borges,2015/2016,0,12,0,Marseille,Right Center Midfield,60,0,0,Ligue 1,2015/2016,2015/2016,2015
+Lucas Tolentino Coelho de Lima,2021/2022,1,3,0,Lyon,Center Attacking Midfield,65,0,0,Ligue 1,2021/2022,2021/2022,2021
+Ludovic Baal,2015/2016,0,1,0,Rennes,Left Midfield,5,0,0,Ligue 1,2015/2016,2015/2016,2015
+Ludovic Blas,2015/2016,1,11,0,Guingamp,Right Midfield,105,0,0,Ligue 1,2015/2016,2015/2016,2015
+Ludovic Blas,2021/2022,1,7,0,Nantes,Right Center Midfield,85,0,0,Ligue 1,2021/2022,2021/2022,2021
+Ludovic Blas,2022/2023,1,4,0,Nantes,Right Wing,70,0,0,Ligue 1,2022/2023,2022/2023,2022
+Ludovic Lamine Sané,2015/2016,0,3,0,Bordeaux,Right Center Back,15,0,0,Ligue 1,2015/2016,2015/2016,2015
+Léo Dubois,2015/2016,0,11,0,Nantes,Left Back,55,0,0,Ligue 1,2015/2016,2015/2016,2015
+Lévy Koffi Djidji,2015/2016,0,6,0,Nantes,Right Center Back,30,0,0,Ligue 1,2015/2016,2015/2016,2015
+M''Baye Babacar Niang,2021/2022,0,2,0,Bordeaux,Center Forward,10,0,0,Ligue 1,2021/2022,2021/2022,2021
+M''Baye Babacar Niang,2022/2023,0,2,0,Auxerre,Center Forward,10,0,0,Ligue 1,2022/2023,2022/2023,2022
+Mahamane El-Hadj Traoré,2015/2016,2,8,0,OGC Nice,Center Attacking Midfield,140,0,0,Ligue 1,2015/2016,2015/2016,2015
+Mahdi Camara,2021/2022,0,2,0,Saint-Étienne,Right Center Back,10,0,0,Ligue 1,2021/2022,2021/2022,2021
+Malcom Filipe Silva de Oliveira,2015/2016,1,10,0,Bordeaux,Right Wing,100,0,0,Ligue 1,2015/2016,2015/2016,2015
+Malo Gusto,2021/2022,0,1,0,Lyon,Right Back,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Mama Samba Baldé,2021/2022,0,1,0,Troyes,Center Forward,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Mama Samba Baldé,2022/2023,2,5,0,Troyes,Center Forward,125,0,0,Ligue 1,2022/2023,2022/2023,2022
+Mamadou N''Diaye,2015/2016,0,2,0,Montpellier,Right Back,10,0,0,Ligue 1,2015/2016,2015/2016,2015
+Mana Dembélé,2015/2016,0,14,0,Guingamp,Center Forward,70,0,0,Ligue 1,2015/2016,2015/2016,2015
+Mapou Yanga-Mbiwa,2015/2016,2,7,0,Lyon,Right Center Back,135,0,0,Ligue 1,2015/2016,2015/2016,2015
+Marcel Tisserand,2015/2016,1,10,0,Toulouse,Right Back,100,0,0,Ligue 1,2015/2016,2015/2016,2015
+Marco Verratti,2015/2016,0,2,0,Paris Saint-Germain,Right Center Midfield,10,0,0,Ligue 1,2015/2016,2015/2016,2015
+Marco Verratti,2021/2022,1,4,0,Paris Saint-Germain,Left Center Midfield,70,0,0,Ligue 1,2021/2022,2021/2022,2021
+Marco Verratti,2022/2023,0,5,0,Paris Saint-Germain,Center Defensive Midfield,25,0,0,Ligue 1,2022/2023,2022/2023,2022
+Marcos Aoás Corrêa,2015/2016,1,8,0,Paris Saint-Germain,Right Center Back,90,0,0,Ligue 1,2015/2016,2015/2016,2015
+Marcos Aoás Corrêa,2021/2022,4,14,0,Paris Saint-Germain,Right Center Back,270,0,0,Ligue 1,2021/2022,2021/2022,2021
+Marcos Aoás Corrêa,2022/2023,1,16,0,Paris Saint-Germain,Center Back,130,0,0,Ligue 1,2022/2023,2022/2023,2022
+Marcos Paulo Mesquita Lopes,2015/2016,2,23,0,Lille,Right Wing,215,0,0,Ligue 1,2015/2016,2015/2016,2015
+Marcos Paulo Mesquita Lopes,2022/2023,0,5,0,Troyes,Right Wing,25,0,0,Ligue 1,2022/2023,2022/2023,2022
+Marcus Coco,2015/2016,1,22,0,Guingamp,Right Midfield,160,0,0,Ligue 1,2015/2016,2015/2016,2015
+Marcus Coco,2021/2022,0,2,0,Nantes,Right Wing,10,0,0,Ligue 1,2021/2022,2021/2022,2021
+Marcus Coco,2022/2023,0,1,0,Nantes,Center Forward,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Mario Lemina,2015/2016,2,11,0,Marseille,Right Center Midfield,155,0,0,Ligue 1,2015/2016,2015/2016,2015
+Mario Pašalić,2015/2016,3,20,0,AS Monaco,Right Center Midfield,250,0,0,Ligue 1,2015/2016,2015/2016,2015
+Marko Baša,2015/2016,0,15,0,Lille,Left Center Back,75,0,0,Ligue 1,2015/2016,2015/2016,2015
+Marshall Nyasha Munetsi,2021/2022,0,1,0,Stade de Reims,Left Center Midfield,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Marshall Nyasha Munetsi,2022/2023,0,4,0,Stade de Reims,Right Center Midfield,20,0,0,Ligue 1,2022/2023,2022/2023,2022
+Martin Braithwaite Christensen,2015/2016,11,108,0,Toulouse,Center Forward,1090,0,0,Ligue 1,2015/2016,2015/2016,2015
+Martin Terrier,2021/2022,0,4,0,Rennes,Left Wing,20,0,0,Ligue 1,2021/2022,2021/2022,2021
+Marvin Gakpa,2015/2016,0,1,0,Lorient,Left Center Midfield,5,0,0,Ligue 1,2015/2016,2015/2016,2015
+Marvin Martin,2015/2016,0,5,0,Lille,Left Center Midfield,25,0,0,Ligue 1,2015/2016,2015/2016,2015
+Massadio Haïdara,2021/2022,0,2,0,Lens,Center Forward,10,0,0,Ligue 1,2021/2022,2021/2022,2021
+Mateus Cardoso Lemos Martins,2022/2023,0,1,0,Lyon,Right Midfield,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Mateusz Wieteska,2022/2023,0,1,0,Clermont Foot,Center Back,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Mathias Autret,2022/2023,0,1,0,Auxerre,Left Wing,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Mathias Pereira Lage,2022/2023,0,1,0,Stade Brestois,Left Wing,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Mathieu Bodmer,2015/2016,1,4,0,OGC Nice,Right Center Back,70,0,0,Ligue 1,2015/2016,2015/2016,2015
+Mathieu Debuchy,2015/2016,0,5,0,Bordeaux,Right Back,25,0,0,Ligue 1,2015/2016,2015/2016,2015
+Mathieu Deplagne,2015/2016,0,6,0,Montpellier,Right Back,30,0,0,Ligue 1,2015/2016,2015/2016,2015
+Mathieu Valbuena,2015/2016,1,41,0,Lyon,Center Attacking Midfield,255,0,0,Ligue 1,2015/2016,2015/2016,2015
+Mathis Rayan Cherki,2021/2022,0,1,0,Lyon,Right Wing,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Mathis Rayan Cherki,2022/2023,0,1,0,Lyon,Center Attacking Midfield,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Matthieu Saunier,2015/2016,0,8,0,Troyes,Left Center Back,40,0,0,Ligue 1,2015/2016,2015/2016,2015
+Mattéo Guendouzi Olié,2021/2022,0,3,0,Marseille,Right Center Midfield,15,0,0,Ligue 1,2021/2022,2021/2022,2021
+Mattéo Guendouzi Olié,2022/2023,0,5,0,Marseille,Right Attacking Midfield,25,0,0,Ligue 1,2022/2023,2022/2023,2022
+Mauricio Aníbal Isla Isla,2015/2016,2,8,0,Marseille,Right Back,140,0,0,Ligue 1,2015/2016,2015/2016,2015
+Mauro Emanuel Icardi Rivero,2021/2022,2,15,0,Paris Saint-Germain,Center Forward,175,0,0,Ligue 1,2021/2022,2021/2022,2021
+Mauro Wilney Arambarri Rosa,2015/2016,0,2,0,Bordeaux,Center Attacking Midfield,10,0,0,Ligue 1,2015/2016,2015/2016,2015
+Maxence Caqueret,2021/2022,0,2,0,Lyon,Right Defensive Midfield,10,0,0,Ligue 1,2021/2022,2021/2022,2021
+Maxime Barthelmé,2015/2016,0,20,0,Lorient,Left Midfield,100,0,0,Ligue 1,2015/2016,2015/2016,2015
+Maxime Gonalons,2015/2016,0,23,0,Lyon,Center Defensive Midfield,115,0,0,Ligue 1,2015/2016,2015/2016,2015
+Maxime Gonalons,2022/2023,0,1,0,Clermont Foot,Right Defensive Midfield,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Maxime Le Marchand,2015/2016,1,6,0,OGC Nice,Left Center Back,80,0,0,Ligue 1,2015/2016,2015/2016,2015
+Maxime Poundjé,2015/2016,0,4,0,Bordeaux,Left Back,20,0,0,Ligue 1,2015/2016,2015/2016,2015
+Maxwell Scherrer Cabelino Andrade,2015/2016,3,10,0,Paris Saint-Germain,Left Back,200,0,0,Ligue 1,2015/2016,2015/2016,2015
+Mehdi Mostefa Sbaa,2015/2016,0,9,0,Bastia,Left Defensive Midfield,45,0,0,Ligue 1,2015/2016,2015/2016,2015
+Mehdi Zeffane,2015/2016,1,13,0,Rennes,Left Wing,115,0,0,Ligue 1,2015/2016,2015/2016,2015
+Mehdi Zeffane,2022/2023,1,1,0,Clermont Foot,Right Wing Back,55,0,0,Ligue 1,2022/2023,2022/2023,2022
+Melvin Bard,2022/2023,0,1,0,OGC Nice,Left Wing Back,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Mevlüt Erdinç,2015/2016,4,25,0,Guingamp,Left Center Forward,325,0,0,Ligue 1,2015/2016,2015/2016,2015
+Michaël Jordan Nkololo,2015/2016,0,10,0,Caen,Center Forward,50,0,0,Ligue 1,2015/2016,2015/2016,2015
+Michy Batshuayi Tunga,2015/2016,17,123,0,Marseille,Center Forward,1465,0,0,Ligue 1,2015/2016,2015/2016,2015
+Mickaël Barreto,2022/2023,0,4,0,AC Ajaccio,Right Wing,20,0,0,Ligue 1,2022/2023,2022/2023,2022
+Mickaël Le Bihan,2015/2016,1,7,0,OGC Nice,Left Center Forward,85,0,0,Ligue 1,2015/2016,2015/2016,2015
+Mickaël Tacalfred,2015/2016,0,4,0,Stade de Reims,Right Center Back,20,0,0,Ligue 1,2015/2016,2015/2016,2015
+Miguel Ângelo da Silva Rocha,2021/2022,0,1,0,Lille,Right Center Midfield,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Mihailo Ristić,2021/2022,0,1,0,Montpellier,Left Wing Back,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Mikkel Desler,2022/2023,0,1,0,Toulouse,Right Back,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Milan Gajić,2015/2016,1,2,0,Bordeaux,Right Back,60,0,0,Ligue 1,2015/2016,2015/2016,2015
+Mitchell van Bergen,2021/2022,0,1,0,Stade de Reims,Center Defensive Midfield,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Mitchell van Bergen,2022/2023,0,1,0,Stade de Reims,Right Midfield,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Mohamed Amine Chermiti,2015/2016,0,6,0,Gazélec Ajaccio,Right Center Forward,30,0,0,Ligue 1,2015/2016,2015/2016,2015
+Mohamed Fofana,2015/2016,0,3,0,Stade de Reims,Left Center Back,15,0,0,Ligue 1,2015/2016,2015/2016,2015
+Mohamed Lamine Yattara,2015/2016,2,19,0,Angers,Center Forward,195,0,0,Ligue 1,2015/2016,2015/2016,2015
+Mohamed Larbi,2015/2016,8,42,0,Gazélec Ajaccio,Center Attacking Midfield,610,0,0,Ligue 1,2015/2016,2015/2016,2015
+Mohamed Saïd Benrahma,2015/2016,3,11,0,Angers,Right Wing,205,0,0,Ligue 1,2015/2016,2015/2016,2015
+Mohamed Youcef Belaïli,2022/2023,0,2,0,AC Ajaccio,Left Midfield,10,0,0,Ligue 1,2022/2023,2022/2023,2022
+Moreto Moro Cassamã,2021/2022,0,1,0,Stade de Reims,Right Center Midfield,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Morgan Amalfitano,2015/2016,2,14,0,Lille,Right Wing,170,0,0,Ligue 1,2015/2016,2015/2016,2015
+Morgan Sanson,2015/2016,3,8,0,Montpellier,Right Center Midfield,190,0,0,Ligue 1,2015/2016,2015/2016,2015
+Morgan Sanson,2022/2023,0,3,0,Strasbourg,Left Center Midfield,15,0,0,Ligue 1,2022/2023,2022/2023,2022
+Moses Daddy-Ajala Simon,2021/2022,0,1,0,Nantes,Left Center Forward,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Mostafa Mohamed Ahmed Abdallah,2022/2023,0,1,0,Nantes,Center Attacking Midfield,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Mouhamadou Dabo,2015/2016,0,6,0,Troyes,Left Back,30,0,0,Ligue 1,2015/2016,2015/2016,2015
+Mouhamadou Diarra,2022/2023,0,1,0,Strasbourg,Right Center Midfield,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Mounaim El Idrissy,2022/2023,0,2,0,AC Ajaccio,Right Center Forward,10,0,0,Ligue 1,2022/2023,2022/2023,2022
+Mounir Obbadi,2015/2016,1,31,0,Lille,Left Center Midfield,205,0,0,Ligue 1,2015/2016,2015/2016,2015
+Moussa Dembélé,2022/2023,0,5,0,Lyon,Right Center Forward,25,0,0,Ligue 1,2022/2023,2022/2023,2022
+Moussa Sissoko,2022/2023,0,1,0,Nantes,Right Defensive Midfield,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Moussa Soumano,2022/2023,0,1,0,AC Ajaccio,Left Center Midfield,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Moustapha Bayal Sall,2015/2016,3,14,0,Saint-Étienne,Right Center Back,220,0,0,Ligue 1,2015/2016,2015/2016,2015
+Moustapha Elhadji Diallo,2015/2016,1,16,0,Guingamp,Right Defensive Midfield,130,0,0,Ligue 1,2015/2016,2015/2016,2015
+Muhammed Cham Saracevic,2022/2023,0,5,0,Clermont Foot,Right Attacking Midfield,25,0,0,Ligue 1,2022/2023,2022/2023,2022
+Mustapha Yatabaré,2015/2016,4,33,0,Montpellier,Center Forward,365,0,0,Ligue 1,2015/2016,2015/2016,2015
+Nabil Dirar,2015/2016,2,21,0,AS Monaco,Right Wing,205,0,0,Ligue 1,2015/2016,2015/2016,2015
+Nabil Fekir,2015/2016,4,20,0,Lyon,Right Center Forward,300,0,0,Ligue 1,2015/2016,2015/2016,2015
+Nampalys Mendy,2015/2016,1,6,0,OGC Nice,Center Defensive Midfield,80,0,0,Ligue 1,2015/2016,2015/2016,2015
+Nanitamo Jonathan Ikoné,2021/2022,0,2,0,Lille,Right Midfield,10,0,0,Ligue 1,2021/2022,2021/2022,2021
+Nathanaël Mbuku,2021/2022,0,2,0,Stade de Reims,Right Attacking Midfield,10,0,0,Ligue 1,2021/2022,2021/2022,2021
+Neal Maupay,2015/2016,1,14,0,Saint-Étienne,Center Forward,120,0,0,Ligue 1,2015/2016,2015/2016,2015
+Neymar da Silva Santos Junior,2021/2022,11,43,0,Paris Saint-Germain,Left Wing,765,0,0,Ligue 1,2021/2022,2021/2022,2021
+Neymar da Silva Santos Junior,2022/2023,12,33,0,Paris Saint-Germain,Left Attacking Midfield,765,0,0,Ligue 1,2022/2023,2022/2023,2022
+Nicholas Gioacchini,2021/2022,0,1,0,Montpellier,Right Center Back,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Nicolas Alexis Julio N'Koulou Ndoubena,2015/2016,0,12,0,Marseille,Right Center Back,60,0,0,Ligue 1,2015/2016,2015/2016,2015
+Nicolas Benezet,2015/2016,4,23,0,Guingamp,Left Midfield,315,0,0,Ligue 1,2015/2016,2015/2016,2015
+Nicolas Janvier,2015/2016,0,1,0,Rennes,Center Attacking Midfield,5,0,0,Ligue 1,2015/2016,2015/2016,2015
+Nicolas Maurice-Belay,2015/2016,1,11,0,Bordeaux,Left Wing,105,0,0,Ligue 1,2015/2016,2015/2016,2015
+Nicolas Pallois,2015/2016,1,9,0,Bordeaux,Left Center Back,95,0,0,Ligue 1,2015/2016,2015/2016,2015
+Nicolas Pépé,2022/2023,0,4,0,OGC Nice,Right Wing,20,0,0,Ligue 1,2022/2023,2022/2023,2022
+Nicolas Seube,2015/2016,0,15,0,Caen,Center Defensive Midfield,75,0,0,Ligue 1,2015/2016,2015/2016,2015
+Nicolas de Roussel de Préville,2015/2016,6,91,0,Stade de Reims,Left Wing,755,0,0,Ligue 1,2015/2016,2015/2016,2015
+Nicolás Alejandro Tagliafico,2022/2023,0,2,0,Lyon,Left Wing Back,10,0,0,Ligue 1,2022/2023,2022/2023,2022
+Niklas Hult,2015/2016,1,5,0,OGC Nice,Center Attacking Midfield,75,0,0,Ligue 1,2015/2016,2015/2016,2015
+Nill De Pauw,2015/2016,0,10,0,Guingamp,Right Midfield,50,0,0,Ligue 1,2015/2016,2015/2016,2015
+Nolan Roux,2015/2016,9,59,0,Saint-Étienne,Center Forward,745,0,0,Ligue 1,2015/2016,2015/2016,2015
+Nordi Mukiele Mulere,2022/2023,0,7,0,Paris Saint-Germain,Right Wing Back,35,0,0,Ligue 1,2022/2023,2022/2023,2022
+Nuno Albertino Varela Tavares,2022/2023,0,8,0,Marseille,Right Wing Back,40,0,0,Ligue 1,2022/2023,2022/2023,2022
+Nuno Mendes,2021/2022,0,6,0,Paris Saint-Germain,Left Back,30,0,0,Ligue 1,2021/2022,2021/2022,2021
+Nuno Mendes,2022/2023,1,10,0,Paris Saint-Germain,Left Wing Back,100,0,0,Ligue 1,2022/2023,2022/2023,2022
+Nuno Miguel da Costa Jóia,2022/2023,0,2,0,Auxerre,Center Forward,10,0,0,Ligue 1,2022/2023,2022/2023,2022
+Odaïr Junior Lopes Fortes,2015/2016,0,7,0,Stade de Reims,Right Midfield,35,0,0,Ligue 1,2015/2016,2015/2016,2015
+Ole Kristian Selnæs,2015/2016,0,2,0,Saint-Étienne,Center Defensive Midfield,10,0,0,Ligue 1,2015/2016,2015/2016,2015
+Olivier Auriac,2015/2016,0,2,0,Angers,Left Center Back,10,0,0,Ligue 1,2015/2016,2015/2016,2015
+Olivier Boscagli,2015/2016,1,2,0,OGC Nice,Left Wing Back,60,0,0,Ligue 1,2015/2016,2015/2016,2015
+Omenuke Mfulu,2015/2016,0,4,0,Stade de Reims,Right Center Midfield,20,0,0,Ligue 1,2015/2016,2015/2016,2015
+Osman Bukari,2021/2022,0,1,0,Nantes,Center Forward,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Oswaldo Augusto Vizcarrondo Araújo,2015/2016,0,12,0,Nantes,Right Center Back,60,0,0,Ligue 1,2015/2016,2015/2016,2015
+Ousmane Dembélé,2015/2016,12,56,0,Rennes,Center Attacking Midfield,880,0,0,Ligue 1,2015/2016,2015/2016,2015
+Oussama Tannane,2015/2016,2,21,0,Saint-Étienne,Right Wing,205,0,0,Ligue 1,2015/2016,2015/2016,2015
+Pablo Jean Antoine Martínez,2015/2016,0,9,0,Gazélec Ajaccio,Left Back,45,0,0,Ligue 1,2015/2016,2015/2016,2015
+Pablo Nascimento Castro,2015/2016,1,9,0,Bordeaux,Left Center Back,95,0,0,Ligue 1,2015/2016,2015/2016,2015
+Pablo Paulino Rosario,2021/2022,0,1,0,OGC Nice,Right Defensive Midfield,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Pablo Sarabia García,2022/2023,0,3,0,Paris Saint-Germain,Right Wing,15,0,0,Ligue 1,2022/2023,2022/2023,2022
+Paolo De Ceglie,2015/2016,0,3,0,Marseille,Left Back,15,0,0,Ligue 1,2015/2016,2015/2016,2015
+Pape Abdou Paye,2015/2016,0,2,0,Lorient,Left Back,10,0,0,Ligue 1,2015/2016,2015/2016,2015
+Pape Gueye,2021/2022,0,2,0,Marseille,Left Defensive Midfield,10,0,0,Ligue 1,2021/2022,2021/2022,2021
+Pape Gueye,2022/2023,0,1,0,Marseille,Left Center Midfield,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Pape Matar Sarr,2021/2022,0,1,0,Metz,Right Wing,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Patrice Evra,2003/2004,0,1,0,AS Monaco,Left Back,5,0,0,Ligue 1,2003/2004,2003/2004,2003
+Paul Baysse,2015/2016,0,14,0,OGC Nice,Right Center Back,70,0,0,Ligue 1,2015/2016,2015/2016,2015
+Paul Lasne,2015/2016,0,3,0,Montpellier,Right Wing,15,0,0,Ligue 1,2015/2016,2015/2016,2015
+Paul-Georges Ntep de Madiba,2015/2016,2,21,0,Rennes,Left Center Forward,205,0,0,Ligue 1,2015/2016,2015/2016,2015
+Paulin Puel,2015/2016,0,2,0,OGC Nice,Right Center Forward,10,0,0,Ligue 1,2015/2016,2015/2016,2015
+Pavle Ninkov,2015/2016,0,1,0,Toulouse,Right Back,5,0,0,Ligue 1,2015/2016,2015/2016,2015
+Pedro Chirivella Burgos,2022/2023,0,1,0,Nantes,Left Defensive Midfield,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Pedro Filipe Teodósio Mendes,2015/2016,0,9,0,Rennes,Right Center Back,45,0,0,Ligue 1,2015/2016,2015/2016,2015
+Pedro Henrique Konzen Medina da Silva,2015/2016,3,37,0,Rennes,Center Forward,335,0,0,Ligue 1,2015/2016,2015/2016,2015
+Pierre Lees Melou,2022/2023,0,1,0,Stade Brestois,Left Wing,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Pierre-Yves Polomat,2015/2016,0,5,0,Saint-Étienne,Left Back,25,0,0,Ligue 1,2015/2016,2015/2016,2015
+Pierrick Capelle,2015/2016,4,27,0,Angers,Left Center Midfield,335,0,0,Ligue 1,2015/2016,2015/2016,2015
+Presnel Kimpembe,2021/2022,1,6,0,Paris Saint-Germain,Left Center Back,80,0,0,Ligue 1,2021/2022,2021/2022,2021
+Presnel Kimpembe,2022/2023,0,4,0,Paris Saint-Germain,Left Center Back,20,0,0,Ligue 1,2022/2023,2022/2023,2022
+Prince Oniangué,2015/2016,4,32,0,Stade de Reims,Center Attacking Midfield,360,0,0,Ligue 1,2015/2016,2015/2016,2015
+Przemysław Frankowski,2021/2022,0,3,0,Lens,Left Wing Back,15,0,0,Ligue 1,2021/2022,2021/2022,2021
+Przemysław Frankowski,2022/2023,1,3,0,Lens,Right Wing Back,65,0,0,Ligue 1,2022/2023,2022/2023,2022
+Quentin Boisgard,2021/2022,0,1,0,Lorient,Right Center Forward,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Quentin Cornette,2015/2016,0,4,0,Montpellier,Right Wing,20,0,0,Ligue 1,2015/2016,2015/2016,2015
+Quentin Merlin,2021/2022,1,1,0,Nantes,Left Wing Back,55,0,0,Ligue 1,2021/2022,2021/2022,2021
+Quentin Othon,2015/2016,1,3,0,Troyes,Left Back,65,0,0,Ligue 1,2015/2016,2015/2016,2015
+Rachid Ghezzal,2015/2016,8,55,0,Lyon,Right Wing,675,0,0,Ligue 1,2015/2016,2015/2016,2015
+Rafael Pereira da Silva,2015/2016,1,12,0,Lyon,Right Back,110,0,0,Ligue 1,2015/2016,2015/2016,2015
+Rafael Rogério da Silva,2022/2023,0,1,0,Toulouse,Right Wing,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Rafidine Abdullah,2015/2016,1,6,0,Lorient,Left Defensive Midfield,80,0,0,Ligue 1,2015/2016,2015/2016,2015
+Ramy Bensebaini,2015/2016,2,11,0,Montpellier,Left Back,155,0,0,Ligue 1,2015/2016,2015/2016,2015
+Randal Kolo Muani,2021/2022,2,6,0,Nantes,Left Wing,130,0,0,Ligue 1,2021/2022,2021/2022,2021
+Raphaël Adelino José Guerreiro,2015/2016,3,42,0,Lorient,Left Midfield,360,0,0,Ligue 1,2015/2016,2015/2016,2015
+Rayan Ny Aina Arnaldo Raveloson,2022/2023,0,3,0,Auxerre,Right Center Back,15,0,0,Ligue 1,2022/2023,2022/2023,2022
+Renato Civelli,2015/2016,0,17,0,Lille,Right Center Back,85,0,0,Ligue 1,2015/2016,2015/2016,2015
+Renato Júnior Luz Sanches,2021/2022,0,1,0,Lille,Left Center Midfield,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Renato Júnior Luz Sanches,2022/2023,2,14,0,Paris Saint-Germain,Left Center Midfield,170,0,0,Ligue 1,2022/2023,2022/2023,2022
+Renaud Cohade,2015/2016,0,11,0,Saint-Étienne,Left Center Midfield,55,0,0,Ligue 1,2015/2016,2015/2016,2015
+Renaud Ripart,2021/2022,0,1,0,Troyes,Right Wing,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Renaud Ripart,2022/2023,0,1,0,Troyes,Right Wing Back,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Reynald Lemaître,2015/2016,0,1,0,Guingamp,Left Back,5,0,0,Ligue 1,2015/2016,2015/2016,2015
+Ricardo Alberto Silveira de Carvalho,2015/2016,2,8,0,AS Monaco,Left Center Back,140,0,0,Ligue 1,2015/2016,2015/2016,2015
+Ricardo Domingos Barbosa Pereira,2015/2016,0,4,0,OGC Nice,Left Back,20,0,0,Ligue 1,2015/2016,2015/2016,2015
+Rio Antonio Zoba Mavuba,2015/2016,0,11,0,Lille,Center Defensive Midfield,55,0,0,Ligue 1,2015/2016,2015/2016,2015
+Robert Berič,2015/2016,3,16,0,Saint-Étienne,Center Forward,230,0,0,Ligue 1,2015/2016,2015/2016,2015
+Robin Maulun,2015/2016,0,1,0,Bordeaux,Right Center Back,5,0,0,Ligue 1,2015/2016,2015/2016,2015
+Roderic Filippi,2015/2016,2,15,0,Gazélec Ajaccio,Right Center Back,175,0,0,Ligue 1,2015/2016,2015/2016,2015
+Rodrigue Casimir Ninga,2015/2016,7,43,0,Montpellier,Left Wing,565,0,0,Ligue 1,2015/2016,2015/2016,2015
+Rolando Jorge Pires da Fonseca,2015/2016,1,7,0,Marseille,Left Center Back,85,0,0,Ligue 1,2015/2016,2015/2016,2015
+Romain Alessandrini,2015/2016,5,58,0,Marseille,Right Wing,540,0,0,Ligue 1,2015/2016,2015/2016,2015
+Romain Danzé,2015/2016,0,6,0,Rennes,Right Back,30,0,0,Ligue 1,2015/2016,2015/2016,2015
+Romain Del Castillo,2015/2016,0,1,0,Lyon,Left Center Midfield,5,0,0,Ligue 1,2015/2016,2015/2016,2015
+Romain Del Castillo,2022/2023,0,1,0,Stade Brestois,Left Midfield,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Romain Faivre,2022/2023,0,2,0,Lorient,Right Attacking Midfield,10,0,0,Ligue 1,2022/2023,2022/2023,2022
+Romain Genevois,2015/2016,1,1,0,OGC Nice,Right Center Back,55,0,0,Ligue 1,2015/2016,2015/2016,2015
+Romain Hamouma,2015/2016,3,38,0,Saint-Étienne,Right Wing,340,0,0,Ligue 1,2015/2016,2015/2016,2015
+Romain Philippoteaux,2015/2016,0,14,0,Lorient,Left Midfield,70,0,0,Ligue 1,2015/2016,2015/2016,2015
+Romain Saïss,2015/2016,2,26,0,Angers,Center Defensive Midfield,230,0,0,Ligue 1,2015/2016,2015/2016,2015
+Romain Thomas,2015/2016,2,13,0,Angers,Left Center Back,165,0,0,Ligue 1,2015/2016,2015/2016,2015
+Rominigue Kouamé N''Guessan,2021/2022,0,1,0,Troyes,Right Defensive Midfield,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Ronny Rodelin,2015/2016,10,76,0,Caen,Right Midfield,880,0,0,Ligue 1,2015/2016,2015/2016,2015
+Ross Barkley,2022/2023,0,1,0,OGC Nice,Right Center Midfield,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Ryad Boudebouz,2015/2016,2,54,0,Montpellier,Center Attacking Midfield,370,0,0,Ligue 1,2015/2016,2015/2016,2015
+Ryad Boudebouz,2021/2022,0,2,0,Saint-Étienne,Center Forward,10,0,0,Ligue 1,2021/2022,2021/2022,2021
+Ryan Isaac Mendes da Graça,2015/2016,0,1,0,Lille,Left Center Back,5,0,0,Ligue 1,2015/2016,2015/2016,2015
+Rémi Gomis,2015/2016,0,5,0,Nantes,Right Defensive Midfield,25,0,0,Ligue 1,2015/2016,2015/2016,2015
+Rémi Mulumba,2015/2016,0,4,0,Lorient,Left Defensive Midfield,20,0,0,Ligue 1,2015/2016,2015/2016,2015
+Rémi Oudin,2021/2022,0,4,0,Bordeaux,Left Wing Back,20,0,0,Ligue 1,2021/2022,2021/2022,2021
+Rémi Walter,2015/2016,0,12,0,OGC Nice,Left Center Midfield,60,0,0,Ligue 1,2015/2016,2015/2016,2015
+Rémy Cabella,2015/2016,5,49,0,Marseille,Center Attacking Midfield,495,0,0,Ligue 1,2015/2016,2015/2016,2015
+Rémy Cabella,2022/2023,0,2,0,Lille,Left Wing,10,0,0,Ligue 1,2022/2023,2022/2023,2022
+Sada Thioub,2022/2023,1,2,0,Angers,Left Center Back,60,0,0,Ligue 1,2022/2023,2022/2023,2022
+Sael Kumbedi Nseke,2022/2023,0,1,0,Lyon,Right Wing Back,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Salis Abdul Samed,2022/2023,0,1,0,Lens,Right Defensive Midfield,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Salomon Junior Sambia,2021/2022,0,2,0,Montpellier,Right Back,10,0,0,Ligue 1,2021/2022,2021/2022,2021
+Samuel Moutoussamy,2021/2022,0,1,0,Nantes,Right Defensive Midfield,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Samuel Moutoussamy,2022/2023,0,1,0,Nantes,Right Defensive Midfield,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Samuel Yves Umtiti,2015/2016,1,16,0,Lyon,Left Center Back,130,0,0,Ligue 1,2015/2016,2015/2016,2015
+Sanjin Prcić,2021/2022,0,1,0,Strasbourg,Center Defensive Midfield,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Saîf-Eddine Khaoui,2021/2022,0,1,0,Clermont Foot,Left Wing,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Saïdi Ntibazonkiza,2015/2016,1,21,0,Caen,Left Midfield,155,0,0,Ligue 1,2015/2016,2015/2016,2015
+Sead Kolašinac,2022/2023,0,2,0,Marseille,Left Center Back,10,0,0,Ligue 1,2022/2023,2022/2023,2022
+Seko Fofana,2015/2016,1,33,0,Bastia,Left Defensive Midfield,215,0,0,Ligue 1,2015/2016,2015/2016,2015
+Seko Fofana,2021/2022,1,6,0,Lens,Left Defensive Midfield,80,0,0,Ligue 1,2021/2022,2021/2022,2021
+Sepe Elye Wahi,2022/2023,0,1,0,Montpellier,Left Midfield,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Serge Aurier,2015/2016,2,23,0,Paris Saint-Germain,Right Back,215,0,0,Ligue 1,2015/2016,2015/2016,2015
+Sergi Darder Moll,2015/2016,2,34,0,Lyon,Left Center Midfield,270,0,0,Ligue 1,2015/2016,2015/2016,2015
+Sergio Ramos García,2021/2022,1,11,0,Paris Saint-Germain,Left Center Back,105,0,0,Ligue 1,2021/2022,2021/2022,2021
+Sergio Ramos García,2022/2023,2,15,0,Paris Saint-Germain,Center Back,175,0,0,Ligue 1,2022/2023,2022/2023,2022
+Serhou Guirassy,2015/2016,0,5,0,Lille,Center Forward,25,0,0,Ligue 1,2015/2016,2015/2016,2015
+Sibiri Alain Traoré,2015/2016,0,1,0,Lorient,Right Center Back,5,0,0,Ligue 1,2015/2016,2015/2016,2015
+Siriki Dembele,2022/2023,0,1,0,Auxerre,Right Wing,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Slimane Sissoko,2015/2016,0,14,0,Angers,Right Wing,70,0,0,Ligue 1,2015/2016,2015/2016,2015
+Sloan Privat,2015/2016,7,35,0,Guingamp,Left Center Forward,525,0,0,Ligue 1,2015/2016,2015/2016,2015
+Sofiane Boufal,2015/2016,11,53,0,Lille,Right Wing,815,0,0,Ligue 1,2015/2016,2015/2016,2015
+Sofiane Diop,2021/2022,0,3,0,AS Monaco,Center Attacking Midfield,15,0,0,Ligue 1,2021/2022,2021/2022,2021
+Soualiho Meïté,2015/2016,0,1,0,Lille,Left Center Midfield,5,0,0,Ligue 1,2015/2016,2015/2016,2015
+Souleymane Camara,2015/2016,7,47,0,Montpellier,Right Center Forward,585,0,0,Ligue 1,2015/2016,2015/2016,2015
+Steed Malbranque,2015/2016,0,5,0,Lyon,Center Attacking Midfield,25,0,0,Ligue 1,2015/2016,2015/2016,2015
+Steeve Yago,2015/2016,0,1,0,Toulouse,Left Center Back,5,0,0,Ligue 1,2015/2016,2015/2016,2015
+Stephy Alvaro Mavididi,2021/2022,0,2,0,Montpellier,Center Forward,10,0,0,Ligue 1,2021/2022,2021/2022,2021
+Stephy Alvaro Mavididi,2022/2023,0,3,0,Montpellier,Left Center Forward,15,0,0,Ligue 1,2022/2023,2022/2023,2022
+Steve Michel Mounié,2022/2023,0,1,0,Stade Brestois,Center Forward,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Steven Moreira,2015/2016,0,2,0,Rennes,Right Back,10,0,0,Ligue 1,2015/2016,2015/2016,2015
+Stijn Spierings,2022/2023,0,1,0,Toulouse,Right Defensive Midfield,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Stopilla Sunzu,2015/2016,1,10,0,Lille,Right Center Back,100,0,0,Ligue 1,2015/2016,2015/2016,2015
+Stéphane Darbion,2015/2016,1,31,0,Troyes,Right Wing,205,0,0,Ligue 1,2015/2016,2015/2016,2015
+Stéphane Sparagna,2015/2016,0,3,0,Marseille,Right Center Back,15,0,0,Ligue 1,2015/2016,2015/2016,2015
+Sven Botman,2021/2022,1,2,0,Lille,Left Center Back,60,0,0,Ligue 1,2021/2022,2021/2022,2021
+Syam Ben Youssef,2015/2016,3,6,0,Caen,Left Center Back,180,0,0,Ligue 1,2015/2016,2015/2016,2015
+Sylvain Armand,2015/2016,1,14,0,Rennes,Left Center Back,120,0,0,Ligue 1,2015/2016,2015/2016,2015
+Sébastien Antoine Luc Salles Lamonge,2015/2016,0,3,0,Rennes,Left Center Midfield,15,0,0,Ligue 1,2015/2016,2015/2016,2015
+Sébastien Corchia,2015/2016,2,22,0,Lille,Right Back,210,0,0,Ligue 1,2015/2016,2015/2016,2015
+Sébastien Squillaci,2003/2004,0,4,0,AS Monaco,Left Center Back,20,0,0,Ligue 1,2003/2004,2003/2004,2003
+Sébastien Squillaci,2015/2016,2,11,0,Bastia,Right Center Back,155,0,0,Ligue 1,2015/2016,2015/2016,2015
+Sébastien Wüthrich,2015/2016,0,1,0,Montpellier,Left Wing,5,0,0,Ligue 1,2015/2016,2015/2016,2015
+Terem Igobor Moffi,2021/2022,1,7,0,Lorient,Right Center Forward,85,0,0,Ligue 1,2021/2022,2021/2022,2021
+Terem Igobor Moffi,2022/2023,0,3,0,OGC Nice,Center Forward,15,0,0,Ligue 1,2022/2023,2022/2023,2022
+Theoson Jordan Siebatcheu,2015/2016,3,29,0,Stade de Reims,Center Forward,295,0,0,Ligue 1,2015/2016,2015/2016,2015
+Thiago Emiliano da Silva,2015/2016,1,16,0,Paris Saint-Germain,Right Center Back,130,0,0,Ligue 1,2015/2016,2015/2016,2015
+Thiago Henrique Mendes Ribeiro,2022/2023,0,1,0,Lyon,Left Defensive Midfield,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Thiago Motta,2015/2016,1,12,0,Paris Saint-Germain,Center Defensive Midfield,110,0,0,Ligue 1,2015/2016,2015/2016,2015
+Thiago Xavier Rodrigues Corrêa,2015/2016,2,13,0,Troyes,Center Defensive Midfield,165,0,0,Ligue 1,2015/2016,2015/2016,2015
+Thibault Giresse,2015/2016,4,23,0,Guingamp,Left Midfield,315,0,0,Ligue 1,2015/2016,2015/2016,2015
+Thievy Guivane Bifouma Koulossa,2015/2016,4,20,0,Stade de Reims,Center Forward,300,0,0,Ligue 1,2015/2016,2015/2016,2015
+Thijs Dallinga,2022/2023,0,5,0,Toulouse,Center Forward,25,0,0,Ligue 1,2022/2023,2022/2023,2022
+Thilo Kehrer,2021/2022,0,3,0,Paris Saint-Germain,Right Back,15,0,0,Ligue 1,2021/2022,2021/2022,2021
+Thomas Ayasse,2015/2016,1,11,0,Troyes,Right Defensive Midfield,105,0,0,Ligue 1,2015/2016,2015/2016,2015
+Thomas Lemar,2015/2016,5,36,0,AS Monaco,Left Wing,430,0,0,Ligue 1,2015/2016,2015/2016,2015
+Thomas Mangani,2015/2016,5,33,0,Angers,Left Center Midfield,415,0,0,Ligue 1,2015/2016,2015/2016,2015
+Thomas Mangani,2022/2023,0,1,0,AC Ajaccio,Center Defensive Midfield,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Thomas Monconduit,2021/2022,1,4,0,Lorient,Right Defensive Midfield,70,0,0,Ligue 1,2021/2022,2021/2022,2021
+Thomas Touré,2015/2016,2,29,0,Bordeaux,Right Wing,245,0,0,Ligue 1,2015/2016,2015/2016,2015
+Théo Sainte-Luce,2022/2023,0,1,0,Montpellier,Left Back,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Tiago Emanuel Embaló Djaló,2022/2023,0,1,0,Lille,Left Center Back,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Tiemoué Bakayoko,2015/2016,1,16,0,AS Monaco,Left Defensive Midfield,130,0,0,Ligue 1,2015/2016,2015/2016,2015
+Timothee Pembele,2022/2023,0,1,0,Paris Saint-Germain,Right Wing Back,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Timothy Weah,2021/2022,0,1,0,Lille,Right Midfield,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Timothy Weah,2022/2023,0,2,0,Lille,Left Back,10,0,0,Ligue 1,2022/2023,2022/2023,2022
+Timothée Kolodziejczak,2021/2022,0,2,0,Saint-Étienne,Left Center Back,10,0,0,Ligue 1,2021/2022,2021/2022,2021
+Tongo Hamed Doumbia,2015/2016,1,32,0,Toulouse,Right Center Midfield,210,0,0,Ligue 1,2015/2016,2015/2016,2015
+Téji Savanier,2022/2023,0,4,0,Montpellier,Left Center Midfield,20,0,0,Ligue 1,2022/2023,2022/2023,2022
+Ui-Jo Hwang,2021/2022,0,1,0,Bordeaux,Center Forward,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Uroš Spajić,2015/2016,0,5,0,Toulouse,Right Center Back,25,0,0,Ligue 1,2015/2016,2015/2016,2015
+Valentin Eysseric,2015/2016,6,39,0,Saint-Étienne,Center Attacking Midfield,495,0,0,Ligue 1,2015/2016,2015/2016,2015
+Valentin Lavigne,2015/2016,0,2,0,Lorient,Left Center Forward,10,0,0,Ligue 1,2015/2016,2015/2016,2015
+Valentin Rongier,2015/2016,1,7,0,Nantes,Right Defensive Midfield,85,0,0,Ligue 1,2015/2016,2015/2016,2015
+Valentin Rongier,2021/2022,0,2,0,Marseille,Right Back,10,0,0,Ligue 1,2021/2022,2021/2022,2021
+Valentín Vada,2015/2016,0,11,0,Bordeaux,Left Center Midfield,55,0,0,Ligue 1,2015/2016,2015/2016,2015
+Valon Berisha,2021/2022,0,1,0,Stade de Reims,Left Wing Back,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Valère Germain,2015/2016,14,66,0,OGC Nice,Right Center Forward,1030,0,0,Ligue 1,2015/2016,2015/2016,2015
+Veljko Birmančević,2022/2023,0,1,0,Toulouse,Right Center Midfield,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Vincent Bessat,2015/2016,1,40,0,Caen,Left Midfield,250,0,0,Ligue 1,2015/2016,2015/2016,2015
+Vincent Koziello,2015/2016,3,14,0,OGC Nice,Right Center Midfield,220,0,0,Ligue 1,2015/2016,2015/2016,2015
+Vincent Le Goff,2015/2016,0,7,0,Lorient,Left Back,35,0,0,Ligue 1,2015/2016,2015/2016,2015
+Vincent Manceau,2015/2016,0,6,0,Angers,Right Back,30,0,0,Ligue 1,2015/2016,2015/2016,2015
+Vincent Marchetti,2022/2023,0,4,0,AC Ajaccio,Right Defensive Midfield,20,0,0,Ligue 1,2022/2023,2022/2023,2022
+Vincent Pajot,2015/2016,1,23,0,Saint-Étienne,Left Center Midfield,165,0,0,Ligue 1,2015/2016,2015/2016,2015
+Vincent Pajot,2021/2022,0,1,0,Metz,Right Defensive Midfield,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Vitor Machado Ferreira,2022/2023,1,25,0,Paris Saint-Germain,Right Defensive Midfield,175,0,0,Ligue 1,2022/2023,2022/2023,2022
+Vitorino Hilton da Silva,2015/2016,1,23,0,Montpellier,Right Center Back,165,0,0,Ligue 1,2015/2016,2015/2016,2015
+Vivaldo Borges dos Santos Neto,2022/2023,0,1,0,Clermont Foot,Left Back,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Vágner Silva de Souza,2015/2016,4,25,0,AS Monaco,Center Forward,325,0,0,Ligue 1,2015/2016,2015/2016,2015
+Vítor Manuel Carvalho Oliveira,2022/2023,0,1,0,Marseille,Left Center Forward,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Wahbi Khazri,2015/2016,7,66,0,Bordeaux,Left Midfield,680,0,0,Ligue 1,2015/2016,2015/2016,2015
+Wahbi Khazri,2021/2022,0,1,0,Saint-Étienne,Center Forward,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Wahbi Khazri,2022/2023,1,2,0,Montpellier,Center Forward,60,0,0,Ligue 1,2022/2023,2022/2023,2022
+Walid Mesloub,2015/2016,1,22,0,Lorient,Left Defensive Midfield,160,0,0,Ligue 1,2015/2016,2015/2016,2015
+Wallace Fortuna dos Santos,2015/2016,1,13,0,AS Monaco,Right Center Back,115,0,0,Ligue 1,2015/2016,2015/2016,2015
+Wallyson Teixeira Mallmann,2015/2016,0,15,0,OGC Nice,Center Attacking Midfield,75,0,0,Ligue 1,2015/2016,2015/2016,2015
+Warren Zaire Emery,2022/2023,1,7,0,Paris Saint-Germain,Center Attacking Midfield,85,0,0,Ligue 1,2022/2023,2022/2023,2022
+Wergiton do Rosário Calmon,2015/2016,0,12,0,Toulouse,Right Back,60,0,0,Ligue 1,2015/2016,2015/2016,2015
+Wesley Lautoa,2015/2016,0,5,0,Lorient,Left Center Back,25,0,0,Ligue 1,2015/2016,2015/2016,2015
+Wilfried Moimbé,2015/2016,0,8,0,Nantes,Left Back,40,0,0,Ligue 1,2015/2016,2015/2016,2015
+William Jean Rémy,2015/2016,0,15,0,Montpellier,Right Defensive Midfield,75,0,0,Ligue 1,2015/2016,2015/2016,2015
+William Saliba,2021/2022,0,1,0,Marseille,Right Center Back,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Wilson Odobert,2022/2023,0,1,0,Troyes,Left Wing,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Wissam Ben Yedder,2015/2016,17,94,0,Toulouse,Center Forward,1320,0,0,Ligue 1,2015/2016,2015/2016,2015
+Wissam Ben Yedder,2022/2023,0,1,0,AS Monaco,Left Center Forward,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Xavi Simons,2021/2022,0,2,0,Paris Saint-Germain,Right Wing,10,0,0,Ligue 1,2021/2022,2021/2022,2021
+Xavier Chavalerin,2021/2022,0,1,0,Troyes,Left Wing,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Xherdan Shaqiri,2021/2022,0,1,0,Lyon,Right Wing,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Yacine Adli,2021/2022,0,2,0,Bordeaux,Left Wing,10,0,0,Ligue 1,2021/2022,2021/2022,2021
+Yacine Bammou,2015/2016,4,43,0,Nantes,Center Attacking Midfield,415,0,0,Ligue 1,2015/2016,2015/2016,2015
+Yacouba Sylla,2015/2016,0,11,0,Rennes,Left Defensive Midfield,55,0,0,Ligue 1,2015/2016,2015/2016,2015
+Yan Valery,2022/2023,0,1,0,Angers,Right Center Back,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Yann Bodiger,2015/2016,1,10,0,Toulouse,Center Defensive Midfield,100,0,0,Ligue 1,2015/2016,2015/2016,2015
+Yann Jouffre,2015/2016,2,38,0,Lorient,Right Midfield,290,0,0,Ligue 1,2015/2016,2015/2016,2015
+Yannick Cahuzac,2015/2016,2,11,0,Bastia,Right Defensive Midfield,155,0,0,Ligue 1,2015/2016,2015/2016,2015
+Yannis Salibur,2015/2016,7,78,0,Guingamp,Right Midfield,740,0,0,Ligue 1,2015/2016,2015/2016,2015
+Yassine Benzia,2015/2016,5,37,0,Lille,Center Forward,435,0,0,Ligue 1,2015/2016,2015/2016,2015
+Yoann Andreu,2015/2016,0,5,0,Angers,Left Back,25,0,0,Ligue 1,2015/2016,2015/2016,2015
+Yoann Court,2015/2016,0,23,0,Troyes,Left Wing,115,0,0,Ligue 1,2015/2016,2015/2016,2015
+Yoann Gourcuff,2015/2016,2,10,0,Rennes,Left Midfield,150,0,0,Ligue 1,2015/2016,2015/2016,2015
+Yoann Salmier,2022/2023,0,1,0,Troyes,Left Center Back,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Yohan Mollo,2015/2016,0,1,0,Saint-Étienne,Left Midfield,5,0,0,Ligue 1,2015/2016,2015/2016,2015
+Yohann Magnin,2021/2022,0,1,0,Clermont Foot,Right Defensive Midfield,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Youcef Atal,2022/2023,0,1,0,OGC Nice,Right Wing Back,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Younousse Sankharé,2015/2016,6,30,0,Guingamp,Left Defensive Midfield,450,0,0,Ligue 1,2015/2016,2015/2016,2015
+Youssouf Fofana,2021/2022,0,1,0,AS Monaco,Right Defensive Midfield,5,0,0,Ligue 1,2021/2022,2021/2022,2021
+Youssouf Fofana,2022/2023,0,1,0,AS Monaco,Right Defensive Midfield,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Youssouf Ndayishimiye,2022/2023,0,3,0,OGC Nice,Right Center Back,15,0,0,Ligue 1,2022/2023,2022/2023,2022
+Youssouf Sabaly,2015/2016,2,13,0,Nantes,Right Back,165,0,0,Ligue 1,2015/2016,2015/2016,2015
+Yunis Abdelhamid,2021/2022,0,2,0,Stade de Reims,Left Center Back,10,0,0,Ligue 1,2021/2022,2021/2022,2021
+Yunis Abdelhamid,2022/2023,0,1,0,Stade de Reims,Left Center Back,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Yusuf Yazıcı,2022/2023,0,1,0,Lille,Center Attacking Midfield,5,0,0,Ligue 1,2022/2023,2022/2023,2022
+Zakaria Aboukhlal,2022/2023,0,2,0,Toulouse,Left Wing,10,0,0,Ligue 1,2022/2023,2022/2023,2022
+Zakarie Labidi,2015/2016,0,2,0,Lyon,Left Wing,10,0,0,Ligue 1,2015/2016,2015/2016,2015
+Zargo Touré,2015/2016,4,11,0,Lorient,Left Center Back,255,0,0,Ligue 1,2015/2016,2015/2016,2015
+Zaydou Youssouf,2021/2022,0,2,0,Saint-Étienne,Center Attacking Midfield,10,0,0,Ligue 1,2021/2022,2021/2022,2021
+Zinédine Machach,2015/2016,1,8,0,Toulouse,Left Center Midfield,90,0,0,Ligue 1,2015/2016,2015/2016,2015
+Zlatan Ibrahimović,2015/2016,36,148,0,Paris Saint-Germain,Center Forward,2540,0,0,Ligue 1,2015/2016,2015/2016,2015
+Ángel Fabián Di María Hernández,2015/2016,10,68,0,Paris Saint-Germain,Right Wing,840,0,0,Ligue 1,2015/2016,2015/2016,2015
+Ángel Fabián Di María Hernández,2021/2022,4,44,0,Paris Saint-Germain,Right Wing,420,0,0,Ligue 1,2021/2022,2021/2022,2021
+Éderzito António Macedo Lopes,2015/2016,6,36,0,Lille,Center Forward,480,0,0,Ligue 1,2015/2016,2015/2016,2015
+Éric Bauthéac,2015/2016,2,54,0,Lille,Left Wing,370,0,0,Ligue 1,2015/2016,2015/2016,2015
+Étienne Didot,2015/2016,0,13,0,Toulouse,Left Center Midfield,65,0,0,Ligue 1,2015/2016,2015/2016,2015
+Óscar Guido Trejo,2015/2016,4,43,0,Toulouse,Center Attacking Midfield,415,0,0,Ligue 1,2015/2016,2015/2016,2015

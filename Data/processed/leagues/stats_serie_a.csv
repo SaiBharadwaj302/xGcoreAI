@@ -1,0 +1,537 @@
+player_name,season_norm,goals,shots,passes,team_name,primary_pos,att_score,mid_score,def_score,league,season_name,season,extracted_year
+Abdoulay Konko,2015/2016,0,13,0,Lazio,Right Back,65,0,0,Serie A,2015/2016,2015/2016,2015
+Abel Eduardo Balbo,1999/2000,1,3,0,Fiorentina,Right Center Forward,65,0,0,Serie A,1999/2000,1999/2000,1999
+Achraf Lazaar,2015/2016,1,29,0,Palermo,Left Back,195,0,0,Serie A,2015/2016,2015/2016,2015
+Adam Masina,2015/2016,2,13,0,Bologna,Left Back,165,0,0,Serie A,2015/2016,2015/2016,2015
+Adem Ljajić,2015/2016,3,39,0,Inter Milan,Right Wing,345,0,0,Serie A,2015/2016,2015/2016,2015
+Adriano Russo,2015/2016,1,1,0,Frosinone,Right Center Back,55,0,0,Serie A,2015/2016,2015/2016,2015
+Afriyie Acquah,2015/2016,2,24,0,Torino,Right Center Midfield,220,0,0,Serie A,2015/2016,2015/2016,2015
+Alberto Facundo Costa,2015/2016,0,19,0,Genoa,Left Defensive Midfield,95,0,0,Serie A,2015/2016,2015/2016,2015
+Alberto Gilardino,2015/2016,10,49,0,Palermo,Center Forward,745,0,0,Serie A,2015/2016,2015/2016,2015
+Alberto Grassi,2015/2016,0,16,0,Atalanta,Right Center Midfield,80,0,0,Serie A,2015/2016,2015/2016,2015
+Alberto Paloschi,2015/2016,10,56,0,Chievo,Right Center Forward,780,0,0,Serie A,2015/2016,2015/2016,2015
+Aldo Serena,1986/1987,0,1,0,Juventus,Right Center Forward,5,0,0,Serie A,1986/1987,1986/1987,1986
+Aleandro Rosi,2015/2016,0,15,0,Frosinone,Right Back,75,0,0,Serie A,2015/2016,2015/2016,2015
+Alejandro Darío Gómez,2015/2016,7,87,0,Atalanta,Left Wing,785,0,0,Serie A,2015/2016,2015/2016,2015
+Aleksandar Tonev,2015/2016,0,32,0,Frosinone,Right Wing,160,0,0,Serie A,2015/2016,2015/2016,2015
+Aleksandar Trajkovski,2015/2016,3,39,0,Palermo,Left Attacking Midfield,345,0,0,Serie A,2015/2016,2015/2016,2015
+Alessandro Altobelli,1988/1989,0,3,0,Juventus,Center Forward,15,0,0,Serie A,1988/1989,1988/1989,1988
+Alessandro Diamanti,2015/2016,1,25,0,Atalanta,Right Wing,175,0,0,Serie A,2015/2016,2015/2016,2015
+Alessandro Florenzi,2015/2016,7,48,0,AS Roma,Right Back,590,0,0,Serie A,2015/2016,2015/2016,2015
+Alessandro Frara,2015/2016,2,12,0,Frosinone,Left Center Midfield,160,0,0,Serie A,2015/2016,2015/2016,2015
+Alessandro Gamberini,2015/2016,0,4,0,Chievo,Right Center Back,20,0,0,Serie A,2015/2016,2015/2016,2015
+Alessandro Gazzi,2015/2016,0,2,0,Torino,Center Defensive Midfield,10,0,0,Serie A,2015/2016,2015/2016,2015
+Alessandro Longhi,2015/2016,0,1,0,Sassuolo,Left Back,5,0,0,Serie A,2015/2016,2015/2016,2015
+Alessandro Matri,2015/2016,4,12,0,Lazio,Center Forward,260,0,0,Serie A,2015/2016,2015/2016,2015
+Alessandro Nesta,2004/2005,0,1,0,AC Milan,Left Center Back,5,0,0,Serie A,2004/2005,2004/2005,2004
+Alessandro Piu,2015/2016,0,3,0,Empoli,Left Center Forward,15,0,0,Serie A,2015/2016,2015/2016,2015
+Alessandro Renica,1986/1987,0,4,0,Napoli,Center Back,20,0,0,Serie A,1986/1987,1986/1987,1986
+Alessandro Renica,1988/1989,1,5,0,Napoli,Center Back,75,0,0,Serie A,1988/1989,1988/1989,1988
+Alessio Cerci,2015/2016,4,39,0,Genoa,Right Wing,395,0,0,Serie A,2015/2016,2015/2016,2015
+Alessio Romagnoli,2015/2016,0,6,0,AC Milan,Left Center Back,30,0,0,Serie A,2015/2016,2015/2016,2015
+Alex Ferrari,2015/2016,0,8,0,Bologna,Right Back,40,0,0,Serie A,2015/2016,2015/2016,2015
+Alex Nicolao Telles,2015/2016,0,13,0,Inter Milan,Left Back,65,0,0,Serie A,2015/2016,2015/2016,2015
+Alex Rodrigo Dias da Costa,2015/2016,3,23,0,AC Milan,Right Center Back,265,0,0,Serie A,2015/2016,2015/2016,2015
+Alex Sandro Lobo Silva,2015/2016,2,18,0,Juventus,Left Wing Back,190,0,0,Serie A,2015/2016,2015/2016,2015
+Alex Sandro Lobo Silva,2016/2017,0,1,0,Juventus,Left Back,5,0,0,Serie A,2016/2017,2016/2017,2016
+Alexander Farnerud,2015/2016,0,2,0,Torino,Left Center Midfield,10,0,0,Serie A,2015/2016,2015/2016,2015
+Alexander Merkel,2015/2016,0,1,0,Udinese,Right Center Midfield,5,0,0,Serie A,2015/2016,2015/2016,2015
+Ali Adnan Kadhim Al Tameemi,2015/2016,1,23,0,Udinese,Left Wing Back,165,0,0,Serie A,2015/2016,2015/2016,2015
+Aljaž Struna,2015/2016,1,7,0,Palermo,Right Center Back,85,0,0,Serie A,2015/2016,2015/2016,2015
+Allan Marques Loureiro,2015/2016,3,29,0,Napoli,Right Center Midfield,295,0,0,Serie A,2015/2016,2015/2016,2015
+Amadou Diawara,2015/2016,0,20,0,Bologna,Center Defensive Midfield,100,0,0,Serie A,2015/2016,2015/2016,2015
+Anderson Hernanes de Carvalho Andrade,2015/2016,1,33,0,Juventus,Center Defensive Midfield,215,0,0,Serie A,2015/2016,2015/2016,2015
+Andrea Barzagli,2015/2016,1,4,0,Juventus,Right Center Back,70,0,0,Serie A,2015/2016,2015/2016,2015
+Andrea Belotti,2015/2016,12,73,0,Torino,Right Center Forward,965,0,0,Serie A,2015/2016,2015/2016,2015
+Andrea Bertolacci,2015/2016,1,18,0,AC Milan,Left Defensive Midfield,140,0,0,Serie A,2015/2016,2015/2016,2015
+Andrea Carnevale,1988/1989,2,11,0,Napoli,Left Center Forward,155,0,0,Serie A,1988/1989,1988/1989,1988
+Andrea Conti,2015/2016,2,5,0,Atalanta,Right Wing Back,125,0,0,Serie A,2015/2016,2015/2016,2015
+Andrea Costa,2015/2016,1,7,0,Empoli,Left Center Back,85,0,0,Serie A,2015/2016,2015/2016,2015
+Andrea Lazzari,2015/2016,1,10,0,Carpi,Center Attacking Midfield,100,0,0,Serie A,2015/2016,2015/2016,2015
+Andrea Masiello,2015/2016,0,4,0,Atalanta,Right Back,20,0,0,Serie A,2015/2016,2015/2016,2015
+Andrea Pirlo,2004/2005,0,3,0,AC Milan,Center Defensive Midfield,15,0,0,Serie A,2004/2005,2004/2005,2004
+Andrea Pirlo,2006/2007,0,2,0,AC Milan,Center Defensive Midfield,10,0,0,Serie A,2006/2007,2006/2007,2006
+Andrea Poli,2015/2016,0,5,0,AC Milan,Right Defensive Midfield,25,0,0,Serie A,2015/2016,2015/2016,2015
+Andrea Ranocchia,2015/2016,0,9,0,Sampdoria,Center Back,45,0,0,Serie A,2015/2016,2015/2016,2015
+Andrea Rispoli,2015/2016,0,12,0,Palermo,Right Wing Back,60,0,0,Serie A,2015/2016,2015/2016,2015
+Andriy Shevchenko,2004/2005,0,6,0,AC Milan,Right Center Forward,30,0,0,Serie A,2004/2005,2004/2005,2004
+Angelo Di Livio,1999/2000,0,2,0,Fiorentina,Right Midfield,10,0,0,Serie A,1999/2000,1999/2000,1999
+Angelo Palombo,2015/2016,0,1,0,Sampdoria,Right Center Midfield,5,0,0,Serie A,2015/2016,2015/2016,2015
+Ante Rebić,2015/2016,1,17,0,Hellas Verona,Left Midfield,135,0,0,Serie A,2015/2016,2015/2016,2015
+Anthony Mounier,2015/2016,4,23,0,Bologna,Right Wing,315,0,0,Serie A,2015/2016,2015/2016,2015
+Antonino La Gumina,2015/2016,0,3,0,Palermo,Right Midfield,15,0,0,Serie A,2015/2016,2015/2016,2015
+Antonio Cabrini,1986/1987,0,2,0,Juventus,Left Wing Back,10,0,0,Serie A,1986/1987,1986/1987,1986
+Antonio Candreva,2015/2016,10,90,0,Lazio,Right Wing,950,0,0,Serie A,2015/2016,2015/2016,2015
+Antonio Cassano,2015/2016,2,18,0,Sampdoria,Center Forward,190,0,0,Serie A,2015/2016,2015/2016,2015
+Antonio Di Gaudio,2015/2016,3,36,0,Carpi,Left Midfield,330,0,0,Serie A,2015/2016,2015/2016,2015
+Antonio Di Natale,2015/2016,2,33,0,Udinese,Left Center Forward,265,0,0,Serie A,2015/2016,2015/2016,2015
+Antonio Floro Flores,2015/2016,4,59,0,Sassuolo,Left Wing,495,0,0,Serie A,2015/2016,2015/2016,2015
+Antonio Rüdiger,2015/2016,2,18,0,AS Roma,Left Center Back,190,0,0,Serie A,2015/2016,2015/2016,2015
+Antônio de Oliveira Filho,1988/1989,2,11,0,Napoli,Right Center Forward,155,0,0,Serie A,1988/1989,1988/1989,1988
+Archimede Morleo,2015/2016,0,4,0,Bologna,Left Back,20,0,0,Serie A,2015/2016,2015/2016,2015
+Arlind Afrim Ajeti,2015/2016,1,9,0,Frosinone,Right Center Back,95,0,0,Serie A,2015/2016,2015/2016,2015
+Armando Izzo,2015/2016,0,15,0,Genoa,Left Center Back,75,0,0,Serie A,2015/2016,2015/2016,2015
+Artur Ioniţă,2015/2016,4,40,0,Hellas Verona,Right Defensive Midfield,400,0,0,Serie A,2015/2016,2015/2016,2015
+Arturo Erasmo Vidal Pardo,2014/2015,0,2,0,Juventus,Secondary Striker,10,0,0,Serie A,2014/2015,2014/2015,2014
+Assane Demoya Gnoukouri,2015/2016,0,2,0,Inter Milan,Center Defensive Midfield,10,0,0,Serie A,2015/2016,2015/2016,2015
+Assane Dioussé El Hadji,2015/2016,0,5,0,Empoli,Center Defensive Midfield,25,0,0,Serie A,2015/2016,2015/2016,2015
+Berat Djimsiti,2015/2016,0,1,0,Atalanta,Left Center Back,5,0,0,Serie A,2015/2016,2015/2016,2015
+Blerim Džemaili,2015/2016,3,37,0,Genoa,Left Defensive Midfield,335,0,0,Serie A,2015/2016,2015/2016,2015
+Borja Valero Iglesias,2015/2016,4,36,0,Fiorentina,Left Defensive Midfield,380,0,0,Serie A,2015/2016,2015/2016,2015
+Boukary Dramé,2015/2016,0,18,0,Atalanta,Left Back,90,0,0,Serie A,2015/2016,2015/2016,2015
+Boško Janković,2015/2016,1,15,0,Hellas Verona,Right Wing,125,0,0,Serie A,2015/2016,2015/2016,2015
+Boštjan Cesar,2015/2016,1,15,0,Chievo,Left Center Back,125,0,0,Serie A,2015/2016,2015/2016,2015
+Bruno Giordano,1986/1987,1,6,0,Napoli,Center Forward,80,0,0,Serie A,1986/1987,1986/1987,1986
+Bruno Miguel Borges Fernandes,2015/2016,3,53,0,Udinese,Left Center Midfield,415,0,0,Serie A,2015/2016,2015/2016,2015
+Bruno da Silva Peres,2015/2016,3,40,0,Torino,Right Wing Back,350,0,0,Serie A,2015/2016,2015/2016,2015
+Bryan Cristante,2015/2016,0,2,0,Palermo,Left Defensive Midfield,10,0,0,Serie A,2015/2016,2015/2016,2015
+Carlos Alberto Tevez,2014/2015,0,4,0,Juventus,Right Center Forward,20,0,0,Serie A,2014/2015,2014/2015,2014
+Carlos Arturo Bacca Ahumada,2015/2016,18,81,0,AC Milan,Left Center Forward,1305,0,0,Serie A,2015/2016,2015/2016,2015
+Carlos Emilio Carmona Tello,2015/2016,0,1,0,Atalanta,Right Center Midfield,5,0,0,Serie A,2015/2016,2015/2016,2015
+Carlos Joaquín Correa,2015/2016,3,35,0,Sampdoria,Left Attacking Midfield,325,0,0,Serie A,2015/2016,2015/2016,2015
+Carlos Mario Carbonero Mancilla,2015/2016,0,6,0,Sampdoria,Left Midfield,30,0,0,Serie A,2015/2016,2015/2016,2015
+Cesare Bovo,2015/2016,2,10,0,Torino,Right Center Back,150,0,0,Serie A,2015/2016,2015/2016,2015
+Christian Maggio,2015/2016,0,1,0,Napoli,Right Back,5,0,0,Serie A,2015/2016,2015/2016,2015
+Ciro Ferrara,1988/1989,0,1,0,Napoli,Center Defensive Midfield,5,0,0,Serie A,1988/1989,1988/1989,1988
+Ciro Immobile,2015/2016,7,51,0,Torino,Left Center Forward,605,0,0,Serie A,2015/2016,2015/2016,2015
+Clarence Seedorf,2004/2005,0,1,0,AC Milan,Left Center Midfield,5,0,0,Serie A,2004/2005,2004/2005,2004
+Clarence Seedorf,2006/2007,0,1,0,AC Milan,Left Attacking Midfield,5,0,0,Serie A,2006/2007,2006/2007,2006
+Claudio Marchisio,2014/2015,0,3,0,Juventus,Right Center Midfield,15,0,0,Serie A,2014/2015,2014/2015,2014
+Claudio Marchisio,2015/2016,0,26,0,Juventus,Center Defensive Midfield,130,0,0,Serie A,2015/2016,2015/2016,2015
+Claudio Santos,2004/2005,0,1,0,AC Milan,Left Center Midfield,5,0,0,Serie A,2004/2005,2004/2005,2004
+Cristian Daniel Ansaldi,2015/2016,0,13,0,Genoa,Right Wing Back,65,0,0,Serie A,2015/2016,2015/2016,2015
+Cristian Eduardo Zapata Valencia,2015/2016,1,3,0,AC Milan,Right Center Back,65,0,0,Serie A,2015/2016,2015/2016,2015
+Cristian Molinaro,2015/2016,1,13,0,Torino,Left Wing Back,115,0,0,Serie A,2015/2016,2015/2016,2015
+Cristian Raimondi,2015/2016,0,6,0,Atalanta,Right Back,30,0,0,Serie A,2015/2016,2015/2016,2015
+Cristian Tello Herrera,2015/2016,2,22,0,Fiorentina,Right Wing,210,0,0,Serie A,2015/2016,2015/2016,2015
+Cristian Zaccardo,2015/2016,1,18,0,Carpi,Right Back,140,0,0,Serie A,2015/2016,2015/2016,2015
+Cyril Théréau,2015/2016,11,76,0,Udinese,Left Center Forward,930,0,0,Serie A,2015/2016,2015/2016,2015
+Daniel Ciofani,2015/2016,9,77,0,Frosinone,Right Center Forward,835,0,0,Serie A,2015/2016,2015/2016,2015
+Daniel Pavlovic,2015/2016,0,12,0,Frosinone,Left Back,60,0,0,Serie A,2015/2016,2015/2016,2015
+Daniele Baselli,2015/2016,4,33,0,Torino,Left Center Midfield,365,0,0,Serie A,2015/2016,2015/2016,2015
+Daniele Croce,2015/2016,0,12,0,Empoli,Left Center Midfield,60,0,0,Serie A,2015/2016,2015/2016,2015
+Daniele De Rossi,2015/2016,1,11,0,AS Roma,Left Center Back,105,0,0,Serie A,2015/2016,2015/2016,2015
+Daniele Gastaldello,2015/2016,1,8,0,Bologna,Right Center Back,90,0,0,Serie A,2015/2016,2015/2016,2015
+Daniele Rugani,2015/2016,0,3,0,Juventus,Left Center Back,15,0,0,Serie A,2015/2016,2015/2016,2015
+Daniele Verde,2015/2016,0,10,0,Frosinone,Center Attacking Midfield,50,0,0,Serie A,2015/2016,2015/2016,2015
+Danilo Cataldi,2015/2016,1,29,0,Lazio,Center Defensive Midfield,195,0,0,Serie A,2015/2016,2015/2016,2015
+Danilo D''Ambrosio,2015/2016,2,8,0,Inter Milan,Right Back,140,0,0,Serie A,2015/2016,2015/2016,2015
+Danilo Fernando Avelar,2015/2016,0,4,0,Torino,Left Wing Back,20,0,0,Serie A,2015/2016,2015/2016,2015
+Danilo Larangeira,2015/2016,0,14,0,Udinese,Center Back,70,0,0,Serie A,2015/2016,2015/2016,2015
+Danilo Soddimo,2015/2016,1,43,0,Frosinone,Left Midfield,265,0,0,Serie A,2015/2016,2015/2016,2015
+Dario Dainelli,2015/2016,1,2,0,Chievo,Right Center Back,60,0,0,Serie A,2015/2016,2015/2016,2015
+Darko Lazović,2015/2016,0,17,0,Genoa,Right Wing,85,0,0,Serie A,2015/2016,2015/2016,2015
+David López Silva,2015/2016,1,10,0,Napoli,Right Center Midfield,100,0,0,Serie A,2015/2016,2015/2016,2015
+Davide Astori,2015/2016,0,14,0,Fiorentina,Left Center Back,70,0,0,Serie A,2015/2016,2015/2016,2015
+Davide Biondini,2015/2016,0,7,0,Sassuolo,Right Center Midfield,35,0,0,Serie A,2015/2016,2015/2016,2015
+Davide Brivio,2015/2016,0,9,0,Atalanta,Left Back,45,0,0,Serie A,2015/2016,2015/2016,2015
+Davide Calabria,2015/2016,0,1,0,AC Milan,Right Back,5,0,0,Serie A,2015/2016,2015/2016,2015
+Davide Santon,2015/2016,0,3,0,Inter Milan,Right Back,15,0,0,Serie A,2015/2016,2015/2016,2015
+Davide Zappacosta,2015/2016,1,15,0,Torino,Right Wing Back,125,0,0,Serie A,2015/2016,2015/2016,2015
+Diego Alberto Milito,2009/2010,2,2,0,Inter Milan,Center Forward,110,0,0,Serie A,2009/2010,2009/2010,2009
+Diego Armando Maradona,1986/1987,0,4,0,Napoli,Center Attacking Midfield,20,0,0,Serie A,1986/1987,1986/1987,1986
+Diego Armando Maradona,1988/1989,2,8,0,Napoli,Center Attacking Midfield,140,0,0,Serie A,1988/1989,1988/1989,1988
+Diego Falcinelli,2015/2016,2,25,0,Sassuolo,Center Forward,225,0,0,Serie A,2015/2016,2015/2016,2015
+Diego Perotti,2015/2016,4,40,0,AS Roma,Center Attacking Midfield,400,0,0,Serie A,2015/2016,2015/2016,2015
+Diego Sebastián Laxalt Suárez,2015/2016,3,34,0,Genoa,Left Wing Back,320,0,0,Serie A,2015/2016,2015/2016,2015
+Diego Ángel Capel Trinidad,2015/2016,0,14,0,Genoa,Right Center Forward,70,0,0,Serie A,2015/2016,2015/2016,2015
+Diogo José Rosário Gomes Figueiras,2015/2016,1,7,0,Genoa,Right Wing Back,85,0,0,Serie A,2015/2016,2015/2016,2015
+Djamel Eddine Mesbah,2015/2016,0,2,0,Sampdoria,Left Back,10,0,0,Serie A,2015/2016,2015/2016,2015
+Domenico Berardi,2015/2016,7,88,0,Sassuolo,Right Wing,790,0,0,Serie A,2015/2016,2015/2016,2015
+Domenico Maietta,2015/2016,0,1,0,Bologna,Left Center Back,5,0,0,Serie A,2015/2016,2015/2016,2015
+Dries Mertens,2015/2016,5,55,0,Napoli,Left Wing,525,0,0,Serie A,2015/2016,2015/2016,2015
+Duván Esteban Zapata Banguera,2015/2016,8,52,0,Udinese,Right Center Forward,660,0,0,Serie A,2015/2016,2015/2016,2015
+Dušan Basta,2015/2016,0,11,0,Lazio,Right Back,55,0,0,Serie A,2015/2016,2015/2016,2015
+Dávid Ivan,2015/2016,1,5,0,Sampdoria,Left Defensive Midfield,75,0,0,Serie A,2015/2016,2015/2016,2015
+Edenílson Andrade dos Santos,2015/2016,0,12,0,Udinese,Left Wing Back,60,0,0,Serie A,2015/2016,2015/2016,2015
+Eder Citadin Martins,2015/2016,13,80,0,Sampdoria,Left Wing,1050,0,0,Serie A,2015/2016,2015/2016,2015
+Edin Džeko,2015/2016,8,88,0,AS Roma,Center Forward,840,0,0,Serie A,2015/2016,2015/2016,2015
+Edoardo Goldaniga,2015/2016,2,6,0,Palermo,Right Center Back,130,0,0,Serie A,2015/2016,2015/2016,2015
+Edson Braafheid,2015/2016,0,2,0,Lazio,Left Back,10,0,0,Serie A,2015/2016,2015/2016,2015
+Elseid Hysaj,2015/2016,0,12,0,Napoli,Right Back,60,0,0,Serie A,2015/2016,2015/2016,2015
+Emanuele Giaccherini,2015/2016,7,46,0,Bologna,Left Wing,580,0,0,Serie A,2015/2016,2015/2016,2015
+Emanuele Suagher,2015/2016,0,3,0,Carpi,Left Center Back,15,0,0,Serie A,2015/2016,2015/2016,2015
+Emerson Palmieri dos Santos,2015/2016,1,4,0,AS Roma,Left Back,70,0,0,Serie A,2015/2016,2015/2016,2015
+Emil Hallfreðsson,2015/2016,0,19,0,Hellas Verona,Left Center Midfield,95,0,0,Serie A,2015/2016,2015/2016,2015
+Emiliano Moretti,2015/2016,1,13,0,Torino,Left Center Back,115,0,0,Serie A,2015/2016,2015/2016,2015
+Emmanuel Agyemang-Badu,2015/2016,4,41,0,Udinese,Right Center Midfield,405,0,0,Serie A,2015/2016,2015/2016,2015
+Enzo Maresca,2015/2016,1,11,0,Palermo,Center Defensive Midfield,105,0,0,Serie A,2015/2016,2015/2016,2015
+Erick Antonio Pulgar Farfán,2015/2016,0,6,0,Bologna,Left Center Midfield,30,0,0,Serie A,2015/2016,2015/2016,2015
+Eros Pisano,2015/2016,5,23,0,Hellas Verona,Right Back,365,0,0,Serie A,2015/2016,2015/2016,2015
+Ervin Zukanović,2015/2016,3,11,0,Sampdoria,Left Center Back,205,0,0,Serie A,2015/2016,2015/2016,2015
+Esteban Matías Cambiasso Delau,2009/2010,0,1,0,Inter Milan,Left Defensive Midfield,5,0,0,Serie A,2009/2010,2009/2010,2009
+Ezequiel Muñoz,2015/2016,0,8,0,Genoa,Right Center Back,40,0,0,Serie A,2015/2016,2015/2016,2015
+Fabio Capello,1972/1973,0,1,0,Juventus,Left Center Midfield,5,0,0,Serie A,1972/1973,1972/1973,1972
+Fabio Daprelà,2015/2016,0,1,0,Palermo,Left Wing Back,5,0,0,Serie A,2015/2016,2015/2016,2015
+Fabio Quagliarella,2015/2016,8,101,0,Sampdoria,Center Forward,905,0,0,Serie A,2015/2016,2015/2016,2015
+Fabrizio Cacciatore,2015/2016,1,10,0,Chievo,Right Back,100,0,0,Serie A,2015/2016,2015/2016,2015
+Facundo Sebastián Roncaglia,2015/2016,1,11,0,Fiorentina,Right Center Back,105,0,0,Serie A,2015/2016,2015/2016,2015
+Faouzi Ghoulam,2015/2016,0,22,0,Napoli,Left Back,110,0,0,Serie A,2015/2016,2015/2016,2015
+Federico Barba,2015/2016,1,4,0,Empoli,Left Center Back,70,0,0,Serie A,2015/2016,2015/2016,2015
+Federico Bernardeschi,2015/2016,2,54,0,Fiorentina,Right Wing Back,370,0,0,Serie A,2015/2016,2015/2016,2015
+Federico Bonazzoli,2015/2016,0,1,0,Sampdoria,Left Midfield,5,0,0,Serie A,2015/2016,2015/2016,2015
+Federico Dionisi,2015/2016,9,86,0,Frosinone,Left Center Forward,880,0,0,Serie A,2015/2016,2015/2016,2015
+Federico Mattiello,2015/2016,0,3,0,Chievo,Right Back,15,0,0,Serie A,2015/2016,2015/2016,2015
+Federico Peluso,2015/2016,1,19,0,Sassuolo,Left Back,145,0,0,Serie A,2015/2016,2015/2016,2015
+Federico Viviani,2015/2016,3,32,0,Hellas Verona,Right Defensive Midfield,310,0,0,Serie A,2015/2016,2015/2016,2015
+Felipe Anderson Pereira Gomes,2015/2016,7,50,0,Lazio,Right Wing,600,0,0,Serie A,2015/2016,2015/2016,2015
+Felipe Dias da Silva dal Belo,2015/2016,1,11,0,Udinese,Left Center Back,105,0,0,Serie A,2015/2016,2015/2016,2015
+Felipe Melo de Carvalho,2015/2016,1,23,0,Inter Milan,Center Defensive Midfield,165,0,0,Serie A,2015/2016,2015/2016,2015
+Fernando De Napoli,1988/1989,0,4,0,Napoli,Right Wing Back,20,0,0,Serie A,1988/1989,1988/1989,1988
+Fernando Lucas Martins,2015/2016,4,48,0,Sampdoria,Center Defensive Midfield,440,0,0,Serie A,2015/2016,2015/2016,2015
+Filip Helander,2015/2016,2,6,0,Hellas Verona,Left Center Back,130,0,0,Serie A,2015/2016,2015/2016,2015
+Filip Đorđević,2015/2016,3,20,0,Lazio,Center Forward,250,0,0,Serie A,2015/2016,2015/2016,2015
+Filippo Falco,2015/2016,0,4,0,Bologna,Right Wing,20,0,0,Serie A,2015/2016,2015/2016,2015
+Filippo Inzaghi,2006/2007,2,2,0,AC Milan,Center Forward,110,0,0,Serie A,2006/2007,2006/2007,2006
+Filippo Porcari,2015/2016,0,2,0,Carpi,Right Center Midfield,10,0,0,Serie A,2015/2016,2015/2016,2015
+Francesco Acerbi,2015/2016,4,14,0,Sassuolo,Left Center Back,270,0,0,Serie A,2015/2016,2015/2016,2015
+Francesco Lodi,2015/2016,1,25,0,Udinese,Center Defensive Midfield,175,0,0,Serie A,2015/2016,2015/2016,2015
+Francesco Magnanelli,2015/2016,1,18,0,Sassuolo,Center Defensive Midfield,140,0,0,Serie A,2015/2016,2015/2016,2015
+Francesco Romano,1986/1987,0,2,0,Napoli,Left Center Midfield,10,0,0,Serie A,1986/1987,1986/1987,1986
+Francesco Totti,2015/2016,5,22,0,AS Roma,Center Forward,360,0,0,Serie A,2015/2016,2015/2016,2015
+Franco Brienza,2015/2016,3,41,0,Bologna,Center Attacking Midfield,355,0,0,Serie A,2015/2016,2015/2016,2015
+Franco Damián Vázquez,2015/2016,8,106,0,Palermo,Center Attacking Midfield,930,0,0,Serie A,2015/2016,2015/2016,2015
+Fredy Alejandro Guarín Vásquez,2015/2016,1,29,0,Inter Milan,Right Center Midfield,195,0,0,Serie A,2015/2016,2015/2016,2015
+Gabriel Alejandro Paletta,2015/2016,1,9,0,Atalanta,Left Center Back,95,0,0,Serie A,2015/2016,2015/2016,2015
+Gabriel Moisés Antunes da Silva,2015/2016,0,13,0,Carpi,Left Wing Back,65,0,0,Serie A,2015/2016,2015/2016,2015
+Gabriel Omar Batistuta,1999/2000,1,3,0,Fiorentina,Left Center Forward,65,0,0,Serie A,1999/2000,1999/2000,1999
+Gaetano Letizia,2015/2016,1,23,0,Carpi,Right Midfield,165,0,0,Serie A,2015/2016,2015/2016,2015
+Gaetano Monachello,2015/2016,0,15,0,Atalanta,Right Center Forward,75,0,0,Serie A,2015/2016,2015/2016,2015
+Gary Alexis Medel Soto,2015/2016,1,12,0,Inter Milan,Right Defensive Midfield,110,0,0,Serie A,2015/2016,2015/2016,2015
+Gastón Alexis Silva Perdomo,2015/2016,0,7,0,Torino,Left Wing Back,35,0,0,Serie A,2015/2016,2015/2016,2015
+Gastón Brugman,2015/2016,0,16,0,Palermo,Center Attacking Midfield,80,0,0,Serie A,2015/2016,2015/2016,2015
+Gennaro Sardo,2015/2016,1,2,0,Chievo,Right Back,60,0,0,Serie A,2015/2016,2015/2016,2015
+Geoffrey Kondogbia,2015/2016,1,38,0,Inter Milan,Left Center Midfield,240,0,0,Serie A,2015/2016,2015/2016,2015
+Germán Gustavo Denis,2015/2016,4,25,0,Atalanta,Center Forward,325,0,0,Serie A,2015/2016,2015/2016,2015
+Gervais Lombe Yao Kouassi,2015/2016,6,27,0,AS Roma,Left Wing,435,0,0,Serie A,2015/2016,2015/2016,2015
+Giacomo Bonaventura,2015/2016,6,106,0,AC Milan,Left Midfield,830,0,0,Serie A,2015/2016,2015/2016,2015
+Giampaolo Pazzini,2015/2016,6,79,0,Hellas Verona,Center Forward,695,0,0,Serie A,2015/2016,2015/2016,2015
+Giampiero Pinzi,2015/2016,0,3,0,Chievo,Right Center Midfield,15,0,0,Serie A,2015/2016,2015/2016,2015
+Giancarlo González Castro,2015/2016,2,4,0,Palermo,Left Center Back,120,0,0,Serie A,2015/2016,2015/2016,2015
+Giancarlo Marocchi,1988/1989,0,2,0,Juventus,Right Center Midfield,10,0,0,Serie A,1988/1989,1988/1989,1988
+Gianfranco Bedin,1971/1972,0,4,0,Inter Milan,Left Defensive Midfield,20,0,0,Serie A,1971/1972,1971/1972,1971
+Gianpaolo Bellini,2015/2016,1,6,0,Atalanta,Left Back,80,0,0,Serie A,2015/2016,2015/2016,2015
+Gianpietro Marchetti,1972/1973,0,1,0,Juventus,Right Back,5,0,0,Serie A,1972/1973,1972/1973,1972
+Gilberto Moraes Junior,2015/2016,0,7,0,Fiorentina,Right Wing Back,35,0,0,Serie A,2015/2016,2015/2016,2015
+Giorgio Chiellini,2015/2016,1,15,0,Juventus,Left Center Back,125,0,0,Serie A,2015/2016,2015/2016,2015
+Giovanni Francini,1988/1989,0,3,0,Napoli,Left Center Back,15,0,0,Serie A,1988/1989,1988/1989,1988
+Giovanni Marchese,2015/2016,0,4,0,Genoa,Left Center Back,20,0,0,Serie A,2015/2016,2015/2016,2015
+Giulio Migliaccio,2015/2016,0,3,0,Atalanta,Center Defensive Midfield,15,0,0,Serie A,2015/2016,2015/2016,2015
+Giuseppe Bruscolotti,1986/1987,0,2,0,Napoli,Left Center Back,10,0,0,Serie A,1986/1987,1986/1987,1986
+Giuseppe Pezzella,2015/2016,0,2,0,Palermo,Left Back,10,0,0,Serie A,2015/2016,2015/2016,2015
+Giuseppe Vives,2015/2016,1,16,0,Torino,Center Defensive Midfield,130,0,0,Serie A,2015/2016,2015/2016,2015
+Giuseppe Volpecina,1986/1987,1,1,0,Napoli,Left Wing Back,55,0,0,Serie A,1986/1987,1986/1987,1986
+Godfred Donsah,2015/2016,2,16,0,Bologna,Right Center Midfield,180,0,0,Serie A,2015/2016,2015/2016,2015
+Gonzalo Gerardo Higuaín,2015/2016,36,182,0,Napoli,Center Forward,2710,0,0,Serie A,2015/2016,2015/2016,2015
+Gonzalo Gerardo Higuaín,2016/2017,0,3,0,Juventus,Center Forward,15,0,0,Serie A,2016/2017,2016/2017,2016
+Gonzalo Javier Rodríguez,2015/2016,4,11,0,Fiorentina,Center Back,255,0,0,Serie A,2015/2016,2015/2016,2015
+Goran Pandev,2009/2010,0,1,0,Inter Milan,Left Wing,5,0,0,Serie A,2009/2010,2009/2010,2009
+Goran Pandev,2015/2016,0,17,0,Genoa,Left Center Forward,85,0,0,Serie A,2015/2016,2015/2016,2015
+Gregoire Defrel,2015/2016,7,52,0,Sassuolo,Center Forward,610,0,0,Serie A,2015/2016,2015/2016,2015
+Guglielmo Stendardo,2015/2016,1,6,0,Atalanta,Right Center Back,80,0,0,Serie A,2015/2016,2015/2016,2015
+Guilherme dos Santos Torres,2015/2016,0,6,0,Udinese,Center Defensive Midfield,30,0,0,Serie A,2015/2016,2015/2016,2015
+Hernán Jorge Crespo,2004/2005,2,3,0,AC Milan,Left Center Forward,115,0,0,Serie A,2004/2005,2004/2005,2004
+Iago Falqué Silva,2015/2016,2,16,0,AS Roma,Left Wing,180,0,0,Serie A,2015/2016,2015/2016,2015
+Ibrahima Mbaye,2015/2016,0,5,0,Bologna,Right Back,25,0,0,Serie A,2015/2016,2015/2016,2015
+Ignazio Abate,2015/2016,1,4,0,AC Milan,Right Back,70,0,0,Serie A,2015/2016,2015/2016,2015
+Igor Bubnjić,2015/2016,0,9,0,Carpi,Left Center Back,45,0,0,Serie A,2015/2016,2015/2016,2015
+Isaac Cofie,2015/2016,0,24,0,Carpi,Right Defensive Midfield,120,0,0,Serie A,2015/2016,2015/2016,2015
+Issa Cissokho,2015/2016,0,1,0,Genoa,Right Wing Back,5,0,0,Serie A,2015/2016,2015/2016,2015
+Ivan Gennaro Gattuso,2004/2005,0,1,0,AC Milan,Right Center Midfield,5,0,0,Serie A,2004/2005,2004/2005,2004
+Ivan Perišić,2015/2016,8,74,0,Inter Milan,Left Wing,770,0,0,Serie A,2015/2016,2015/2016,2015
+Ivan Radovanović,2015/2016,0,18,0,Chievo,Center Defensive Midfield,90,0,0,Serie A,2015/2016,2015/2016,2015
+Ivan Strinić,2015/2016,0,3,0,Napoli,Left Back,15,0,0,Serie A,2015/2016,2015/2016,2015
+Ivano Bonetti,1986/1987,0,1,0,Juventus,Center Defensive Midfield,5,0,0,Serie A,1986/1987,1986/1987,1986
+Ivaylo Chochev,2015/2016,0,29,0,Palermo,Left Center Midfield,145,0,0,Serie A,2015/2016,2015/2016,2015
+Iván Rodrigo Piris Leguizamón,2015/2016,0,4,0,Udinese,Right Center Back,20,0,0,Serie A,2015/2016,2015/2016,2015
+Jaap Stam,2004/2005,0,2,0,AC Milan,Right Center Back,10,0,0,Serie A,2004/2005,2004/2005,2004
+Jacopo Sala,2015/2016,0,11,0,Hellas Verona,Right Center Midfield,55,0,0,Serie A,2015/2016,2015/2016,2015
+Jair da Costa,1971/1972,0,1,0,Inter Milan,Right Wing,5,0,0,Serie A,1971/1972,1971/1972,1971
+Jakub Błaszczykowski,2015/2016,2,8,0,Fiorentina,Right Wing Back,140,0,0,Serie A,2015/2016,2015/2016,2015
+Jasmin Kurtič,2015/2016,2,41,0,Atalanta,Left Center Midfield,305,0,0,Serie A,2015/2016,2015/2016,2015
+Jeison Fabián Murillo Cerón,2015/2016,2,21,0,Inter Milan,Left Center Back,205,0,0,Serie A,2015/2016,2015/2016,2015
+Jerry Uche Mbakogu,2015/2016,2,35,0,Carpi,Center Forward,275,0,0,Serie A,2015/2016,2015/2016,2015
+Jesús Joaquín Fernández Sáez de la Torre,2015/2016,6,39,0,Genoa,Right Wing,495,0,0,Serie A,2015/2016,2015/2016,2015
+Joel Chukwuma Obi,2015/2016,1,3,0,Torino,Left Center Midfield,65,0,0,Serie A,2015/2016,2015/2016,2015
+Jon Dahl Tomasson,2004/2005,1,1,0,AC Milan,Left Center Forward,55,0,0,Serie A,2004/2005,2004/2005,2004
+Jonathan Ludovic Biabiany,2015/2016,1,20,0,Inter Milan,Right Midfield,150,0,0,Serie A,2015/2016,2015/2016,2015
+Jonathan de Guzmán,2015/2016,1,2,0,Carpi,Left Center Midfield,60,0,0,Serie A,2015/2016,2015/2016,2015
+Jorge Luiz Frello Filho,2015/2016,0,6,0,Napoli,Center Defensive Midfield,30,0,0,Serie A,2015/2016,2015/2016,2015
+Josef Alexander Martínez Mencia,2015/2016,3,35,0,Torino,Left Center Forward,325,0,0,Serie A,2015/2016,2015/2016,2015
+Joseph Alfred Duncan,2015/2016,1,39,0,Sassuolo,Left Center Midfield,245,0,0,Serie A,2015/2016,2015/2016,2015
+Josip Iličić,2015/2016,13,74,0,Fiorentina,Center Attacking Midfield,1020,0,0,Serie A,2015/2016,2015/2016,2015
+José João Altafini,1972/1973,0,3,0,Juventus,Right Wing,15,0,0,Serie A,1972/1973,1972/1973,1972
+José Martín Cáceres Silva,2015/2016,0,2,0,Juventus,Right Back,10,0,0,Serie A,2015/2016,2015/2016,2015
+José María Callejón Bueno,2015/2016,7,64,0,Napoli,Right Wing,670,0,0,Serie A,2015/2016,2015/2016,2015
+José Mauri,2015/2016,0,7,0,AC Milan,Center Attacking Midfield,35,0,0,Serie A,2015/2016,2015/2016,2015
+José Rodolfo Pires Ribeiro,2015/2016,0,11,0,Sampdoria,Left Wing Back,55,0,0,Serie A,2015/2016,2015/2016,2015
+João Miranda de Souza Filho,2015/2016,1,10,0,Inter Milan,Right Center Back,100,0,0,Serie A,2015/2016,2015/2016,2015
+Juan Camilo Zúñiga Mosquera,2015/2016,0,8,0,Bologna,Left Back,40,0,0,Serie A,2015/2016,2015/2016,2015
+Juan Guilherme Nunes Jesus,2015/2016,0,4,0,Inter Milan,Left Back,20,0,0,Serie A,2015/2016,2015/2016,2015
+Juan Guillermo Cuadrado Bello,2015/2016,4,37,0,Juventus,Right Wing Back,385,0,0,Serie A,2015/2016,2015/2016,2015
+Juan Ignacio Gómez Taleb,2015/2016,1,36,0,Hellas Verona,Left Wing,230,0,0,Serie A,2015/2016,2015/2016,2015
+Juan Manuel Iturbe Arévalo,2015/2016,1,10,0,AS Roma,Right Wing,100,0,0,Serie A,2015/2016,2015/2016,2015
+Jules Olivier Ntcham,2015/2016,0,23,0,Genoa,Center Attacking Midfield,115,0,0,Serie A,2015/2016,2015/2016,2015
+Juraj Kucka,2015/2016,1,51,0,AC Milan,Right Center Midfield,305,0,0,Serie A,2015/2016,2015/2016,2015
+Jérémy Ménez,2015/2016,2,6,0,AC Milan,Left Center Forward,130,0,0,Serie A,2015/2016,2015/2016,2015
+Jörg Heinrich,1999/2000,0,1,0,Fiorentina,Left Defensive Midfield,5,0,0,Serie A,1999/2000,1999/2000,1999
+Kalidou Koulibaly,2015/2016,0,5,0,Napoli,Left Center Back,25,0,0,Serie A,2015/2016,2015/2016,2015
+Kamil Glik,2015/2016,0,20,0,Torino,Center Back,100,0,0,Serie A,2015/2016,2015/2016,2015
+Kamil Wilczek,2015/2016,0,5,0,Carpi,Center Forward,25,0,0,Serie A,2015/2016,2015/2016,2015
+Karim Laribi,2015/2016,0,10,0,Sassuolo,Right Center Midfield,50,0,0,Serie A,2015/2016,2015/2016,2015
+Keisuke Honda,2015/2016,1,48,0,AC Milan,Right Midfield,290,0,0,Serie A,2015/2016,2015/2016,2015
+Keita Baldé Diao,2015/2016,4,63,0,Lazio,Left Wing,515,0,0,Serie A,2015/2016,2015/2016,2015
+Kevin Lasagna,2015/2016,5,42,0,Carpi,Center Attacking Midfield,460,0,0,Serie A,2015/2016,2015/2016,2015
+Kevin Strootman,2015/2016,0,2,0,AS Roma,Left Defensive Midfield,10,0,0,Serie A,2015/2016,2015/2016,2015
+Kevin-Prince Boateng,2015/2016,1,6,0,AC Milan,Left Center Forward,80,0,0,Serie A,2015/2016,2015/2016,2015
+Khouma El Hadji Babacar,2015/2016,5,30,0,Fiorentina,Center Forward,400,0,0,Serie A,2015/2016,2015/2016,2015
+Konstantinos Manolas,2015/2016,2,17,0,AS Roma,Right Center Back,185,0,0,Serie A,2015/2016,2015/2016,2015
+Kwadwo Asamoah,2015/2016,0,10,0,Juventus,Left Center Midfield,50,0,0,Serie A,2015/2016,2015/2016,2015
+Lazaros Christodoulopoulos,2015/2016,1,6,0,Sampdoria,Right Midfield,80,0,0,Serie A,2015/2016,2015/2016,2015
+Leandro Daniel Paredes,2015/2016,2,53,0,Empoli,Center Defensive Midfield,365,0,0,Serie A,2015/2016,2015/2016,2015
+Leandro Greco,2015/2016,1,11,0,Hellas Verona,Center Defensive Midfield,105,0,0,Serie A,2015/2016,2015/2016,2015
+Leonardo Blanchard,2015/2016,3,21,0,Frosinone,Left Center Back,255,0,0,Serie A,2015/2016,2015/2016,2015
+Leonardo Bonucci,2015/2016,3,26,0,Juventus,Center Back,280,0,0,Serie A,2015/2016,2015/2016,2015
+Leonardo Pavoletti,2015/2016,14,67,0,Genoa,Center Forward,1035,0,0,Serie A,2015/2016,2015/2016,2015
+Levan Mchedlidze,2015/2016,0,11,0,Empoli,Left Center Forward,55,0,0,Serie A,2015/2016,2015/2016,2015
+Lionello Manfredonia,1986/1987,0,5,0,Juventus,Left Center Midfield,25,0,0,Serie A,1986/1987,1986/1987,1986
+Lorenzo Ariaudo,2015/2016,0,2,0,Empoli,Left Center Back,10,0,0,Serie A,2015/2016,2015/2016,2015
+Lorenzo Crisetig,2015/2016,0,2,0,Bologna,Center Defensive Midfield,10,0,0,Serie A,2015/2016,2015/2016,2015
+Lorenzo De Silvestri,2015/2016,1,12,0,Sampdoria,Right Wing Back,110,0,0,Serie A,2015/2016,2015/2016,2015
+Lorenzo Insigne,2015/2016,12,135,0,Napoli,Left Wing,1275,0,0,Serie A,2015/2016,2015/2016,2015
+Lorenzo Lollo,2015/2016,3,36,0,Carpi,Center Attacking Midfield,330,0,0,Serie A,2015/2016,2015/2016,2015
+Lorenzo Pasciuti,2015/2016,2,6,0,Carpi,Right Midfield,130,0,0,Serie A,2015/2016,2015/2016,2015
+Lorenzo Pellegrini,2015/2016,3,24,0,Sassuolo,Left Center Midfield,270,0,0,Serie A,2015/2016,2015/2016,2015
+Lorenzo Tonelli,2015/2016,2,7,0,Empoli,Right Center Back,135,0,0,Serie A,2015/2016,2015/2016,2015
+Luca Antonelli,2015/2016,3,19,0,AC Milan,Left Back,245,0,0,Serie A,2015/2016,2015/2016,2015
+Luca Bittante,2015/2016,0,2,0,Empoli,Left Back,10,0,0,Serie A,2015/2016,2015/2016,2015
+Luca Cigarini,2015/2016,2,43,0,Atalanta,Left Center Midfield,315,0,0,Serie A,2015/2016,2015/2016,2015
+Luca Fusi,1988/1989,0,1,0,Napoli,Left Defensive Midfield,5,0,0,Serie A,1988/1989,1988/1989,1988
+Luca Marrone,2015/2016,1,13,0,Hellas Verona,Left Defensive Midfield,115,0,0,Serie A,2015/2016,2015/2016,2015
+Luca Martinelli,2015/2016,0,1,0,Empoli,Right Center Back,5,0,0,Serie A,2015/2016,2015/2016,2015
+Luca Paganini,2015/2016,2,26,0,Frosinone,Right Midfield,230,0,0,Serie A,2015/2016,2015/2016,2015
+Luca Rigoni,2015/2016,4,35,0,Genoa,Right Center Midfield,375,0,0,Serie A,2015/2016,2015/2016,2015
+Luca Rizzo,2015/2016,0,18,0,Bologna,Right Wing,90,0,0,Serie A,2015/2016,2015/2016,2015
+Luca Rossettini,2015/2016,3,14,0,Bologna,Right Back,220,0,0,Serie A,2015/2016,2015/2016,2015
+Luca Siligardi,2015/2016,2,46,0,Hellas Verona,Left Midfield,330,0,0,Serie A,2015/2016,2015/2016,2015
+Luca Toni,2015/2016,6,62,0,Hellas Verona,Center Forward,610,0,0,Serie A,2015/2016,2015/2016,2015
+Lucas Digne,2015/2016,3,16,0,AS Roma,Left Back,230,0,0,Serie A,2015/2016,2015/2016,2015
+Lucas Nahuel Castro,2015/2016,3,44,0,Chievo,Right Center Midfield,370,0,0,Serie A,2015/2016,2015/2016,2015
+Lucas Rodrigo Biglia,2015/2016,4,18,0,Lazio,Center Defensive Midfield,290,0,0,Serie A,2015/2016,2015/2016,2015
+Luciano Sola,1986/1987,0,1,0,Napoli,Left Wing Back,5,0,0,Serie A,1986/1987,1986/1987,1986
+Lucimar da Silva Ferreira,2009/2010,0,1,0,Inter Milan,Right Center Back,5,0,0,Serie A,2009/2010,2009/2010,2009
+Luigi De Agostini,1988/1989,0,1,0,Juventus,Left Back,5,0,0,Serie A,1988/1989,1988/1989,1988
+Luis Fernando Muriel Fruto,2015/2016,6,56,0,Sampdoria,Center Forward,580,0,0,Serie A,2015/2016,2015/2016,2015
+Luiz Adriano de Souza da Silva,2015/2016,4,26,0,AC Milan,Right Center Forward,330,0,0,Serie A,2015/2016,2015/2016,2015
+M''Baye Babacar Niang,2015/2016,5,38,0,AC Milan,Right Center Forward,440,0,0,Serie A,2015/2016,2015/2016,2015
+Maicon Douglas Sisenando,2009/2010,0,1,0,Inter Milan,Right Back,5,0,0,Serie A,2009/2010,2009/2010,2009
+Maicon Douglas Sisenando,2015/2016,1,11,0,AS Roma,Right Back,105,0,0,Serie A,2015/2016,2015/2016,2015
+Manolo Gabbiadini,2015/2016,5,30,0,Napoli,Center Forward,400,0,0,Serie A,2015/2016,2015/2016,2015
+Manuel Pasqual,2015/2016,0,5,0,Fiorentina,Left Back,25,0,0,Serie A,2015/2016,2015/2016,2015
+Manuel Pucciarelli,2015/2016,6,58,0,Empoli,Right Center Forward,590,0,0,Serie A,2015/2016,2015/2016,2015
+Manuel Rolando Iturra Urrutia,2015/2016,0,4,0,Udinese,Left Center Midfield,20,0,0,Serie A,2015/2016,2015/2016,2015
+Marcel Büchel,2015/2016,2,36,0,Empoli,Left Center Midfield,280,0,0,Serie A,2015/2016,2015/2016,2015
+Marcello Gazzola,2015/2016,0,2,0,Sassuolo,Right Back,10,0,0,Serie A,2015/2016,2015/2016,2015
+Marcello Trotta,2015/2016,1,12,0,Sassuolo,Center Forward,110,0,0,Serie A,2015/2016,2015/2016,2015
+Marcelo Brozović,2015/2016,4,56,0,Inter Milan,Right Center Midfield,480,0,0,Serie A,2015/2016,2015/2016,2015
+Marco Antônio De Mattos Filho,2015/2016,0,9,0,Udinese,Left Center Midfield,45,0,0,Serie A,2015/2016,2015/2016,2015
+Marco Benassi,2015/2016,3,47,0,Torino,Right Center Midfield,385,0,0,Serie A,2015/2016,2015/2016,2015
+Marco Borriello,2015/2016,8,55,0,Carpi,Center Forward,675,0,0,Serie A,2015/2016,2015/2016,2015
+Marco Crimi,2015/2016,0,8,0,Carpi,Right Center Midfield,40,0,0,Serie A,2015/2016,2015/2016,2015
+Marco D''Alessandro,2015/2016,3,14,0,Atalanta,Right Wing,220,0,0,Serie A,2015/2016,2015/2016,2015
+Marco Parolo,2015/2016,3,56,0,Lazio,Left Center Midfield,430,0,0,Serie A,2015/2016,2015/2016,2015
+Marco Zambelli,2015/2016,0,1,0,Empoli,Right Back,5,0,0,Serie A,2015/2016,2015/2016,2015
+Marcos Alonso Mendoza,2015/2016,3,56,0,Fiorentina,Left Wing Back,430,0,0,Serie A,2015/2016,2015/2016,2015
+Marcos Evangelista de Moraes,2004/2005,0,1,0,AC Milan,Right Back,5,0,0,Serie A,2004/2005,2004/2005,2004
+Marek Hamšík,2015/2016,6,84,0,Napoli,Left Center Midfield,720,0,0,Serie A,2015/2016,2015/2016,2015
+Mario Barwuah Balotelli,2015/2016,1,43,0,AC Milan,Right Center Forward,265,0,0,Serie A,2015/2016,2015/2016,2015
+Mario Bertini,1971/1972,0,1,0,Inter Milan,Left Center Back,5,0,0,Serie A,1971/1972,1971/1972,1971
+Mario Frustalupi,1971/1972,0,1,0,Inter Milan,Left Wing,5,0,0,Serie A,1971/1972,1971/1972,1971
+Mario Mandžukić,2015/2016,10,40,0,Juventus,Left Center Forward,700,0,0,Serie A,2015/2016,2015/2016,2015
+Mario Mandžukić,2016/2017,1,1,0,Juventus,Left Wing,55,0,0,Serie A,2016/2017,2016/2017,2016
+Marios Oikonomou,2015/2016,0,5,0,Bologna,Right Center Back,25,0,0,Serie A,2015/2016,2015/2016,2015
+Marko Livaja,2015/2016,1,16,0,Empoli,Left Center Forward,130,0,0,Serie A,2015/2016,2015/2016,2015
+Marten de Roon,2015/2016,1,20,0,Atalanta,Center Defensive Midfield,150,0,0,Serie A,2015/2016,2015/2016,2015
+Massimiliano Carlini,2015/2016,0,4,0,Frosinone,Center Attacking Midfield,20,0,0,Serie A,2015/2016,2015/2016,2015
+Massimo Crippa,1988/1989,0,5,0,Napoli,Right Wing Back,25,0,0,Serie A,1988/1989,1988/1989,1988
+Massimo Gobbi,2015/2016,0,14,0,Chievo,Left Back,70,0,0,Serie A,2015/2016,2015/2016,2015
+Massimo Maccarone,2015/2016,13,82,0,Empoli,Left Center Forward,1060,0,0,Serie A,2015/2016,2015/2016,2015
+Mato Jajalo,2015/2016,0,20,0,Palermo,Center Defensive Midfield,100,0,0,Serie A,2015/2016,2015/2016,2015
+Matteo Bianchetti,2015/2016,1,7,0,Hellas Verona,Right Center Back,85,0,0,Serie A,2015/2016,2015/2016,2015
+Matteo Brighi,2015/2016,0,24,0,Bologna,Left Center Midfield,120,0,0,Serie A,2015/2016,2015/2016,2015
+Matteo Ciofani,2015/2016,0,4,0,Frosinone,Right Back,20,0,0,Serie A,2015/2016,2015/2016,2015
+Matteo Fedele,2015/2016,0,11,0,Carpi,Left Center Midfield,55,0,0,Serie A,2015/2016,2015/2016,2015
+Matteo Mancosu,2015/2016,2,12,0,Carpi,Left Center Forward,160,0,0,Serie A,2015/2016,2015/2016,2015
+Matteo Politano,2015/2016,5,43,0,Sassuolo,Right Wing,465,0,0,Serie A,2015/2016,2015/2016,2015
+Mattia Cassani,2015/2016,0,3,0,Sampdoria,Left Center Back,15,0,0,Serie A,2015/2016,2015/2016,2015
+Mattia De Sciglio,2015/2016,0,13,0,AC Milan,Left Back,65,0,0,Serie A,2015/2016,2015/2016,2015
+Mattia Destro,2015/2016,8,67,0,Bologna,Center Forward,735,0,0,Serie A,2015/2016,2015/2016,2015
+Mattia Zaccagni,2015/2016,0,2,0,Hellas Verona,Right Center Midfield,10,0,0,Serie A,2015/2016,2015/2016,2015
+Matías Agustín Silvestre,2015/2016,0,4,0,Sampdoria,Right Center Back,20,0,0,Serie A,2015/2016,2015/2016,2015
+Matías Ariel Fernández Fernández,2015/2016,1,25,0,Fiorentina,Right Attacking Midfield,175,0,0,Serie A,2015/2016,2015/2016,2015
+Matías Vecino Falero,2015/2016,2,48,0,Fiorentina,Left Defensive Midfield,340,0,0,Serie A,2015/2016,2015/2016,2015
+Mauricio Ricardo Pinilla Ferreira,2015/2016,5,43,0,Atalanta,Center Forward,465,0,0,Serie A,2015/2016,2015/2016,2015
+Maurizio Domizzi,2015/2016,0,1,0,Udinese,Center Back,5,0,0,Serie A,2015/2016,2015/2016,2015
+Mauro Bellugi,1971/1972,0,1,0,Inter Milan,Right Back,5,0,0,Serie A,1971/1972,1971/1972,1971
+Mauro Emanuel Icardi Rivero,2015/2016,16,59,0,Inter Milan,Center Forward,1095,0,0,Serie A,2015/2016,2015/2016,2015
+Mauro Matías Zárate,2015/2016,7,70,0,Fiorentina,Left Wing,700,0,0,Serie A,2015/2016,2015/2016,2015
+Maurício dos Santos Nascimento,2015/2016,0,10,0,Lazio,Right Center Back,50,0,0,Serie A,2015/2016,2015/2016,2015
+Maximiliano Gastón López,2015/2016,4,26,0,Torino,Right Center Forward,330,0,0,Serie A,2015/2016,2015/2016,2015
+Maximiliano Nicol Moralez,2015/2016,1,26,0,Atalanta,Right Wing,180,0,0,Serie A,2015/2016,2015/2016,2015
+Michael Laudrup,1986/1987,1,2,0,Juventus,Left Center Forward,60,0,0,Serie A,1986/1987,1986/1987,1986
+Michael Laudrup,1988/1989,0,5,0,Juventus,Left Midfield,25,0,0,Serie A,1988/1989,1988/1989,1988
+Michel Morganella,2015/2016,0,5,0,Palermo,Left Wing Back,25,0,0,Serie A,2015/2016,2015/2016,2015
+Michel Platini,1986/1987,0,1,0,Juventus,Right Center Midfield,5,0,0,Serie A,1986/1987,1986/1987,1986
+Michele Camporese,2015/2016,0,1,0,Empoli,Left Center Back,5,0,0,Serie A,2015/2016,2015/2016,2015
+Milan Badelj,2015/2016,1,27,0,Fiorentina,Right Defensive Midfield,185,0,0,Serie A,2015/2016,2015/2016,2015
+Milan Biševac,2015/2016,1,2,0,Lazio,Right Center Back,60,0,0,Serie A,2015/2016,2015/2016,2015
+Miralem Pjanić,2015/2016,10,68,0,AS Roma,Right Center Midfield,840,0,0,Serie A,2015/2016,2015/2016,2015
+Miralem Pjanić,2016/2017,0,3,0,Juventus,Right Defensive Midfield,15,0,0,Serie A,2016/2017,2016/2017,2016
+Mirko Gori,2015/2016,0,23,0,Frosinone,Center Defensive Midfield,115,0,0,Serie A,2015/2016,2015/2016,2015
+Mirko Valdifiori,2015/2016,0,1,0,Napoli,Center Defensive Midfield,5,0,0,Serie A,2015/2016,2015/2016,2015
+Miroslav Klose,2015/2016,7,30,0,Lazio,Center Forward,500,0,0,Serie A,2015/2016,2015/2016,2015
+Modibo Diakité,2015/2016,1,8,0,Frosinone,Right Center Back,90,0,0,Serie A,2015/2016,2015/2016,2015
+Mohamed Salah,2015/2016,14,73,0,AS Roma,Right Wing,1065,0,0,Serie A,2015/2016,2015/2016,2015
+Mohamed Salim Fares,2015/2016,0,4,0,Hellas Verona,Left Back,20,0,0,Serie A,2015/2016,2015/2016,2015
+Molla Wagué,2015/2016,0,11,0,Udinese,Right Center Back,55,0,0,Serie A,2015/2016,2015/2016,2015
+Moreno Ferrario,1986/1987,1,1,0,Napoli,Center Defensive Midfield,55,0,0,Serie A,1986/1987,1986/1987,1986
+Moreno Torricelli,1999/2000,0,1,0,Fiorentina,Left Back,5,0,0,Serie A,1999/2000,1999/2000,1999
+Mário Rui Silva Duarte,2015/2016,0,29,0,Empoli,Left Back,145,0,0,Serie A,2015/2016,2015/2016,2015
+Nenad Krstičić,2015/2016,0,4,0,Sampdoria,Center Defensive Midfield,20,0,0,Serie A,2015/2016,2015/2016,2015
+Nenad Tomović,2015/2016,0,7,0,Fiorentina,Center Back,35,0,0,Serie A,2015/2016,2015/2016,2015
+Nicola Caricola,1986/1987,0,1,0,Juventus,Center Back,5,0,0,Serie A,1986/1987,1986/1987,1986
+Nicola Rigoni,2015/2016,3,30,0,Chievo,Center Defensive Midfield,300,0,0,Serie A,2015/2016,2015/2016,2015
+Nicola Sansone,2015/2016,7,63,0,Sassuolo,Left Wing,665,0,0,Serie A,2015/2016,2015/2016,2015
+Nicolas Sebastian Frey,2015/2016,0,1,0,Chievo,Left Back,5,0,0,Serie A,2015/2016,2015/2016,2015
+Nicolás Andrés Burdisso,2015/2016,0,10,0,Genoa,Center Back,50,0,0,Serie A,2015/2016,2015/2016,2015
+Nicolás Federico Spolli,2015/2016,0,3,0,Chievo,Right Center Back,15,0,0,Serie A,2015/2016,2015/2016,2015
+Nicolás Ignacio Castillo Mora,2015/2016,0,10,0,Frosinone,Left Center Forward,50,0,0,Serie A,2015/2016,2015/2016,2015
+Nicolò Cherubin,2015/2016,1,4,0,Atalanta,Left Center Back,70,0,0,Serie A,2015/2016,2015/2016,2015
+Nigel de Jong,2015/2016,0,4,0,AC Milan,Right Center Midfield,20,0,0,Serie A,2015/2016,2015/2016,2015
+Niklas Moisander,2015/2016,0,2,0,Sampdoria,Right Center Back,10,0,0,Serie A,2015/2016,2015/2016,2015
+Nikola Kalinić,2015/2016,12,74,0,Fiorentina,Center Forward,970,0,0,Serie A,2015/2016,2015/2016,2015
+Nikola Maksimović,2015/2016,0,2,0,Torino,Right Center Back,10,0,0,Serie A,2015/2016,2015/2016,2015
+Norbert Sándor Balogh,2015/2016,0,2,0,Palermo,Right Center Forward,10,0,0,Serie A,2015/2016,2015/2016,2015
+Ogenyi Eddy Onazi,2015/2016,1,12,0,Lazio,Right Center Midfield,110,0,0,Serie A,2015/2016,2015/2016,2015
+Oliver Kragl,2015/2016,1,31,0,Frosinone,Left Midfield,205,0,0,Serie A,2015/2016,2015/2016,2015
+Omar El Kaddouri,2015/2016,1,11,0,Napoli,Right Wing,105,0,0,Serie A,2015/2016,2015/2016,2015
+Oscar Hiljemark,2015/2016,4,26,0,Palermo,Right Center Midfield,330,0,0,Serie A,2015/2016,2015/2016,2015
+Pablo Estífer Armero,2015/2016,1,2,0,Udinese,Left Wing Back,60,0,0,Serie A,2015/2016,2015/2016,2015
+Panagiotis Giorgios Kone,2015/2016,0,11,0,Udinese,Right Center Midfield,55,0,0,Serie A,2015/2016,2015/2016,2015
+Panagiotis Tachtsidis,2015/2016,2,20,0,Genoa,Left Center Midfield,200,0,0,Serie A,2015/2016,2015/2016,2015
+Paolo Cannavaro,2015/2016,0,5,0,Sassuolo,Right Center Back,25,0,0,Serie A,2015/2016,2015/2016,2015
+Paolo Maldini,2004/2005,1,3,0,AC Milan,Left Back,65,0,0,Serie A,2004/2005,2004/2005,2004
+Paolo Sammarco,2015/2016,4,22,0,Frosinone,Right Center Midfield,310,0,0,Serie A,2015/2016,2015/2016,2015
+Patrice Evra,2014/2015,0,1,0,Juventus,Left Back,5,0,0,Serie A,2014/2015,2014/2015,2014
+Patrice Evra,2015/2016,2,17,0,Juventus,Left Wing Back,185,0,0,Serie A,2015/2016,2015/2016,2015
+Patricio Gabarrón Gil,2015/2016,0,3,0,Lazio,Right Back,15,0,0,Serie A,2015/2016,2015/2016,2015
+Paul Pogba,2014/2015,0,2,0,Juventus,Left Center Midfield,10,0,0,Serie A,2014/2015,2014/2015,2014
+Paul Pogba,2015/2016,8,124,0,Juventus,Left Center Midfield,1020,0,0,Serie A,2015/2016,2015/2016,2015
+Paul-José M''Poku Ebunge,2015/2016,0,18,0,Chievo,Center Attacking Midfield,90,0,0,Serie A,2015/2016,2015/2016,2015
+Paulo Bruno Exequiel Dybala,2015/2016,19,106,0,Juventus,Right Center Forward,1480,0,0,Serie A,2015/2016,2015/2016,2015
+Paulo Bruno Exequiel Dybala,2016/2017,0,1,0,Juventus,Center Attacking Midfield,5,0,0,Serie A,2016/2017,2016/2017,2016
+Paweł Wszołek,2015/2016,0,12,0,Hellas Verona,Right Wing,60,0,0,Serie A,2015/2016,2015/2016,2015
+Pedro Miguel Almeida Lopes Pereira,2015/2016,0,2,0,Sampdoria,Left Back,10,0,0,Serie A,2015/2016,2015/2016,2015
+Perparim Hetemaj,2015/2016,1,26,0,Chievo,Left Center Midfield,180,0,0,Serie A,2015/2016,2015/2016,2015
+Philippe Mexès,2015/2016,1,5,0,AC Milan,Right Center Back,75,0,0,Serie A,2015/2016,2015/2016,2015
+Pietro Anastasi,1972/1973,0,1,0,Juventus,Center Forward,5,0,0,Serie A,1972/1973,1972/1973,1972
+Piotr Zieliński,2015/2016,5,64,0,Empoli,Right Center Midfield,570,0,0,Serie A,2015/2016,2015/2016,2015
+Pontus Jansson,2015/2016,1,6,0,Torino,Center Back,80,0,0,Serie A,2015/2016,2015/2016,2015
+Rade Krunić,2015/2016,1,7,0,Empoli,Center Attacking Midfield,85,0,0,Serie A,2015/2016,2015/2016,2015
+Radja Nainggolan,2015/2016,6,66,0,AS Roma,Left Center Midfield,630,0,0,Serie A,2015/2016,2015/2016,2015
+Rafael Márquez Álvarez,2015/2016,0,5,0,Hellas Verona,Right Center Back,25,0,0,Serie A,2015/2016,2015/2016,2015
+Rafael Tolói,2015/2016,1,10,0,Atalanta,Right Center Back,100,0,0,Serie A,2015/2016,2015/2016,2015
+Raffaele Bianco,2015/2016,1,19,0,Carpi,Left Defensive Midfield,145,0,0,Serie A,2015/2016,2015/2016,2015
+Raffaele Maiello,2015/2016,0,5,0,Empoli,Center Defensive Midfield,25,0,0,Serie A,2015/2016,2015/2016,2015
+Raphael Martinho Alves de Lima,2015/2016,0,10,0,Carpi,Left Center Midfield,50,0,0,Serie A,2015/2016,2015/2016,2015
+Raúl Albiol i Tortajada,2015/2016,1,9,0,Napoli,Right Center Back,95,0,0,Serie A,2015/2016,2015/2016,2015
+Remo Freuler,2015/2016,1,5,0,Atalanta,Left Center Midfield,75,0,0,Serie A,2015/2016,2015/2016,2015
+Rey Manaj,2015/2016,0,2,0,Inter Milan,Center Attacking Midfield,10,0,0,Serie A,2015/2016,2015/2016,2015
+Ricardo Gabriel Álvarez,2015/2016,1,15,0,Sampdoria,Right Attacking Midfield,125,0,0,Serie A,2015/2016,2015/2016,2015
+Ricardo Izecson dos Santos Leite,2004/2005,1,5,0,AC Milan,Center Attacking Midfield,75,0,0,Serie A,2004/2005,2004/2005,2004
+Ricardo Izecson dos Santos Leite,2006/2007,0,1,0,AC Milan,Right Attacking Midfield,5,0,0,Serie A,2006/2007,2006/2007,2006
+Ricardo Kishna,2015/2016,2,9,0,Lazio,Left Wing,145,0,0,Serie A,2015/2016,2015/2016,2015
+Ricardo Rogério de Brito,1988/1989,0,6,0,Napoli,Left Center Midfield,30,0,0,Serie A,1988/1989,1988/1989,1988
+Riccardo Gagliolo,2015/2016,1,15,0,Carpi,Left Center Back,125,0,0,Serie A,2015/2016,2015/2016,2015
+Riccardo Meggiorini,2015/2016,5,39,0,Chievo,Right Center Forward,445,0,0,Serie A,2015/2016,2015/2016,2015
+Riccardo Montolivo,2015/2016,0,30,0,AC Milan,Center Defensive Midfield,150,0,0,Serie A,2015/2016,2015/2016,2015
+Riccardo Saponara,2015/2016,5,73,0,Empoli,Center Attacking Midfield,615,0,0,Serie A,2015/2016,2015/2016,2015
+Robert Acquafresca,2015/2016,0,3,0,Bologna,Right Center Forward,15,0,0,Serie A,2015/2016,2015/2016,2015
+Robert Gucher,2015/2016,0,21,0,Frosinone,Left Defensive Midfield,105,0,0,Serie A,2015/2016,2015/2016,2015
+Roberto Bettega,1972/1973,0,5,0,Juventus,Left Wing,25,0,0,Serie A,1972/1973,1972/1973,1972
+Roberto Boninsegna,1971/1972,0,1,0,Inter Milan,Center Forward,5,0,0,Serie A,1971/1972,1971/1972,1971
+Roberto Crivello,2015/2016,0,3,0,Frosinone,Left Back,15,0,0,Serie A,2015/2016,2015/2016,2015
+Roberto Gagliardini,2015/2016,0,2,0,Atalanta,Center Attacking Midfield,10,0,0,Serie A,2015/2016,2015/2016,2015
+Roberto Galia,1988/1989,0,3,0,Juventus,Left Center Back,15,0,0,Serie A,1988/1989,1988/1989,1988
+Roberto Inglese,2015/2016,3,35,0,Chievo,Right Center Forward,325,0,0,Serie A,2015/2016,2015/2016,2015
+Roberto Maximiliano Pereyra,2015/2016,0,10,0,Juventus,Right Center Midfield,50,0,0,Serie A,2015/2016,2015/2016,2015
+Roberto Soriano,2015/2016,8,54,0,Sampdoria,Right Center Midfield,670,0,0,Serie A,2015/2016,2015/2016,2015
+Roberto Tricella,1988/1989,0,1,0,Juventus,Center Defensive Midfield,5,0,0,Serie A,1988/1989,1988/1989,1988
+Roberto Vitiello,2015/2016,0,2,0,Palermo,Right Center Back,10,0,0,Serie A,2015/2016,2015/2016,2015
+Robin Quaison,2015/2016,1,20,0,Palermo,Left Center Midfield,150,0,0,Serie A,2015/2016,2015/2016,2015
+Rodrigo Ely,2015/2016,0,2,0,AC Milan,Left Center Back,10,0,0,Serie A,2015/2016,2015/2016,2015
+Rodrigo Sebastián Aguirre Soto,2015/2016,0,9,0,Udinese,Left Center Forward,45,0,0,Serie A,2015/2016,2015/2016,2015
+Rodrigo Sebastián Palacio,2015/2016,2,17,0,Inter Milan,Right Center Forward,185,0,0,Serie A,2015/2016,2015/2016,2015
+Ronaldo Pompeu da Silva,2015/2016,0,6,0,Empoli,Center Defensive Midfield,30,0,0,Serie A,2015/2016,2015/2016,2015
+Rui Manuel César Costa,1999/2000,0,2,0,Fiorentina,Left Midfield,10,0,0,Serie A,1999/2000,1999/2000,1999
+Ryder Matos Santos,2015/2016,2,34,0,Carpi,Center Attacking Midfield,270,0,0,Serie A,2015/2016,2015/2016,2015
+Rômulo Souza Orestes Caldeira,2015/2016,0,11,0,Hellas Verona,Left Center Forward,55,0,0,Serie A,2015/2016,2015/2016,2015
+Salih Uçan,2015/2016,0,1,0,AS Roma,Center Attacking Midfield,5,0,0,Serie A,2015/2016,2015/2016,2015
+Sami Khedira,2015/2016,5,22,0,Juventus,Right Center Midfield,360,0,0,Serie A,2015/2016,2015/2016,2015
+Samir Caetano de Souza Santos,2015/2016,1,2,0,Hellas Verona,Left Center Back,60,0,0,Serie A,2015/2016,2015/2016,2015
+Samuel Souprayen,2015/2016,0,7,0,Hellas Verona,Left Back,35,0,0,Serie A,2015/2016,2015/2016,2015
+Samuele Longo,2015/2016,0,11,0,Frosinone,Right Center Forward,55,0,0,Serie A,2015/2016,2015/2016,2015
+Sandro Cois,1999/2000,0,2,0,Fiorentina,Right Defensive Midfield,10,0,0,Serie A,1999/2000,1999/2000,1999
+Sandro Mazzola,1971/1972,0,1,0,Inter Milan,Center Attacking Midfield,5,0,0,Serie A,1971/1972,1971/1972,1971
+Santiago Juan Gentiletti Selak,2015/2016,0,10,0,Lazio,Left Center Back,50,0,0,Serie A,2015/2016,2015/2016,2015
+Saphir Sliti Taïder,2015/2016,0,33,0,Bologna,Right Center Midfield,165,0,0,Serie A,2015/2016,2015/2016,2015
+Sebastian De Maio,2015/2016,1,14,0,Genoa,Right Center Back,120,0,0,Serie A,2015/2016,2015/2016,2015
+Senad Lulić,2015/2016,3,19,0,Lazio,Left Back,245,0,0,Serie A,2015/2016,2015/2016,2015
+Serge Gakpé,2015/2016,3,23,0,Genoa,Right Center Forward,265,0,0,Serie A,2015/2016,2015/2016,2015
+Sergej Milinković-Savić,2015/2016,1,36,0,Lazio,Right Center Midfield,230,0,0,Serie A,2015/2016,2015/2016,2015
+Sergio Brio,1986/1987,0,1,0,Juventus,Left Center Back,5,0,0,Serie A,1986/1987,1986/1987,1986
+Sergio Floccari,2015/2016,6,46,0,Bologna,Center Forward,530,0,0,Serie A,2015/2016,2015/2016,2015
+Sergio Pellissier,2015/2016,5,22,0,Chievo,Left Center Forward,360,0,0,Serie A,2015/2016,2015/2016,2015
+Seydou Kéita,2015/2016,1,13,0,AS Roma,Center Defensive Midfield,115,0,0,Serie A,2015/2016,2015/2016,2015
+Silvan Widmer,2015/2016,0,23,0,Udinese,Right Wing Back,115,0,0,Serie A,2015/2016,2015/2016,2015
+Simone Missiroli,2015/2016,2,13,0,Sassuolo,Right Center Midfield,165,0,0,Serie A,2015/2016,2015/2016,2015
+Simone Padoin,2015/2016,1,4,0,Juventus,Center Defensive Midfield,70,0,0,Serie A,2015/2016,2015/2016,2015
+Simone Pepe,2015/2016,3,20,0,Chievo,Center Attacking Midfield,250,0,0,Serie A,2015/2016,2015/2016,2015
+Simone Romagnoli,2015/2016,0,11,0,Carpi,Right Center Back,55,0,0,Serie A,2015/2016,2015/2016,2015
+Simone Verdi,2015/2016,3,20,0,Carpi,Center Attacking Midfield,250,0,0,Serie A,2015/2016,2015/2016,2015
+Simone Zaza,2015/2016,5,31,0,Juventus,Left Center Forward,405,0,0,Serie A,2015/2016,2015/2016,2015
+Siniša Anđelković,2015/2016,0,3,0,Palermo,Left Center Back,15,0,0,Serie A,2015/2016,2015/2016,2015
+Stefano Mauri,2015/2016,1,6,0,Lazio,Left Wing,80,0,0,Serie A,2015/2016,2015/2016,2015
+Stefano Sabelli,2015/2016,1,4,0,Carpi,Right Wing Back,70,0,0,Serie A,2015/2016,2015/2016,2015
+Stefano Sturaro,2015/2016,1,11,0,Juventus,Right Center Midfield,105,0,0,Serie A,2015/2016,2015/2016,2015
+Stephan El Shaarawy,2015/2016,8,74,0,AS Roma,Left Wing,770,0,0,Serie A,2015/2016,2015/2016,2015
+Stephan Lichtsteiner,2015/2016,0,16,0,Juventus,Right Wing Back,80,0,0,Serie A,2015/2016,2015/2016,2015
+Stevan Jovetić,2015/2016,6,70,0,Inter Milan,Left Center Forward,650,0,0,Serie A,2015/2016,2015/2016,2015
+Stipe Perica,2015/2016,2,16,0,Udinese,Left Center Forward,180,0,0,Serie A,2015/2016,2015/2016,2015
+Thiago Rangel Cionek,2015/2016,0,1,0,Palermo,Right Center Back,5,0,0,Serie A,2015/2016,2015/2016,2015
+Thomas Heurtaux,2015/2016,0,2,0,Udinese,Right Center Back,10,0,0,Serie A,2015/2016,2015/2016,2015
+Tomás Eduardo Rincón Hernández,2015/2016,3,27,0,Genoa,Right Defensive Midfield,285,0,0,Serie A,2015/2016,2015/2016,2015
+Umar Sadiq Mesbah,2015/2016,2,4,0,AS Roma,Center Forward,120,0,0,Serie A,2015/2016,2015/2016,2015
+Urby Emanuelson,2015/2016,0,14,0,Hellas Verona,Left Wing,70,0,0,Serie A,2015/2016,2015/2016,2015
+Uroš Ćosić,2015/2016,0,1,0,Empoli,Left Center Back,5,0,0,Serie A,2015/2016,2015/2016,2015
+Uroš Đurđević,2015/2016,2,9,0,Palermo,Center Forward,145,0,0,Serie A,2015/2016,2015/2016,2015
+Valter Birsa,2015/2016,6,54,0,Chievo,Center Attacking Midfield,570,0,0,Serie A,2015/2016,2015/2016,2015
+Vangelis Moras,2015/2016,1,8,0,Hellas Verona,Right Center Back,90,0,0,Serie A,2015/2016,2015/2016,2015
+Vasco Regini,2015/2016,0,8,0,Sampdoria,Left Back,40,0,0,Serie A,2015/2016,2015/2016,2015
+Vassilis Torosidis,2015/2016,0,2,0,AS Roma,Left Back,10,0,0,Serie A,2015/2016,2015/2016,2015
+Vasyl Pryyma,2015/2016,0,1,0,Frosinone,Left Center Back,5,0,0,Serie A,2015/2016,2015/2016,2015
+Vincent Laurini,2015/2016,1,3,0,Empoli,Right Back,65,0,0,Serie A,2015/2016,2015/2016,2015
+Vlad Iulian Chiricheș,2015/2016,1,5,0,Napoli,Right Center Back,75,0,0,Serie A,2015/2016,2015/2016,2015
+Wallace Oliveira dos Santos,2015/2016,0,5,0,Carpi,Left Wing,25,0,0,Serie A,2015/2016,2015/2016,2015
+Wesley Hoedt,2015/2016,0,12,0,Lazio,Left Center Back,60,0,0,Serie A,2015/2016,2015/2016,2015
+Wesley Sneijder,2009/2010,0,6,0,Inter Milan,Center Attacking Midfield,30,0,0,Serie A,2009/2010,2009/2010,2009
+William Vainqueur,2015/2016,0,4,0,AS Roma,Left Defensive Midfield,20,0,0,Serie A,2015/2016,2015/2016,2015
+Yussif Raman Chibsah,2015/2016,0,11,0,Frosinone,Right Center Midfield,55,0,0,Serie A,2015/2016,2015/2016,2015
+Yuto Nagatomo,2015/2016,0,7,0,Inter Milan,Right Back,35,0,0,Serie A,2015/2016,2015/2016,2015
+Zdravko Kuzmanović,2015/2016,0,8,0,Udinese,Center Defensive Midfield,40,0,0,Serie A,2015/2016,2015/2016,2015
+Álvaro Borja Morata Martín,2014/2015,1,3,0,Juventus,Left Center Forward,65,0,0,Serie A,2014/2015,2014/2015,2014
+Álvaro Borja Morata Martín,2015/2016,7,49,0,Juventus,Left Center Forward,595,0,0,Serie A,2015/2016,2015/2016,2015
+Édgar Osvaldo Barreto Cáceres,2015/2016,0,18,0,Sampdoria,Left Center Midfield,90,0,0,Serie A,2015/2016,2015/2016,2015
+Łukasz Skorupski,2015/2016,0,1,0,Empoli,Goalkeeper,5,0,0,Serie A,2015/2016,2015/2016,2015
+Ştefan Daniel Radu,2015/2016,0,7,0,Lazio,Left Back,35,0,0,Serie A,2015/2016,2015/2016,2015
+Šime Vrsaljko,2015/2016,0,9,0,Sassuolo,Right Back,45,0,0,Serie A,2015/2016,2015/2016,2015

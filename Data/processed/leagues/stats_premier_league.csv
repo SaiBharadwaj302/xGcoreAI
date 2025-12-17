@@ -1,0 +1,671 @@
+player_name,season_norm,goals,shots,passes,team_name,primary_pos,att_score,mid_score,def_score,league,season_name,season,extracted_year
+Aaron Cresswell,2015/2016,2,27,0,West Ham United,Left Back,235,0,0,Premier League,2015/2016,2015/2016,2015
+Aaron Lennon,2015/2016,5,18,0,Everton,Right Wing,340,0,0,Premier League,2015/2016,2015/2016,2015
+Aaron Ramsey,2015/2016,5,67,0,Arsenal,Right Wing,585,0,0,Premier League,2015/2016,2015/2016,2015
+Abdul Rahman Baba,2015/2016,0,6,0,Chelsea,Left Back,30,0,0,Premier League,2015/2016,2015/2016,2015
+Adam David Lallana,2015/2016,4,42,0,Liverpool,Center Attacking Midfield,410,0,0,Premier League,2015/2016,2015/2016,2015
+Adam David Lallana,2017/2018,0,1,0,Liverpool,Right Wing,5,0,0,Premier League,2017/2018,2017/2018,2017
+Adam Johnson,2015/2016,2,16,0,Sunderland,Right Wing,180,0,0,Premier League,2015/2016,2015/2016,2015
+Adam Smith,2015/2016,2,15,0,AFC Bournemouth,Right Back,175,0,0,Premier League,2015/2016,2015/2016,2015
+Adama Traoré Diarra,2015/2016,0,2,0,Aston Villa,Left Wing,10,0,0,Premier League,2015/2016,2015/2016,2015
+Adlène Guédioura,2015/2016,0,13,0,Watford,Right Midfield,65,0,0,Premier League,2015/2016,2015/2016,2015
+Adrian Mutu,2003/2004,0,1,0,Chelsea,Left Center Forward,5,0,0,Premier League,2003/2004,2003/2004,2003
+Alan Hutton,2015/2016,0,11,0,Aston Villa,Right Back,55,0,0,Premier League,2015/2016,2015/2016,2015
+Alan Shearer,2003/2004,0,2,0,Newcastle United,Left Center Forward,10,0,0,Premier League,2003/2004,2003/2004,2003
+Alan Smith,2003/2004,1,5,0,Leeds United,Right Center Forward,75,0,0,Premier League,2003/2004,2003/2004,2003
+Alan Stubbs,2003/2004,0,3,0,Everton,Right Center Back,15,0,0,Premier League,2003/2004,2003/2004,2003
+Alberto Moreno Pérez,2015/2016,1,34,0,Liverpool,Left Back,220,0,0,Premier League,2015/2016,2015/2016,2015
+Aleksandar Kolarov,2015/2016,3,41,0,Manchester City,Left Back,355,0,0,Premier League,2015/2016,2015/2016,2015
+Aleksandar Mitrović,2015/2016,9,80,0,Newcastle United,Center Forward,850,0,0,Premier League,2015/2016,2015/2016,2015
+Alex Iwobi,2015/2016,2,15,0,Arsenal,Left Wing,175,0,0,Premier League,2015/2016,2015/2016,2015
+Alex Oxlade-Chamberlain,2015/2016,1,23,0,Arsenal,Right Wing,165,0,0,Premier League,2015/2016,2015/2016,2015
+Alex Pritchard,2015/2016,0,2,0,West Bromwich Albion,Right Midfield,10,0,0,Premier League,2015/2016,2015/2016,2015
+Alex Rae,2003/2004,0,1,0,Wolverhampton Wanderers,Right Defensive Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+Alexander Banor Tettey,2015/2016,2,20,0,Norwich City,Right Defensive Midfield,200,0,0,Premier League,2015/2016,2015/2016,2015
+Alexandre Dimitri Song-Billong,2015/2016,0,6,0,West Ham United,Center Defensive Midfield,30,0,0,Premier League,2015/2016,2015/2016,2015
+Alexandre Rodrigues da Silva,2015/2016,1,4,0,Chelsea,Center Forward,70,0,0,Premier League,2015/2016,2015/2016,2015
+Alexis Alejandro Sánchez Sánchez,2015/2016,13,111,0,Arsenal,Left Wing,1205,0,0,Premier League,2015/2016,2015/2016,2015
+Allan Romeo Nyom,2015/2016,0,7,0,Watford,Right Back,35,0,0,Premier League,2015/2016,2015/2016,2015
+Almen Abdi,2015/2016,2,39,0,Watford,Right Midfield,295,0,0,Premier League,2015/2016,2015/2016,2015
+Aly Cissokho,2015/2016,0,4,0,Aston Villa,Left Back,20,0,0,Premier League,2015/2016,2015/2016,2015
+Amdy Moustapha Faye,2003/2004,0,1,0,Portsmouth,Right Defensive Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+Andre Green,2015/2016,0,1,0,Aston Villa,Center Attacking Midfield,5,0,0,Premier League,2015/2016,2015/2016,2015
+Andre Wisdom,2015/2016,0,2,0,Norwich City,Right Back,10,0,0,Premier League,2015/2016,2015/2016,2015
+Andrew Philip King,2015/2016,2,19,0,Leicester City,Left Center Midfield,195,0,0,Premier League,2015/2016,2015/2016,2015
+Andrew Robertson,2018/2019,0,1,0,Liverpool,Left Back,5,0,0,Premier League,2018/2019,2018/2019,2018
+Andrew Surman,2015/2016,0,16,0,AFC Bournemouth,Left Center Midfield,80,0,0,Premier League,2015/2016,2015/2016,2015
+Andros Townsend,2015/2016,4,29,0,Newcastle United,Right Wing,345,0,0,Premier League,2015/2016,2015/2016,2015
+André Ayew Pelé,2015/2016,12,69,0,Swansea City,Right Wing,945,0,0,Premier League,2015/2016,2015/2016,2015
+Andy Carroll,2015/2016,9,55,0,West Ham United,Center Forward,725,0,0,Premier League,2015/2016,2015/2016,2015
+Andy Cole,2003/2004,0,2,0,Blackburn Rovers,Right Center Forward,10,0,0,Premier League,2003/2004,2003/2004,2003
+Angelo Obinze Ogbonna,2015/2016,0,6,0,West Ham United,Left Center Back,30,0,0,Premier League,2015/2016,2015/2016,2015
+Anita Amma Ankyewah Asante,2020/2021,1,4,0,Aston Villa,Left Center Midfield,70,0,0,Premier League,2020/2021,2020/2021,2020
+Anthony Le Tallec,2003/2004,0,1,0,Liverpool,Left Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+Antoine Sibierski,2003/2004,0,3,0,Manchester City,Right Center Forward,15,0,0,Premier League,2003/2004,2003/2004,2003
+Arjan de Zeeuw,2003/2004,0,1,0,Portsmouth,Right Center Back,5,0,0,Premier League,2003/2004,2003/2004,2003
+Arouna Koné,2015/2016,5,37,0,Everton,Left Wing,435,0,0,Premier League,2015/2016,2015/2016,2015
+Ashley Cole,2003/2004,0,10,0,Arsenal,Left Back,50,0,0,Premier League,2003/2004,2003/2004,2003
+Ashley Cole,2011/2012,1,1,0,Chelsea,Left Back,55,0,0,Premier League,2011/2012,2011/2012,2011
+Ashley Westwood,2015/2016,2,38,0,Aston Villa,Left Center Midfield,290,0,0,Premier League,2015/2016,2015/2016,2015
+Ashley Williams,2015/2016,2,16,0,Swansea City,Left Center Back,180,0,0,Premier League,2015/2016,2015/2016,2015
+Asmita Ale,2020/2021,0,1,0,Aston Villa,Right Back,5,0,0,Premier League,2020/2021,2020/2021,2020
+"Augustine Azuka ""Jay-Jay"" Okocha",2003/2004,0,5,0,Bolton Wanderers,Left Center Midfield,25,0,0,Premier League,2003/2004,2003/2004,2003
+Ayoze Pérez Gutiérrez,2015/2016,6,51,0,Newcastle United,Center Attacking Midfield,555,0,0,Premier League,2015/2016,2015/2016,2015
+Bacary Sagna,2015/2016,0,4,0,Manchester City,Right Back,20,0,0,Premier League,2015/2016,2015/2016,2015
+Bafétimbi Gomis,2015/2016,6,59,0,Swansea City,Center Forward,595,0,0,Premier League,2015/2016,2015/2016,2015
+Bakary Sako,2015/2016,2,35,0,Crystal Palace,Left Wing,275,0,0,Premier League,2015/2016,2015/2016,2015
+Bamidele Alli,2015/2016,10,73,0,Tottenham Hotspur,Center Attacking Midfield,865,0,0,Premier League,2015/2016,2015/2016,2015
+Bamidele Alli,2018/2019,0,3,0,Tottenham Hotspur,Center Attacking Midfield,15,0,0,Premier League,2018/2019,2018/2019,2018
+Barry Ferguson,2003/2004,0,3,0,Blackburn Rovers,Left Center Midfield,15,0,0,Premier League,2003/2004,2003/2004,2003
+Ben Davies,2015/2016,0,9,0,Tottenham Hotspur,Left Back,45,0,0,Premier League,2015/2016,2015/2016,2015
+Ben Watson,2015/2016,1,16,0,Watford,Left Defensive Midfield,130,0,0,Premier League,2015/2016,2015/2016,2015
+Benik Afobe,2015/2016,4,14,0,AFC Bournemouth,Center Forward,270,0,0,Premier League,2015/2016,2015/2016,2015
+Bertrand Isidore Traoré,2015/2016,2,17,0,Chelsea,Center Forward,185,0,0,Premier League,2015/2016,2015/2016,2015
+Billy Jones,2015/2016,1,13,0,Sunderland,Right Back,115,0,0,Premier League,2015/2016,2015/2016,2015
+Bojan Krkíc Pérez,2015/2016,7,37,0,Stoke City,Center Attacking Midfield,535,0,0,Premier League,2015/2016,2015/2016,2015
+Boudewijn Zenden,2003/2004,0,3,0,Middlesbrough,Right Center Forward,15,0,0,Premier League,2003/2004,2003/2004,2003
+Bradley Johnson,2015/2016,0,10,0,Norwich City,Center Attacking Midfield,50,0,0,Premier League,2015/2016,2015/2016,2015
+Bradley Shaun Smith,2015/2016,0,1,0,Liverpool,Left Back,5,0,0,Premier League,2015/2016,2015/2016,2015
+Branislav Ivanović,2015/2016,2,28,0,Chelsea,Right Back,240,0,0,Premier League,2015/2016,2015/2016,2015
+Brede Hangeland,2015/2016,0,5,0,Crystal Palace,Left Center Back,25,0,0,Premier League,2015/2016,2015/2016,2015
+Brendan Joel Zibusiso Galloway,2015/2016,0,9,0,Everton,Left Back,45,0,0,Premier League,2015/2016,2015/2016,2015
+Brett Ormerod,2003/2004,0,2,0,Southampton,Right Center Forward,10,0,0,Premier League,2003/2004,2003/2004,2003
+Brian McBride,2003/2004,0,1,0,Fulham,Left Center Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+"Bruno N""Gotty",2003/2004,0,1,0,Bolton Wanderers,Right Center Back,5,0,0,Premier League,2003/2004,2003/2004,2003
+Bryan Oviedo,2015/2016,0,5,0,Everton,Left Back,25,0,0,Premier League,2015/2016,2015/2016,2015
+Callum Davidson,2003/2004,0,1,0,Leicester City,Left Defensive Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+Callum McManaman,2015/2016,0,8,0,West Bromwich Albion,Right Midfield,40,0,0,Premier League,2015/2016,2015/2016,2015
+Callum Wilson,2015/2016,5,18,0,AFC Bournemouth,Right Center Forward,340,0,0,Premier League,2015/2016,2015/2016,2015
+Calum Chambers,2015/2016,0,2,0,Arsenal,Center Forward,10,0,0,Premier League,2015/2016,2015/2016,2015
+Cameron Brannagan,2015/2016,0,1,0,Liverpool,Right Center Midfield,5,0,0,Premier League,2015/2016,2015/2016,2015
+Cameron Jerome,2015/2016,3,49,0,Norwich City,Center Forward,395,0,0,Premier League,2015/2016,2015/2016,2015
+Carl Cort,2003/2004,0,1,0,Wolverhampton Wanderers,Left Center Forward,5,0,0,Premier League,2003/2004,2003/2004,2003
+Carl Jenkinson,2015/2016,2,7,0,West Ham United,Right Back,135,0,0,Premier League,2015/2016,2015/2016,2015
+Carles Gil de Pareja Vicent,2015/2016,2,18,0,Aston Villa,Right Wing,190,0,0,Premier League,2015/2016,2015/2016,2015
+Carlos Alberto Sánchez Moreno,2015/2016,0,13,0,Aston Villa,Center Defensive Midfield,65,0,0,Premier League,2015/2016,2015/2016,2015
+Carlos Manuel Bocanegra,2003/2004,0,1,0,Fulham,Left Back,5,0,0,Premier League,2003/2004,2003/2004,2003
+Caroline Siems,2020/2021,0,9,0,Aston Villa,Left Back,45,0,0,Premier League,2020/2021,2020/2021,2020
+Chancel Mbemba Mangulu,2015/2016,0,12,0,Newcastle United,Right Center Back,60,0,0,Premier League,2015/2016,2015/2016,2015
+Charlie Adam,2015/2016,1,28,0,Stoke City,Right Center Midfield,190,0,0,Premier League,2015/2016,2015/2016,2015
+Charlie Austin,2015/2016,1,8,0,Southampton,Center Forward,90,0,0,Premier League,2015/2016,2015/2016,2015
+Charlie Daniels,2015/2016,3,23,0,AFC Bournemouth,Left Back,265,0,0,Premier League,2015/2016,2015/2016,2015
+Cheik Ismaël Tioté,2015/2016,0,2,0,Newcastle United,Left Defensive Midfield,10,0,0,Premier League,2015/2016,2015/2016,2015
+Cheikhou Kouyaté,2015/2016,5,46,0,West Ham United,Right Center Midfield,480,0,0,Premier League,2015/2016,2015/2016,2015
+Chloe Arthur,2020/2021,1,15,0,Aston Villa,Center Defensive Midfield,125,0,0,Premier League,2020/2021,2020/2021,2020
+Chris Baird,2003/2004,0,1,0,Southampton,Right Defensive Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+Chris Brunt,2015/2016,0,17,0,West Bromwich Albion,Left Back,85,0,0,Premier League,2015/2016,2015/2016,2015
+Christian Benteke Liolo,2015/2016,9,64,0,Liverpool,Center Forward,770,0,0,Premier League,2015/2016,2015/2016,2015
+Christian Dannemann Eriksen,2015/2016,6,99,0,Tottenham Hotspur,Left Wing,795,0,0,Premier League,2015/2016,2015/2016,2015
+Christian Dannemann Eriksen,2018/2019,0,3,0,Tottenham Hotspur,Right Wing,15,0,0,Premier League,2018/2019,2018/2019,2018
+Christian Fuchs,2015/2016,0,19,0,Leicester City,Left Back,95,0,0,Premier League,2015/2016,2015/2016,2015
+Chung-Yong Lee,2015/2016,1,5,0,Crystal Palace,Left Wing,75,0,0,Premier League,2015/2016,2015/2016,2015
+Ciaran Clark,2015/2016,1,10,0,Aston Villa,Left Center Back,100,0,0,Premier League,2015/2016,2015/2016,2015
+Claude Makélélé,2003/2004,0,2,0,Chelsea,Left Center Midfield,10,0,0,Premier League,2003/2004,2003/2004,2003
+Claudio Ariel Yacob,2015/2016,0,9,0,West Bromwich Albion,Center Defensive Midfield,45,0,0,Premier League,2015/2016,2015/2016,2015
+Claus Jensen,2003/2004,1,3,0,Charlton Athletic,Left Center Midfield,65,0,0,Premier League,2003/2004,2003/2004,2003
+Clinton Mua N''Jie,2015/2016,0,7,0,Tottenham Hotspur,Left Wing,35,0,0,Premier League,2015/2016,2015/2016,2015
+Colin Cameron,2003/2004,0,1,0,Wolverhampton Wanderers,Left Center Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+Collins John,2003/2004,0,2,0,Fulham,Right Midfield,10,0,0,Premier League,2003/2004,2003/2004,2003
+Connor Steven Randall,2015/2016,0,2,0,Liverpool,Right Back,10,0,0,Premier League,2015/2016,2015/2016,2015
+Connor Wickham,2015/2016,5,35,0,Crystal Palace,Center Forward,425,0,0,Premier League,2015/2016,2015/2016,2015
+Craig Bellamy,2003/2004,0,4,0,Newcastle United,Right Center Forward,20,0,0,Premier League,2003/2004,2003/2004,2003
+Craig Cathcart,2015/2016,1,6,0,Watford,Left Center Back,80,0,0,Premier League,2015/2016,2015/2016,2015
+Craig Dawson,2015/2016,4,38,0,West Bromwich Albion,Right Back,390,0,0,Premier League,2015/2016,2015/2016,2015
+Craig Gardner,2015/2016,3,50,0,West Bromwich Albion,Left Center Midfield,400,0,0,Premier League,2015/2016,2015/2016,2015
+Craig Hignett,2003/2004,1,2,0,Leicester City,Right Defensive Midfield,60,0,0,Premier League,2003/2004,2003/2004,2003
+Craig Short,2003/2004,0,2,0,Blackburn Rovers,Left Center Back,10,0,0,Premier League,2003/2004,2003/2004,2003
+Cristian Gamboa Luna,2015/2016,0,1,0,West Bromwich Albion,Left Midfield,5,0,0,Premier League,2015/2016,2015/2016,2015
+Cédric Ricardo Alves Soares,2015/2016,0,10,0,Southampton,Right Back,50,0,0,Premier League,2015/2016,2015/2016,2015
+César Azpilicueta Tanco,2015/2016,2,11,0,Chelsea,Left Back,155,0,0,Premier League,2015/2016,2015/2016,2015
+Dame N''Doye,2015/2016,1,11,0,Sunderland,Right Midfield,105,0,0,Premier League,2015/2016,2015/2016,2015
+Damien Delaney,2015/2016,2,21,0,Crystal Palace,Left Center Back,205,0,0,Premier League,2015/2016,2015/2016,2015
+Dan Gosling,2015/2016,3,40,0,AFC Bournemouth,Right Center Midfield,350,0,0,Premier League,2015/2016,2015/2016,2015
+Daniel Amartey,2015/2016,0,1,0,Leicester City,Left Midfield,5,0,0,Premier League,2015/2016,2015/2016,2015
+Daniel Andre Sturridge,2015/2016,8,48,0,Liverpool,Center Forward,640,0,0,Premier League,2015/2016,2015/2016,2015
+Daniel Munthe Agger,2006/2007,0,2,0,Liverpool,Left Center Back,10,0,0,Premier League,2006/2007,2006/2007,2006
+Daniel Nii Tackie Mensah Welbeck,2015/2016,4,20,0,Arsenal,Center Forward,300,0,0,Premier League,2015/2016,2015/2016,2015
+Daniel William John Ings,2015/2016,2,10,0,Liverpool,Left Center Forward,150,0,0,Premier League,2015/2016,2015/2016,2015
+Danny Drinkwater,2015/2016,2,42,0,Leicester City,Left Center Midfield,310,0,0,Premier League,2015/2016,2015/2016,2015
+Danny Graham,2015/2016,0,4,0,Sunderland,Center Forward,20,0,0,Premier League,2015/2016,2015/2016,2015
+Danny Higginbotham,2003/2004,0,2,0,Southampton,Left Back,10,0,0,Premier League,2003/2004,2003/2004,2003
+Danny Rose,2015/2016,1,26,0,Tottenham Hotspur,Left Back,180,0,0,Premier League,2015/2016,2015/2016,2015
+Danny Rose,2018/2019,0,2,0,Tottenham Hotspur,Left Back,10,0,0,Premier League,2018/2019,2018/2019,2018
+Danny Simpson,2015/2016,0,7,0,Leicester City,Right Back,35,0,0,Premier League,2015/2016,2015/2016,2015
+Darren Ambrose,2003/2004,0,1,0,Newcastle United,Right Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+Darren Anderton,2003/2004,1,1,0,Tottenham Hotspur,Right Center Midfield,55,0,0,Premier League,2003/2004,2003/2004,2003
+Darren Fletcher,2015/2016,1,23,0,West Bromwich Albion,Right Center Midfield,165,0,0,Premier League,2015/2016,2015/2016,2015
+Darren Randolph,2015/2016,0,1,0,West Ham United,Goalkeeper,5,0,0,Premier League,2015/2016,2015/2016,2015
+Darron Gibson,2015/2016,0,2,0,Everton,Center Attacking Midfield,10,0,0,Premier League,2015/2016,2015/2016,2015
+Daryl Janmaat,2015/2016,2,21,0,Newcastle United,Right Back,205,0,0,Premier League,2015/2016,2015/2016,2015
+David Bentley,2003/2004,0,1,0,Arsenal,Right Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+David Dunn,2003/2004,0,2,0,Birmingham City,Center Attacking Midfield,10,0,0,Premier League,2003/2004,2003/2004,2003
+David Josué Jiménez Silva,2015/2016,2,29,0,Manchester City,Center Attacking Midfield,245,0,0,Premier League,2015/2016,2015/2016,2015
+David Luiz Moreira Marinho,2011/2012,1,1,0,Chelsea,Right Center Back,55,0,0,Premier League,2011/2012,2011/2012,2011
+David Prutton,2003/2004,0,1,0,Southampton,Right Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+DeAndre Yedlin,2015/2016,0,4,0,Sunderland,Right Back,20,0,0,Premier League,2015/2016,2015/2016,2015
+Dejan Lovren,2015/2016,0,22,0,Liverpool,Left Center Back,110,0,0,Premier League,2015/2016,2015/2016,2015
+Dejan Lovren,2017/2018,0,1,0,Liverpool,Right Center Back,5,0,0,Premier League,2017/2018,2017/2018,2017
+Dejan Stefanovic,2003/2004,0,2,0,Portsmouth,Left Center Back,10,0,0,Premier League,2003/2004,2003/2004,2003
+Demarai Gray,2015/2016,0,5,0,Leicester City,Left Wing,25,0,0,Premier League,2015/2016,2015/2016,2015
+Denis Irwin,2003/2004,0,3,0,Wolverhampton Wanderers,Right Back,15,0,0,Premier League,2003/2004,2003/2004,2003
+Dennis Bergkamp,2003/2004,4,45,0,Arsenal,Right Center Forward,425,0,0,Premier League,2003/2004,2003/2004,2003
+Diafra Sakho,2015/2016,5,46,0,West Ham United,Center Forward,480,0,0,Premier League,2015/2016,2015/2016,2015
+Diana Micaela Abreu de Sousa e Silva,2020/2021,1,9,0,Aston Villa,Left Wing,95,0,0,Premier League,2020/2021,2020/2021,2020
+Didier Yves Drogba Tébily,2011/2012,2,6,0,Chelsea,Center Forward,130,0,0,Premier League,2011/2012,2011/2012,2011
+Diego da Silva Costa,2015/2016,12,70,0,Chelsea,Center Forward,950,0,0,Premier League,2015/2016,2015/2016,2015
+Dietmar Hamann,2004/2005,1,2,0,Liverpool,Right Back,60,0,0,Premier League,2004/2005,2004/2005,2004
+Dieumerci Mbokani Bezua,2015/2016,7,37,0,Norwich City,Center Forward,535,0,0,Premier League,2015/2016,2015/2016,2015
+Dimitri Payet,2015/2016,9,69,0,West Ham United,Left Wing,795,0,0,Premier League,2015/2016,2015/2016,2015
+Dirk Kuijt,2006/2007,1,2,0,Liverpool,Center Forward,60,0,0,Premier League,2006/2007,2006/2007,2006
+Divock Okoth Origi,2015/2016,5,24,0,Liverpool,Center Forward,370,0,0,Premier League,2015/2016,2015/2016,2015
+Divock Okoth Origi,2018/2019,1,1,0,Liverpool,Center Forward,55,0,0,Premier League,2018/2019,2018/2019,2018
+Djibril Cissé,2004/2005,1,2,0,Liverpool,Center Forward,60,0,0,Premier League,2004/2005,2004/2005,2004
+Dorival Guidoni Júnior,2003/2004,0,3,0,Middlesbrough,Left Defensive Midfield,15,0,0,Premier League,2003/2004,2003/2004,2003
+Duncan Watmore,2015/2016,3,17,0,Sunderland,Left Wing,235,0,0,Premier League,2015/2016,2015/2016,2015
+Dušan Tadić,2015/2016,7,56,0,Southampton,Left Wing,630,0,0,Premier League,2015/2016,2015/2016,2015
+Dwight Gayle,2015/2016,3,22,0,Crystal Palace,Center Forward,260,0,0,Premier League,2015/2016,2015/2016,2015
+Dwight Yorke,2003/2004,0,2,0,Blackburn Rovers,Left Center Forward,10,0,0,Premier League,2003/2004,2003/2004,2003
+Eden Hazard,2015/2016,4,36,0,Chelsea,Left Wing,380,0,0,Premier League,2015/2016,2015/2016,2015
+Eduardo César Daude Gaspar,2003/2004,2,25,0,Arsenal,Left Defensive Midfield,225,0,0,Premier League,2003/2004,2003/2004,2003
+Eiður Smári Guðjohnsen,2003/2004,1,2,0,Chelsea,Right Center Forward,60,0,0,Premier League,2003/2004,2003/2004,2003
+El-Hadji Baye Oumar Niasse,2015/2016,0,2,0,Everton,Center Forward,10,0,0,Premier League,2015/2016,2015/2016,2015
+El-Hadji Ousseynou Diouf,2003/2004,0,2,0,Liverpool,Right Midfield,10,0,0,Premier League,2003/2004,2003/2004,2003
+Eliaquim Mangala,2015/2016,0,6,0,Manchester City,Left Center Back,30,0,0,Premier League,2015/2016,2015/2016,2015
+Elisha N''Dow,2020/2021,0,1,0,Aston Villa,Right Center Back,5,0,0,Premier League,2020/2021,2020/2021,2020
+Ella Franklin-Fraiture,2020/2021,0,3,0,Aston Villa,Right Back,15,0,0,Premier League,2020/2021,2020/2021,2020
+Emily Syme,2020/2021,0,3,0,Aston Villa,Left Center Midfield,15,0,0,Premier League,2020/2021,2020/2021,2020
+Emma Follis,2020/2021,0,8,0,Aston Villa,Left Wing,40,0,0,Premier League,2020/2021,2020/2021,2020
+Emmanuel Adebayor,2015/2016,1,12,0,Crystal Palace,Center Forward,110,0,0,Premier League,2015/2016,2015/2016,2015
+Emmanuel Emenike,2015/2016,0,12,0,West Ham United,Center Forward,60,0,0,Premier League,2015/2016,2015/2016,2015
+Emmanuel Rivière,2015/2016,0,3,0,Newcastle United,Center Back,15,0,0,Premier League,2015/2016,2015/2016,2015
+Emre Can,2015/2016,1,31,0,Liverpool,Left Center Midfield,205,0,0,Premier League,2015/2016,2015/2016,2015
+Enner Remberto Valencia Lastra,2015/2016,4,33,0,West Ham United,Center Forward,365,0,0,Premier League,2015/2016,2015/2016,2015
+Eric Dier,2015/2016,3,30,0,Tottenham Hotspur,Right Defensive Midfield,300,0,0,Premier League,2015/2016,2015/2016,2015
+Erik Lamela,2015/2016,5,59,0,Tottenham Hotspur,Right Wing,545,0,0,Premier League,2015/2016,2015/2016,2015
+Erik Pieters,2015/2016,0,5,0,Stoke City,Left Back,25,0,0,Premier League,2015/2016,2015/2016,2015
+Etienne Capoue,2015/2016,0,35,0,Watford,Right Center Midfield,175,0,0,Premier League,2015/2016,2015/2016,2015
+Eunan O''Kane,2015/2016,0,8,0,AFC Bournemouth,Right Center Midfield,40,0,0,Premier League,2015/2016,2015/2016,2015
+Fabian Delph,2015/2016,2,13,0,Manchester City,Left Defensive Midfield,165,0,0,Premier League,2015/2016,2015/2016,2015
+Fabio Borini,2015/2016,5,49,0,Sunderland,Right Midfield,495,0,0,Premier League,2015/2016,2015/2016,2015
+Fabricio Coloccini,2015/2016,1,10,0,Newcastle United,Left Center Back,100,0,0,Premier League,2015/2016,2015/2016,2015
+Federico Fernández,2015/2016,1,17,0,Swansea City,Right Center Back,135,0,0,Premier League,2015/2016,2015/2016,2015
+Fernando Francisco Reges,2015/2016,2,16,0,Manchester City,Right Center Midfield,180,0,0,Premier League,2015/2016,2015/2016,2015
+Fernando Luiz Rosa,2015/2016,2,30,0,Manchester City,Left Center Midfield,250,0,0,Premier League,2015/2016,2015/2016,2015
+Fraizer Campbell,2015/2016,0,4,0,Crystal Palace,Center Forward,20,0,0,Premier League,2015/2016,2015/2016,2015
+Francesc Fàbregas i Soler,2015/2016,5,48,0,Chelsea,Right Defensive Midfield,490,0,0,Premier League,2015/2016,2015/2016,2015
+Francis Jeffers,2003/2004,0,2,0,Everton,Left Center Midfield,10,0,0,Premier League,2003/2004,2003/2004,2003
+Francis Joseph Coquelin,2015/2016,0,9,0,Arsenal,Left Defensive Midfield,45,0,0,Premier League,2015/2016,2015/2016,2015
+Franck Queudrue,2003/2004,0,1,0,Middlesbrough,Left Back,5,0,0,Premier League,2003/2004,2003/2004,2003
+Frank Lampard,2003/2004,0,2,0,Chelsea,Left Defensive Midfield,10,0,0,Premier League,2003/2004,2003/2004,2003
+Frank Lampard,2011/2012,1,2,0,Chelsea,Left Defensive Midfield,60,0,0,Premier League,2011/2012,2011/2012,2011
+Fredrik Ljungberg,2003/2004,4,49,0,Arsenal,Right Midfield,445,0,0,Premier League,2003/2004,2003/2004,2003
+Freya Gregory,2020/2021,1,6,0,Aston Villa,Left Wing,80,0,0,Premier League,2020/2021,2020/2021,2020
+Frédéric Oumar Kanouté,2003/2004,0,4,0,Tottenham Hotspur,Right Center Forward,20,0,0,Premier League,2003/2004,2003/2004,2003
+Fábio Henrique Tavares,2018/2019,0,1,0,Liverpool,Center Defensive Midfield,5,0,0,Premier League,2018/2019,2018/2019,2018
+Gabriel Antoine Obertan,2015/2016,0,3,0,Newcastle United,Left Wing,15,0,0,Premier League,2015/2016,2015/2016,2015
+Gabriel Armando de Abreu,2015/2016,1,12,0,Arsenal,Right Center Back,110,0,0,Premier League,2015/2016,2015/2016,2015
+Gabriel Imuetinyan Agbonlahor,2015/2016,1,11,0,Aston Villa,Center Forward,105,0,0,Premier League,2015/2016,2015/2016,2015
+Gareth Barry,2003/2004,0,1,0,Aston Villa,Left Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+Gareth Barry,2015/2016,0,17,0,Everton,Left Defensive Midfield,85,0,0,Premier League,2015/2016,2015/2016,2015
+Gareth McAuley,2015/2016,1,8,0,West Bromwich Albion,Right Center Back,90,0,0,Premier League,2015/2016,2015/2016,2015
+Gary Cahill,2015/2016,2,14,0,Chelsea,Right Center Back,170,0,0,Premier League,2015/2016,2015/2016,2015
+Gary Hooper,2015/2016,0,1,0,Norwich City,Center Forward,5,0,0,Premier League,2015/2016,2015/2016,2015
+Gary Naysmith,2003/2004,0,1,0,Everton,Left Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+Gary O''Neil,2015/2016,0,11,0,Norwich City,Right Center Midfield,55,0,0,Premier League,2015/2016,2015/2016,2015
+Gary Speed,2003/2004,0,1,0,Newcastle United,Left Defensive Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+Gastón Exequiel Ramírez Pereyra,2015/2016,0,1,0,Southampton,Right Wing,5,0,0,Premier League,2015/2016,2015/2016,2015
+Gaël Clichy,2003/2004,0,1,0,Arsenal,Left Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+Gaël Clichy,2015/2016,0,2,0,Manchester City,Left Back,10,0,0,Premier League,2015/2016,2015/2016,2015
+Geoff Cameron,2015/2016,0,16,0,Stoke City,Right Back,80,0,0,Premier League,2015/2016,2015/2016,2015
+George Boateng,2003/2004,0,1,0,Middlesbrough,Right Defensive Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+Georginio Wijnaldum,2015/2016,11,54,0,Newcastle United,Left Midfield,820,0,0,Premier League,2015/2016,2015/2016,2015
+Georginio Wijnaldum,2017/2018,0,1,0,Liverpool,Right Center Midfield,5,0,0,Premier League,2017/2018,2017/2018,2017
+Gerard Deulofeu Lázaro,2015/2016,2,12,0,Everton,Right Wing,160,0,0,Premier League,2015/2016,2015/2016,2015
+Gilbert Gianelli Imbula Wanga,2015/2016,2,21,0,Stoke City,Left Defensive Midfield,205,0,0,Premier League,2015/2016,2015/2016,2015
+Gilberto Aparecido da Silva,2003/2004,4,31,0,Arsenal,Right Defensive Midfield,355,0,0,Premier League,2003/2004,2003/2004,2003
+Glen Johnson,2003/2004,0,2,0,Chelsea,Right Back,10,0,0,Premier League,2003/2004,2003/2004,2003
+Glen Johnson,2015/2016,0,18,0,Stoke City,Right Back,90,0,0,Premier League,2015/2016,2015/2016,2015
+Glenn Murray,2015/2016,3,27,0,AFC Bournemouth,Center Forward,285,0,0,Premier League,2015/2016,2015/2016,2015
+Glenn Whelan,2015/2016,0,11,0,Stoke City,Right Defensive Midfield,55,0,0,Premier League,2015/2016,2015/2016,2015
+Gnégnéri Yaya Touré,2015/2016,6,74,0,Manchester City,Right Defensive Midfield,670,0,0,Premier League,2015/2016,2015/2016,2015
+Graeme Le Saux,2003/2004,0,4,0,Southampton,Left Midfield,20,0,0,Premier League,2003/2004,2003/2004,2003
+Graham Dorrans,2015/2016,0,16,0,Norwich City,Left Defensive Midfield,80,0,0,Premier League,2015/2016,2015/2016,2015
+Graham Stuart,2003/2004,0,3,0,Charlton Athletic,Left Midfield,15,0,0,Premier League,2003/2004,2003/2004,2003
+Graziano Pellè,2015/2016,11,82,0,Southampton,Center Forward,960,0,0,Premier League,2015/2016,2015/2016,2015
+Guangtai Jiang,2015/2016,0,2,0,Everton,Right Back,10,0,0,Premier League,2015/2016,2015/2016,2015
+Gylfi Þór Sigurðsson,2015/2016,11,89,0,Swansea City,Center Attacking Midfield,995,0,0,Premier League,2015/2016,2015/2016,2015
+"Gérémi Sorele N""Djitap Fotso",2003/2004,0,3,0,Chelsea,Left Midfield,15,0,0,Premier League,2003/2004,2003/2004,2003
+Gökhan İnler,2015/2016,0,2,0,Leicester City,Left Center Midfield,10,0,0,Premier League,2015/2016,2015/2016,2015
+Harry Arter,2015/2016,1,36,0,AFC Bournemouth,Left Center Midfield,230,0,0,Premier League,2015/2016,2015/2016,2015
+Harry Kane,2015/2016,25,158,0,Tottenham Hotspur,Center Forward,2040,0,0,Premier League,2015/2016,2015/2016,2015
+Harry Kane,2018/2019,0,1,0,Tottenham Hotspur,Center Forward,5,0,0,Premier League,2018/2019,2018/2019,2018
+Harry Kewell,2003/2004,1,7,0,Liverpool,Left Midfield,85,0,0,Premier League,2003/2004,2003/2004,2003
+Henri Camara,2003/2004,0,1,0,Wolverhampton Wanderers,Right Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+Henrik Pedersen,2003/2004,1,1,0,Bolton Wanderers,Right Midfield,55,0,0,Premier League,2003/2004,2003/2004,2003
+Hermann Hreidarsson,2003/2004,0,2,0,Charlton Athletic,Left Back,10,0,0,Premier League,2003/2004,2003/2004,2003
+Hernán Jorge Crespo,2003/2004,1,3,0,Chelsea,Right Center Forward,65,0,0,Premier League,2003/2004,2003/2004,2003
+Heung-Min Son,2015/2016,4,40,0,Tottenham Hotspur,Right Wing,400,0,0,Premier League,2015/2016,2015/2016,2015
+Heung-Min Son,2018/2019,0,3,0,Tottenham Hotspur,Left Wing,15,0,0,Premier League,2018/2019,2018/2019,2018
+Hiram Boateng,2015/2016,0,1,0,Crystal Palace,Right Defensive Midfield,5,0,0,Premier League,2015/2016,2015/2016,2015
+Héctor Bellerín Moruno,2015/2016,1,13,0,Arsenal,Right Back,115,0,0,Premier League,2015/2016,2015/2016,2015
+Hélder Manuel Marques Postiga,2003/2004,0,5,0,Tottenham Hotspur,Right Center Forward,25,0,0,Premier League,2003/2004,2003/2004,2003
+Ian Harte,2003/2004,0,2,0,Leeds United,Left Back,10,0,0,Premier League,2003/2004,2003/2004,2003
+Ibrahim Afellay,2015/2016,2,39,0,Stoke City,Center Attacking Midfield,295,0,0,Premier League,2015/2016,2015/2016,2015
+Idrissa Gana Gueye,2015/2016,0,30,0,Aston Villa,Left Center Midfield,150,0,0,Premier League,2015/2016,2015/2016,2015
+Ignacio Monreal Eraso,2015/2016,0,13,0,Arsenal,Left Back,65,0,0,Premier League,2015/2016,2015/2016,2015
+Ikechi Anya,2015/2016,0,10,0,Watford,Right Midfield,50,0,0,Premier League,2015/2016,2015/2016,2015
+Ioan Viorel Ganea,2003/2004,1,3,0,Wolverhampton Wanderers,Right Center Forward,65,0,0,Premier League,2003/2004,2003/2004,2003
+Iván Campo Ramos,2003/2004,1,2,0,Bolton Wanderers,Center Defensive Midfield,60,0,0,Premier League,2003/2004,2003/2004,2003
+Jack Colback,2015/2016,1,16,0,Newcastle United,Left Defensive Midfield,130,0,0,Premier League,2015/2016,2015/2016,2015
+Jack Frank Porteous Cork,2015/2016,1,19,0,Swansea City,Right Center Midfield,145,0,0,Premier League,2015/2016,2015/2016,2015
+Jack Grealish,2015/2016,1,16,0,Aston Villa,Center Attacking Midfield,130,0,0,Premier League,2015/2016,2015/2016,2015
+Jack Rodwell,2015/2016,1,27,0,Sunderland,Left Center Midfield,185,0,0,Premier League,2015/2016,2015/2016,2015
+Jack Wilshere,2015/2016,0,1,0,Arsenal,Right Wing,5,0,0,Premier League,2015/2016,2015/2016,2015
+Jamaal Lascelles,2015/2016,2,4,0,Newcastle United,Right Center Back,120,0,0,Premier League,2015/2016,2015/2016,2015
+James Collins,2015/2016,0,13,0,West Ham United,Right Center Back,65,0,0,Premier League,2015/2016,2015/2016,2015
+James McArthur,2015/2016,2,16,0,Crystal Palace,Left Defensive Midfield,180,0,0,Premier League,2015/2016,2015/2016,2015
+James McCarthy,2015/2016,2,17,0,Everton,Right Defensive Midfield,185,0,0,Premier League,2015/2016,2015/2016,2015
+James McClean,2015/2016,2,31,0,West Bromwich Albion,Left Midfield,255,0,0,Premier League,2015/2016,2015/2016,2015
+James Morrison,2015/2016,3,24,0,West Bromwich Albion,Center Attacking Midfield,270,0,0,Premier League,2015/2016,2015/2016,2015
+James Philip Milner,2015/2016,5,39,0,Liverpool,Right Center Midfield,445,0,0,Premier League,2015/2016,2015/2016,2015
+James Philip Milner,2017/2018,0,1,0,Liverpool,Left Center Midfield,5,0,0,Premier League,2017/2018,2017/2018,2017
+James Philip Milner,2018/2019,0,1,0,Liverpool,Left Center Midfield,5,0,0,Premier League,2018/2019,2018/2019,2018
+James Scowcroft,2003/2004,0,1,0,Leicester City,Right Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+James Tomkins,2015/2016,0,8,0,West Ham United,Right Back,40,0,0,Premier League,2015/2016,2015/2016,2015
+James Ward-Prowse,2015/2016,2,29,0,Southampton,Right Wing,245,0,0,Premier League,2015/2016,2015/2016,2015
+Jamie Redknapp,2003/2004,1,3,0,Tottenham Hotspur,Right Center Midfield,65,0,0,Premier League,2003/2004,2003/2004,2003
+Jamie Vardy,2015/2016,24,118,0,Leicester City,Left Center Forward,1790,0,0,Premier League,2015/2016,2015/2016,2015
+Jan Kirchhoff,2015/2016,0,9,0,Sunderland,Center Defensive Midfield,45,0,0,Premier League,2015/2016,2015/2016,2015
+Jan Vertonghen,2015/2016,0,9,0,Tottenham Hotspur,Left Center Back,45,0,0,Premier League,2015/2016,2015/2016,2015
+Jan Vertonghen,2018/2019,0,1,0,Tottenham Hotspur,Left Center Back,5,0,0,Premier League,2018/2019,2018/2019,2018
+Jason Joseph Euell,2003/2004,0,2,0,Charlton Athletic,Right Center Forward,10,0,0,Premier League,2003/2004,2003/2004,2003
+Jason Puncheon,2015/2016,2,53,0,Crystal Palace,Center Attacking Midfield,365,0,0,Premier League,2015/2016,2015/2016,2015
+Jason Roberts,2003/2004,0,1,0,Portsmouth,Left Center Forward,5,0,0,Premier League,2003/2004,2003/2004,2003
+Jay Rodriguez,2015/2016,0,15,0,Southampton,Center Attacking Midfield,75,0,0,Premier League,2015/2016,2015/2016,2015
+Jefferson Antonio Montero Vite,2015/2016,0,21,0,Swansea City,Left Wing,105,0,0,Premier League,2015/2016,2015/2016,2015
+Jeffrey Schlupp,2015/2016,1,25,0,Leicester City,Left Midfield,175,0,0,Premier League,2015/2016,2015/2016,2015
+Jeremain Lens,2015/2016,3,28,0,Sunderland,Right Wing,290,0,0,Premier League,2015/2016,2015/2016,2015
+Jermain Defoe,2003/2004,0,3,0,Tottenham Hotspur,Left Midfield,15,0,0,Premier League,2003/2004,2003/2004,2003
+Jermain Defoe,2015/2016,15,88,0,Sunderland,Center Forward,1190,0,0,Premier League,2015/2016,2015/2016,2015
+Jermaine Pennant,2003/2004,0,2,0,Leeds United,Right Midfield,10,0,0,Premier League,2003/2004,2003/2004,2003
+Jermaine Pennant,2006/2007,0,1,0,Liverpool,Right Wing,5,0,0,Premier League,2006/2007,2006/2007,2006
+Jesús Navas González,2015/2016,0,31,0,Manchester City,Right Wing,155,0,0,Premier League,2015/2016,2015/2016,2015
+Jihai Sun,2003/2004,0,1,0,Manchester City,Right Back,5,0,0,Premier League,2003/2004,2003/2004,2003
+Jodie Hutton,2020/2021,0,6,0,Aston Villa,Left Wing,30,0,0,Premier League,2020/2021,2020/2021,2020
+Jody Craddock,2003/2004,0,1,0,Wolverhampton Wanderers,Right Center Back,5,0,0,Premier League,2003/2004,2003/2004,2003
+Joe Allen,2015/2016,2,12,0,Liverpool,Left Center Midfield,160,0,0,Premier League,2015/2016,2015/2016,2015
+Joe Cole,2003/2004,0,1,0,Chelsea,Left Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+Joe Gomez,2015/2016,0,1,0,Liverpool,Left Back,5,0,0,Premier League,2015/2016,2015/2016,2015
+Joe Ledley,2015/2016,1,7,0,Crystal Palace,Left Center Midfield,85,0,0,Premier League,2015/2016,2015/2016,2015
+Joel Nathaniel Campbell Samuels,2015/2016,3,20,0,Arsenal,Right Wing,250,0,0,Premier League,2015/2016,2015/2016,2015
+Joel Ward,2015/2016,2,17,0,Crystal Palace,Right Back,185,0,0,Premier League,2015/2016,2015/2016,2015
+Joey Barton,2003/2004,0,2,0,Manchester City,Center Defensive Midfield,10,0,0,Premier League,2003/2004,2003/2004,2003
+John Arne Semundseth Riise,2003/2004,0,2,0,Liverpool,Left Back,10,0,0,Premier League,2003/2004,2003/2004,2003
+John Arne Semundseth Riise,2004/2005,0,4,0,Liverpool,Left Midfield,20,0,0,Premier League,2004/2005,2004/2005,2004
+John Arne Semundseth Riise,2006/2007,0,3,0,Liverpool,Left Back,15,0,0,Premier League,2006/2007,2006/2007,2006
+John Michael Nchekwube Obinna,2015/2016,0,7,0,Chelsea,Right Defensive Midfield,35,0,0,Premier League,2015/2016,2015/2016,2015
+John O''Shea,2015/2016,0,8,0,Sunderland,Left Center Back,40,0,0,Premier League,2015/2016,2015/2016,2015
+John Stones,2015/2016,0,8,0,Everton,Right Center Back,40,0,0,Premier League,2015/2016,2015/2016,2015
+John Terry,2003/2004,0,1,0,Chelsea,Left Center Back,5,0,0,Premier League,2003/2004,2003/2004,2003
+John Terry,2015/2016,1,10,0,Chelsea,Left Center Back,100,0,0,Premier League,2015/2016,2015/2016,2015
+Johnnie Jackson,2003/2004,0,1,0,Tottenham Hotspur,Left Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+Joleon Lescott,2015/2016,2,11,0,Aston Villa,Left Center Back,155,0,0,Premier League,2015/2016,2015/2016,2015
+Jonas Olsson,2015/2016,1,6,0,West Bromwich Albion,Left Center Back,80,0,0,Premier League,2015/2016,2015/2016,2015
+Jonatan Lillebror Johansson,2003/2004,0,3,0,Charlton Athletic,Left Center Forward,15,0,0,Premier League,2003/2004,2003/2004,2003
+Jonathan Douglas,2003/2004,0,1,0,Blackburn Rovers,Right Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+Jonathan Grant Evans,2015/2016,1,9,0,West Bromwich Albion,Left Center Back,95,0,0,Premier League,2015/2016,2015/2016,2015
+Jonathan Howson,2015/2016,3,35,0,Norwich City,Right Midfield,325,0,0,Premier League,2015/2016,2015/2016,2015
+Jonathan Walters,2015/2016,5,33,0,Stoke City,Center Forward,415,0,0,Premier League,2015/2016,2015/2016,2015
+Jonjo Shelvey,2015/2016,1,57,0,Swansea City,Left Center Midfield,335,0,0,Premier League,2015/2016,2015/2016,2015
+Jonjoe Kenny,2015/2016,0,1,0,Everton,Right Back,5,0,0,Premier League,2015/2016,2015/2016,2015
+Jordan Amavi,2015/2016,0,4,0,Aston Villa,Left Back,20,0,0,Premier League,2015/2016,2015/2016,2015
+Jordan Ayew,2015/2016,7,61,0,Aston Villa,Left Wing,655,0,0,Premier League,2015/2016,2015/2016,2015
+Jordan Brian Henderson,2015/2016,2,26,0,Liverpool,Right Center Midfield,230,0,0,Premier League,2015/2016,2015/2016,2015
+Jordan Brian Henderson,2018/2019,0,2,0,Liverpool,Right Center Midfield,10,0,0,Premier League,2018/2019,2018/2019,2018
+Jordan Lyden,2015/2016,0,1,0,Aston Villa,Right Midfield,5,0,0,Premier League,2015/2016,2015/2016,2015
+Jordan Veretout,2015/2016,0,20,0,Aston Villa,Right Center Midfield,100,0,0,Premier League,2015/2016,2015/2016,2015
+Jordi Amat Maas,2015/2016,0,1,0,Swansea City,Right Center Back,5,0,0,Premier League,2015/2016,2015/2016,2015
+Jordi Gómez García-Penche,2015/2016,0,2,0,Sunderland,Center Attacking Midfield,10,0,0,Premier League,2015/2016,2015/2016,2015
+Jordon Ibe,2015/2016,1,30,0,Liverpool,Right Wing,200,0,0,Premier League,2015/2016,2015/2016,2015
+Jordon Mutch,2015/2016,0,16,0,Crystal Palace,Center Attacking Midfield,80,0,0,Premier League,2015/2016,2015/2016,2015
+Jordy Clasie,2015/2016,0,14,0,Southampton,Left Defensive Midfield,70,0,0,Premier League,2015/2016,2015/2016,2015
+Joseph Phillip Yobo,2003/2004,0,1,0,Everton,Right Center Back,5,0,0,Premier League,2003/2004,2003/2004,2003
+Josh Onomah,2015/2016,0,3,0,Tottenham Hotspur,Center Forward,15,0,0,Premier League,2015/2016,2015/2016,2015
+Joshua King,2015/2016,6,56,0,AFC Bournemouth,Center Forward,580,0,0,Premier League,2015/2016,2015/2016,2015
+José Antonio Reyes Calderón,2003/2004,2,22,0,Arsenal,Right Center Forward,210,0,0,Premier League,2003/2004,2003/2004,2003
+José Holebas,2015/2016,0,13,0,Watford,Left Back,65,0,0,Premier League,2015/2016,2015/2016,2015
+José Leonardo Ulloa,2015/2016,6,33,0,Leicester City,Right Center Forward,465,0,0,Premier League,2015/2016,2015/2016,2015
+José Luis Sanmartín Mato,2015/2016,4,29,0,Stoke City,Center Forward,345,0,0,Premier League,2015/2016,2015/2016,2015
+José Manuel Jurado Marín,2015/2016,0,36,0,Watford,Left Midfield,180,0,0,Premier League,2015/2016,2015/2016,2015
+José Miguel da Rocha Fonte,2015/2016,2,24,0,Southampton,Right Center Back,220,0,0,Premier League,2015/2016,2015/2016,2015
+José Ramiro Funes Mori,2015/2016,4,24,0,Everton,Left Center Back,320,0,0,Premier League,2015/2016,2015/2016,2015
+José Salomón Rondón Giménez,2015/2016,9,72,0,West Bromwich Albion,Center Forward,810,0,0,Premier League,2015/2016,2015/2016,2015
+Juan Carlos Paredes Reasco,2015/2016,0,5,0,Watford,Right Back,25,0,0,Premier League,2015/2016,2015/2016,2015
+Juan Manuel Mata García,2011/2012,0,3,0,Chelsea,Center Attacking Midfield,15,0,0,Premier League,2011/2012,2011/2012,2011
+Juan Miguel Jiménez López,2015/2016,0,6,0,Southampton,Left Wing,30,0,0,Premier League,2015/2016,2015/2016,2015
+Juan Pablo Ángel Arango,2003/2004,0,9,0,Aston Villa,Left Center Forward,45,0,0,Premier League,2003/2004,2003/2004,2003
+Junichi Inamoto,2003/2004,0,1,0,Fulham,Left Center Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+Junior Stanislas,2015/2016,3,46,0,AFC Bournemouth,Left Midfield,380,0,0,Premier League,2015/2016,2015/2016,2015
+Jérémie Aliadière,2003/2004,0,7,0,Arsenal,Left Center Forward,35,0,0,Premier League,2003/2004,2003/2004,2003
+Kelechi Promise Iheanacho,2015/2016,8,29,0,Manchester City,Right Center Forward,545,0,0,Premier League,2015/2016,2015/2016,2015
+Kenny Miller,2003/2004,0,3,0,Wolverhampton Wanderers,Right Midfield,15,0,0,Premier League,2003/2004,2003/2004,2003
+Kevin Cyril Davies,2003/2004,0,7,0,Bolton Wanderers,Center Forward,35,0,0,Premier League,2003/2004,2003/2004,2003
+Kevin De Bruyne,2015/2016,7,52,0,Manchester City,Center Attacking Midfield,610,0,0,Premier League,2015/2016,2015/2016,2015
+Kevin Linford Stewart,2015/2016,0,5,0,Liverpool,Center Defensive Midfield,25,0,0,Premier League,2015/2016,2015/2016,2015
+Kevin Mbabu,2015/2016,0,1,0,Newcastle United,Left Back,5,0,0,Premier League,2015/2016,2015/2016,2015
+Kevin Mirallas,2015/2016,4,41,0,Everton,Left Wing,405,0,0,Premier League,2015/2016,2015/2016,2015
+Kevin Nolan,2003/2004,0,4,0,Bolton Wanderers,Right Center Midfield,20,0,0,Premier League,2003/2004,2003/2004,2003
+Kevin Phillips,2003/2004,0,3,0,Southampton,Left Center Forward,15,0,0,Premier League,2003/2004,2003/2004,2003
+Kevin Toner,2015/2016,0,2,0,Aston Villa,Left Center Back,10,0,0,Premier League,2015/2016,2015/2016,2015
+Kevin Wimmer,2015/2016,0,1,0,Tottenham Hotspur,Left Center Back,5,0,0,Premier League,2015/2016,2015/2016,2015
+Kieran Gibbs,2015/2016,1,5,0,Arsenal,Left Wing,75,0,0,Premier League,2015/2016,2015/2016,2015
+Kieran Richardson,2015/2016,0,7,0,Aston Villa,Left Wing,35,0,0,Premier League,2015/2016,2015/2016,2015
+Kieran Trippier,2015/2016,1,2,0,Tottenham Hotspur,Right Back,60,0,0,Premier League,2015/2016,2015/2016,2015
+Kolo Habib Touré,2003/2004,1,16,0,Arsenal,Right Center Back,130,0,0,Premier League,2003/2004,2003/2004,2003
+Kolo Habib Touré,2015/2016,1,4,0,Liverpool,Right Center Back,70,0,0,Premier League,2015/2016,2015/2016,2015
+Kurt Happy Zouma,2015/2016,1,16,0,Chelsea,Right Center Back,130,0,0,Premier League,2015/2016,2015/2016,2015
+Kyle Bartley,2015/2016,0,2,0,Swansea City,Right Center Back,10,0,0,Premier League,2015/2016,2015/2016,2015
+Kyle Naughton,2015/2016,0,9,0,Swansea City,Right Back,45,0,0,Premier League,2015/2016,2015/2016,2015
+Kyle Walker,2015/2016,1,20,0,Tottenham Hotspur,Right Back,150,0,0,Premier League,2015/2016,2015/2016,2015
+Lamine Sakho,2003/2004,0,2,0,Leeds United,Left Midfield,10,0,0,Premier League,2003/2004,2003/2004,2003
+Laureano Bisan-Etame Mayer,2003/2004,0,7,0,Arsenal,Right Back,35,0,0,Premier League,2003/2004,2003/2004,2003
+Laurent Koscielny,2015/2016,4,20,0,Arsenal,Left Center Back,300,0,0,Premier League,2015/2016,2015/2016,2015
+Laurent Robert,2003/2004,1,6,0,Newcastle United,Left Midfield,80,0,0,Premier League,2003/2004,2003/2004,2003
+Leandro Bacuna,2015/2016,1,32,0,Aston Villa,Right Center Midfield,210,0,0,Premier League,2015/2016,2015/2016,2015
+Ledley King,2003/2004,0,1,0,Tottenham Hotspur,Center Back,5,0,0,Premier League,2003/2004,2003/2004,2003
+Lee Carsley,2003/2004,0,1,0,Everton,Right Center Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+Lee Cattermole,2015/2016,0,10,0,Sunderland,Right Center Midfield,50,0,0,Premier League,2015/2016,2015/2016,2015
+Lee Hendrie,2003/2004,0,1,0,Aston Villa,Right Center Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+Lee Naylor,2003/2004,0,2,0,Wolverhampton Wanderers,Left Back,10,0,0,Premier League,2003/2004,2003/2004,2003
+Lee Tomlin,2015/2016,0,4,0,AFC Bournemouth,Center Attacking Midfield,20,0,0,Premier League,2015/2016,2015/2016,2015
+Leighton Baines,2015/2016,2,8,0,Everton,Left Back,140,0,0,Premier League,2015/2016,2015/2016,2015
+Leon Britton,2015/2016,0,5,0,Swansea City,Center Defensive Midfield,25,0,0,Premier League,2015/2016,2015/2016,2015
+Leon Osman,2015/2016,0,3,0,Everton,Left Wing,15,0,0,Premier League,2015/2016,2015/2016,2015
+Leroy Fer,2015/2016,0,5,0,Swansea City,Left Defensive Midfield,25,0,0,Premier League,2015/2016,2015/2016,2015
+Leslie Ferdinand,2003/2004,0,1,0,Leicester City,Left Center Forward,5,0,0,Premier League,2003/2004,2003/2004,2003
+Lewis Grabban,2015/2016,1,19,0,AFC Bournemouth,Center Forward,145,0,0,Premier League,2015/2016,2015/2016,2015
+Libor Kozák,2015/2016,0,6,0,Aston Villa,Center Forward,30,0,0,Premier League,2015/2016,2015/2016,2015
+Loïc Rémy,2015/2016,1,13,0,Chelsea,Center Forward,115,0,0,Premier League,2015/2016,2015/2016,2015
+Lucas Neill,2003/2004,0,1,0,Blackburn Rovers,Right Back,5,0,0,Premier League,2003/2004,2003/2004,2003
+Lucas Pezzini Leiva,2015/2016,0,10,0,Liverpool,Center Defensive Midfield,50,0,0,Premier League,2015/2016,2015/2016,2015
+Lucas Rodrigues Moura da Silva,2018/2019,0,2,0,Tottenham Hotspur,Left Center Midfield,10,0,0,Premier League,2018/2019,2018/2019,2018
+Luis Javier García Sanz,2004/2005,0,2,0,Liverpool,Right Midfield,10,0,0,Premier League,2004/2005,2004/2005,2004
+Luís Boa Morte Pereira,2003/2004,0,2,0,Fulham,Center Forward,10,0,0,Premier League,2003/2004,2003/2004,2003
+Léandre Griffit,2003/2004,0,1,0,Southampton,Left Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+Mamadou Sakho,2015/2016,1,6,0,Liverpool,Left Center Back,80,0,0,Premier League,2015/2016,2015/2016,2015
+Mame Biram Diouf,2015/2016,5,32,0,Stoke City,Center Forward,410,0,0,Premier League,2015/2016,2015/2016,2015
+Mana Iwabuchi,2020/2021,2,11,0,Aston Villa,Right Center Midfield,155,0,0,Premier League,2020/2021,2020/2021,2020
+Manuel Lanzini,2015/2016,5,48,0,West Ham United,Center Attacking Midfield,490,0,0,Premier League,2015/2016,2015/2016,2015
+Marc Albrighton,2015/2016,2,42,0,Leicester City,Left Midfield,310,0,0,Premier League,2015/2016,2015/2016,2015
+Marc Muniesa Martínez,2015/2016,0,3,0,Stoke City,Left Back,15,0,0,Premier League,2015/2016,2015/2016,2015
+Marc Pugh,2015/2016,3,22,0,AFC Bournemouth,Left Midfield,260,0,0,Premier League,2015/2016,2015/2016,2015
+Marcin Ryszard Wasilewski,2015/2016,0,1,0,Leicester City,Right Center Back,5,0,0,Premier League,2015/2016,2015/2016,2015
+Marco van Ginkel,2015/2016,0,10,0,Stoke City,Right Defensive Midfield,50,0,0,Premier League,2015/2016,2015/2016,2015
+Marcus Allbäck,2003/2004,0,2,0,Aston Villa,Right Center Forward,10,0,0,Premier League,2003/2004,2003/2004,2003
+Marcus Bent,2003/2004,0,2,0,Leicester City,Right Center Forward,10,0,0,Premier League,2003/2004,2003/2004,2003
+Mario Melchiot,2003/2004,0,1,0,Chelsea,Right Back,5,0,0,Premier League,2003/2004,2003/2004,2003
+Mario Suárez Mata,2015/2016,1,16,0,Watford,Left Defensive Midfield,130,0,0,Premier League,2015/2016,2015/2016,2015
+Marisa Ewers,2020/2021,0,9,0,Aston Villa,Center Defensive Midfield,45,0,0,Premier League,2020/2021,2020/2021,2020
+Mark Kennedy,2003/2004,0,2,0,Wolverhampton Wanderers,Left Midfield,10,0,0,Premier League,2003/2004,2003/2004,2003
+Mark Kinsella,2003/2004,0,1,0,Aston Villa,Center Defensive Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+Mark Noble,2015/2016,7,34,0,West Ham United,Right Center Midfield,520,0,0,Premier League,2015/2016,2015/2016,2015
+Mark Pembridge,2003/2004,0,2,0,Everton,Left Midfield,10,0,0,Premier League,2003/2004,2003/2004,2003
+Mark Viduka,2003/2004,0,1,0,Leeds United,Right Center Forward,5,0,0,Premier League,2003/2004,2003/2004,2003
+Marko Arnautović,2015/2016,11,72,0,Stoke City,Left Wing,910,0,0,Premier League,2015/2016,2015/2016,2015
+Markus Babbel,2003/2004,0,1,0,Blackburn Rovers,Right Back,5,0,0,Premier League,2003/2004,2003/2004,2003
+Marouane Chamakh,2015/2016,0,2,0,Crystal Palace,Left Wing,10,0,0,Premier League,2015/2016,2015/2016,2015
+Martin Andresen,2003/2004,0,1,0,Blackburn Rovers,Left Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+Martin Kelly,2015/2016,0,1,0,Crystal Palace,Right Back,5,0,0,Premier League,2015/2016,2015/2016,2015
+Martin Keown,2003/2004,0,1,0,Arsenal,Right Center Forward,5,0,0,Premier League,2003/2004,2003/2004,2003
+Martin Olsson,2015/2016,1,7,0,Norwich City,Left Back,85,0,0,Premier League,2015/2016,2015/2016,2015
+Martin Škrtel,2015/2016,1,10,0,Liverpool,Right Center Back,100,0,0,Premier League,2015/2016,2015/2016,2015
+Martín Gastón Demichelis,2015/2016,0,5,0,Manchester City,Left Center Back,25,0,0,Premier League,2015/2016,2015/2016,2015
+Marvin Emnes,2015/2016,0,1,0,Swansea City,Right Midfield,5,0,0,Premier League,2015/2016,2015/2016,2015
+Massadio Haïdara,2015/2016,0,3,0,Newcastle United,Left Back,15,0,0,Premier League,2015/2016,2015/2016,2015
+Massimo Maccarone,2003/2004,1,1,0,Middlesbrough,Left Center Forward,55,0,0,Premier League,2003/2004,2003/2004,2003
+Mathieu Flamini,2015/2016,0,7,0,Arsenal,Right Defensive Midfield,35,0,0,Premier League,2015/2016,2015/2016,2015
+Matt Grimes,2015/2016,0,1,0,Swansea City,Left Center Midfield,5,0,0,Premier League,2015/2016,2015/2016,2015
+Matt Holland,2003/2004,0,1,0,Charlton Athletic,Right Center Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+Matt Jansen,2003/2004,0,2,0,Blackburn Rovers,Left Center Forward,10,0,0,Premier League,2003/2004,2003/2004,2003
+Matt Jarvis,2015/2016,1,10,0,Norwich City,Left Midfield,100,0,0,Premier League,2015/2016,2015/2016,2015
+Matt Ritchie,2015/2016,4,79,0,AFC Bournemouth,Right Midfield,595,0,0,Premier League,2015/2016,2015/2016,2015
+Matt Targett,2015/2016,0,3,0,Southampton,Left Back,15,0,0,Premier League,2015/2016,2015/2016,2015
+Matthew Pennington,2015/2016,0,2,0,Everton,Right Back,10,0,0,Premier League,2015/2016,2015/2016,2015
+Matthew Upson,2003/2004,0,2,0,Birmingham City,Left Center Back,10,0,0,Premier League,2003/2004,2003/2004,2003
+Mauricio Taricco,2003/2004,0,1,0,Tottenham Hotspur,Left Back,5,0,0,Premier League,2003/2004,2003/2004,2003
+Max-Alain Gradel,2015/2016,1,18,0,AFC Bournemouth,Left Midfield,140,0,0,Premier League,2015/2016,2015/2016,2015
+Maya Yoshida,2015/2016,1,2,0,Southampton,Left Center Back,60,0,0,Premier League,2015/2016,2015/2016,2015
+Mesut Özil,2015/2016,6,49,0,Arsenal,Center Attacking Midfield,545,0,0,Premier League,2015/2016,2015/2016,2015
+Micah Richards,2015/2016,1,14,0,Aston Villa,Right Center Back,120,0,0,Premier League,2015/2016,2015/2016,2015
+Michael Bridges,2003/2004,0,2,0,Leeds United,Left Center Forward,10,0,0,Premier League,2003/2004,2003/2004,2003
+Michael Lennart Svensson,2003/2004,0,1,0,Southampton,Right Center Back,5,0,0,Premier League,2003/2004,2003/2004,2003
+Michael Owen,2003/2004,1,7,0,Liverpool,Left Center Forward,85,0,0,Premier League,2003/2004,2003/2004,2003
+Michael Tarnat,2003/2004,0,4,0,Manchester City,Left Back,20,0,0,Premier League,2003/2004,2003/2004,2003
+Michail Antonio,2015/2016,8,56,0,West Ham United,Right Wing,680,0,0,Premier League,2015/2016,2015/2016,2015
+Miguel Arturo Layún Prado,2015/2016,1,4,0,Watford,Left Midfield,70,0,0,Premier League,2015/2016,2015/2016,2015
+Miguel Ángel Britos Cabrera,2015/2016,0,7,0,Watford,Left Center Back,35,0,0,Premier League,2015/2016,2015/2016,2015
+Mikael Forssell,2003/2004,0,1,0,Birmingham City,Center Forward,5,0,0,Premier League,2003/2004,2003/2004,2003
+Mikel Arteta Amatriain,2015/2016,0,1,0,Arsenal,Center Attacking Midfield,5,0,0,Premier League,2015/2016,2015/2016,2015
+Milan Baroš,2004/2005,0,1,0,Liverpool,Center Forward,5,0,0,Premier League,2004/2005,2004/2005,2004
+Mile Jedinak,2015/2016,0,14,0,Crystal Palace,Center Defensive Midfield,70,0,0,Premier League,2015/2016,2015/2016,2015
+Modibo Maïga,2015/2016,1,2,0,West Ham United,Center Forward,60,0,0,Premier League,2015/2016,2015/2016,2015
+Modou Barrow,2015/2016,1,12,0,Swansea City,Right Wing,110,0,0,Premier League,2015/2016,2015/2016,2015
+Mohamed Naser Elsayed Elneny,2015/2016,0,13,0,Arsenal,Right Defensive Midfield,65,0,0,Premier League,2015/2016,2015/2016,2015
+Mohamed Salah,2017/2018,0,2,0,Liverpool,Right Wing,10,0,0,Premier League,2017/2018,2017/2018,2017
+Mohamed Salah,2018/2019,1,6,0,Liverpool,Right Wing,80,0,0,Premier League,2018/2019,2018/2019,2018
+Moritz Volz,2003/2004,0,2,0,Fulham,Right Back,10,0,0,Premier League,2003/2004,2003/2004,2003
+Mousa Sidi Yaya Dembélé,2015/2016,3,22,0,Tottenham Hotspur,Left Defensive Midfield,260,0,0,Premier League,2015/2016,2015/2016,2015
+Moussa Sissoko,2015/2016,1,39,0,Newcastle United,Right Wing,245,0,0,Premier League,2015/2016,2015/2016,2015
+Moussa Sissoko,2018/2019,0,1,0,Tottenham Hotspur,Right Defensive Midfield,5,0,0,Premier League,2018/2019,2018/2019,2018
+Muhamed Bešić,2015/2016,0,4,0,Everton,Left Center Midfield,20,0,0,Premier League,2015/2016,2015/2016,2015
+N''Golo Kanté,2015/2016,1,21,0,Leicester City,Left Defensive Midfield,155,0,0,Premier League,2015/2016,2015/2016,2015
+Nabil Bentaleb,2015/2016,0,3,0,Tottenham Hotspur,Left Center Midfield,15,0,0,Premier League,2015/2016,2015/2016,2015
+Nacer Chadli,2015/2016,3,26,0,Tottenham Hotspur,Left Wing,280,0,0,Premier League,2015/2016,2015/2016,2015
+Nadine Hanssen,2020/2021,1,10,0,Aston Villa,Right Center Midfield,100,0,0,Premier League,2020/2021,2020/2021,2020
+Natalie Haigh,2020/2021,1,2,0,Aston Villa,Left Center Back,60,0,0,Premier League,2020/2021,2020/2021,2020
+Nathan Aké,2015/2016,1,17,0,Watford,Left Back,135,0,0,Premier League,2015/2016,2015/2016,2015
+Nathan Dyer,2015/2016,1,5,0,Leicester City,Right Center Forward,75,0,0,Premier League,2015/2016,2015/2016,2015
+Nathan Redmond,2015/2016,6,53,0,Norwich City,Right Midfield,565,0,0,Premier League,2015/2016,2015/2016,2015
+Nathaniel Edwin Clyne,2015/2016,1,31,0,Liverpool,Right Back,205,0,0,Premier League,2015/2016,2015/2016,2015
+Neil Taylor,2015/2016,0,9,0,Swansea City,Left Back,45,0,0,Premier League,2015/2016,2015/2016,2015
+Nemanja Matić,2015/2016,2,34,0,Chelsea,Left Defensive Midfield,270,0,0,Premier League,2015/2016,2015/2016,2015
+Nick Chadwick,2003/2004,0,1,0,Everton,Left Center Forward,5,0,0,Premier League,2003/2004,2003/2004,2003
+Nicky Hunt,2003/2004,0,1,0,Bolton Wanderers,Right Back,5,0,0,Premier League,2003/2004,2003/2004,2003
+Nicolas Anelka,2003/2004,1,9,0,Manchester City,Left Center Forward,95,0,0,Premier League,2003/2004,2003/2004,2003
+Nicolás Hernán Otamendi,2015/2016,1,28,0,Manchester City,Right Center Back,190,0,0,Premier League,2015/2016,2015/2016,2015
+Nigel Quashie,2003/2004,0,2,0,Portsmouth,Left Defensive Midfield,10,0,0,Premier League,2003/2004,2003/2004,2003
+Nikica Jelavić,2015/2016,1,11,0,West Ham United,Right Wing,105,0,0,Premier League,2015/2016,2015/2016,2015
+Nwankwo Christian Kanu,2003/2004,1,10,0,Arsenal,Right Midfield,100,0,0,Premier League,2003/2004,2003/2004,2003
+Odion Jude Ighalo,2015/2016,15,111,0,Watford,Left Center Forward,1305,0,0,Premier League,2015/2016,2015/2016,2015
+Ola Toivonen,2015/2016,0,8,0,Sunderland,Center Attacking Midfield,40,0,0,Premier League,2015/2016,2015/2016,2015
+Olivia McLoughlin,2020/2021,0,1,0,Aston Villa,Left Defensive Midfield,5,0,0,Premier League,2020/2021,2020/2021,2020
+Olivier Bernard,2003/2004,1,3,0,Newcastle United,Left Back,65,0,0,Premier League,2003/2004,2003/2004,2003
+Olivier Giroud,2015/2016,16,103,0,Arsenal,Center Forward,1315,0,0,Premier League,2015/2016,2015/2016,2015
+Olof Mellberg,2003/2004,0,2,0,Aston Villa,Right Center Back,10,0,0,Premier League,2003/2004,2003/2004,2003
+Oluwaseyi Babajide Ojo,2015/2016,0,5,0,Liverpool,Left Wing,25,0,0,Premier League,2015/2016,2015/2016,2015
+Oriol Romeu Vidal,2015/2016,1,29,0,Southampton,Left Defensive Midfield,195,0,0,Premier League,2015/2016,2015/2016,2015
+Osazemwinde Peter Odemwingie,2015/2016,0,2,0,Stoke City,Center Attacking Midfield,10,0,0,Premier League,2015/2016,2015/2016,2015
+Oscar dos Santos Emboaba Júnior,2015/2016,3,51,0,Chelsea,Center Attacking Midfield,405,0,0,Premier League,2015/2016,2015/2016,2015
+Oswaldo Giroldo Júnior,2003/2004,0,3,0,Middlesbrough,Right Midfield,15,0,0,Premier League,2003/2004,2003/2004,2003
+Pablo Javier Zabaleta Girod,2015/2016,0,3,0,Manchester City,Right Back,15,0,0,Premier League,2015/2016,2015/2016,2015
+Paolo Di Canio,2003/2004,1,3,0,Charlton Athletic,Left Center Forward,65,0,0,Premier League,2003/2004,2003/2004,2003
+Pape N''Diaye Souaré,2015/2016,0,11,0,Crystal Palace,Left Back,55,0,0,Premier League,2015/2016,2015/2016,2015
+Papiss Demba Cissé,2015/2016,3,24,0,Newcastle United,Center Forward,270,0,0,Premier League,2015/2016,2015/2016,2015
+Patrick Bamford,2015/2016,0,10,0,Norwich City,Center Forward,50,0,0,Premier League,2015/2016,2015/2016,2015
+Patrick Vieira,2003/2004,3,20,0,Arsenal,Right Defensive Midfield,250,0,0,Premier League,2003/2004,2003/2004,2003
+Patrick van Aanholt,2015/2016,4,46,0,Sunderland,Left Back,430,0,0,Premier League,2015/2016,2015/2016,2015
+Patrik Berger,2003/2004,0,1,0,Portsmouth,Left Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+Paul Bosvelt,2003/2004,0,1,0,Manchester City,Left Center Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+Paul Butler,2003/2004,0,1,0,Wolverhampton Wanderers,Left Center Back,5,0,0,Premier League,2003/2004,2003/2004,2003
+Paul Dickov,2003/2004,1,1,0,Leicester City,Left Center Forward,55,0,0,Premier League,2003/2004,2003/2004,2003
+Paul Dummett,2015/2016,1,5,0,Newcastle United,Left Back,75,0,0,Premier League,2015/2016,2015/2016,2015
+Paul Ince,2003/2004,0,1,0,Wolverhampton Wanderers,Center Defensive Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+Pedro Eliezer Rodríguez Ledesma,2015/2016,7,59,0,Chelsea,Left Wing,645,0,0,Premier League,2015/2016,2015/2016,2015
+Pedro Mba Obiang Avomo,2015/2016,0,9,0,West Ham United,Center Defensive Midfield,45,0,0,Premier League,2015/2016,2015/2016,2015
+Per Frandsen,2003/2004,0,2,0,Bolton Wanderers,Right Center Midfield,10,0,0,Premier League,2003/2004,2003/2004,2003
+Per Mertesacker,2015/2016,0,8,0,Arsenal,Right Center Back,40,0,0,Premier League,2015/2016,2015/2016,2015
+Peter Crouch,2006/2007,0,1,0,Liverpool,Right Center Midfield,5,0,0,Premier League,2006/2007,2006/2007,2006
+Peter Crouch,2015/2016,0,9,0,Stoke City,Center Forward,45,0,0,Premier League,2015/2016,2015/2016,2015
+Peter Whittingham,2003/2004,0,1,0,Aston Villa,Left Center Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+Phil Bardsley,2015/2016,0,7,0,Stoke City,Right Back,35,0,0,Premier League,2015/2016,2015/2016,2015
+Phil Jagielka,2015/2016,0,11,0,Everton,Left Center Back,55,0,0,Premier League,2015/2016,2015/2016,2015
+Philipp Wollscheid,2015/2016,0,3,0,Stoke City,Left Center Back,15,0,0,Premier League,2015/2016,2015/2016,2015
+Philippe Coutinho Correia,2015/2016,8,111,0,Liverpool,Left Wing,955,0,0,Premier League,2015/2016,2015/2016,2015
+Radamel Falcao García Zárate,2015/2016,1,12,0,Chelsea,Center Attacking Midfield,110,0,0,Premier League,2015/2016,2015/2016,2015
+Radostin Kishishev,2003/2004,0,1,0,Charlton Athletic,Right Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+Raheem Sterling,2015/2016,6,51,0,Manchester City,Left Wing,555,0,0,Premier League,2015/2016,2015/2016,2015
+Ramires Santos do Nascimento,2015/2016,2,10,0,Chelsea,Center Attacking Midfield,150,0,0,Premier League,2015/2016,2015/2016,2015
+Ramona Petzelberger,2020/2021,3,9,0,Aston Villa,Right Center Midfield,195,0,0,Premier League,2020/2021,2020/2021,2020
+Ray Parlour,2003/2004,0,20,0,Arsenal,Right Defensive Midfield,100,0,0,Premier League,2003/2004,2003/2004,2003
+Reece Oxford,2015/2016,0,1,0,West Ham United,Right Midfield,5,0,0,Premier League,2015/2016,2015/2016,2015
+René Salomon Olembé-Olembé,2003/2004,0,1,0,Leeds United,Left Back,5,0,0,Premier League,2003/2004,2003/2004,2003
+Rhu-endly Martina,2015/2016,1,3,0,Southampton,Right Back,65,0,0,Premier League,2015/2016,2015/2016,2015
+Ricardo Wayne Gardner,2003/2004,0,2,0,Bolton Wanderers,Left Back,10,0,0,Premier League,2003/2004,2003/2004,2003
+Richard Dunne,2003/2004,0,1,0,Manchester City,Right Center Back,5,0,0,Premier League,2003/2004,2003/2004,2003
+Richard Hughes,2003/2004,0,2,0,Portsmouth,Left Midfield,10,0,0,Premier League,2003/2004,2003/2004,2003
+Rickie Lambert,2015/2016,1,14,0,West Bromwich Albion,Right Center Forward,120,0,0,Premier League,2015/2016,2015/2016,2015
+Ritchie De Laet,2015/2016,1,2,0,Leicester City,Right Back,60,0,0,Premier League,2015/2016,2015/2016,2015
+Riyad Mahrez,2015/2016,17,87,0,Leicester City,Right Midfield,1285,0,0,Premier League,2015/2016,2015/2016,2015
+Robbie Fowler,2003/2004,0,2,0,Manchester City,Left Center Midfield,10,0,0,Premier League,2003/2004,2003/2004,2003
+Robbie Keane,2003/2004,1,1,0,Tottenham Hotspur,Left Center Forward,55,0,0,Premier League,2003/2004,2003/2004,2003
+Robbie Savage,2003/2004,0,1,0,Birmingham City,Center Defensive Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+Robert Brady,2015/2016,3,54,0,Norwich City,Left Back,420,0,0,Premier League,2015/2016,2015/2016,2015
+Robert Huth,2015/2016,3,30,0,Leicester City,Left Center Back,300,0,0,Premier League,2015/2016,2015/2016,2015
+Robert Kenedy Nunes do Nascimento,2015/2016,1,13,0,Chelsea,Left Wing,115,0,0,Premier League,2015/2016,2015/2016,2015
+Robert Pirès,2003/2004,14,56,0,Arsenal,Left Midfield,980,0,0,Premier League,2003/2004,2003/2004,2003
+Roberto Firmino Barbosa de Oliveira,2015/2016,10,65,0,Liverpool,Center Attacking Midfield,825,0,0,Premier League,2015/2016,2015/2016,2015
+Roberto Firmino Barbosa de Oliveira,2017/2018,0,3,0,Liverpool,Center Forward,15,0,0,Premier League,2017/2018,2017/2018,2017
+Rolando Aarons,2015/2016,1,2,0,Newcastle United,Left Wing,60,0,0,Premier League,2015/2016,2015/2016,2015
+Romelu Lukaku Menama,2015/2016,18,116,0,Everton,Center Forward,1480,0,0,Premier League,2015/2016,2015/2016,2015
+Rory Delap,2003/2004,0,3,0,Southampton,Left Defensive Midfield,15,0,0,Premier League,2003/2004,2003/2004,2003
+Ross Barkley,2015/2016,8,95,0,Everton,Center Attacking Midfield,875,0,0,Premier League,2015/2016,2015/2016,2015
+Ruben Loftus-Cheek,2015/2016,1,14,0,Chelsea,Center Attacking Midfield,120,0,0,Premier League,2015/2016,2015/2016,2015
+Rudy Gestede,2015/2016,5,63,0,Aston Villa,Center Forward,565,0,0,Premier League,2015/2016,2015/2016,2015
+Russell Martin,2015/2016,3,19,0,Norwich City,Right Back,245,0,0,Premier League,2015/2016,2015/2016,2015
+Ryan Bennett,2015/2016,0,9,0,Norwich City,Right Center Back,45,0,0,Premier League,2015/2016,2015/2016,2015
+Ryan Bertrand,2015/2016,1,13,0,Southampton,Left Back,115,0,0,Premier League,2015/2016,2015/2016,2015
+Ryan Mason,2015/2016,1,19,0,Tottenham Hotspur,Center Attacking Midfield,145,0,0,Premier League,2015/2016,2015/2016,2015
+Ryan Shawcross,2015/2016,0,8,0,Stoke City,Right Center Back,40,0,0,Premier League,2015/2016,2015/2016,2015
+Sadio Mané,2015/2016,11,86,0,Southampton,Center Attacking Midfield,980,0,0,Premier League,2015/2016,2015/2016,2015
+Sadio Mané,2017/2018,1,3,0,Liverpool,Left Wing,65,0,0,Premier League,2017/2018,2017/2018,2017
+Saido Berahino,2015/2016,4,36,0,West Bromwich Albion,Left Center Forward,380,0,0,Premier League,2015/2016,2015/2016,2015
+Salif Alassane Diao,2003/2004,0,1,0,Liverpool,Right Defensive Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+Salomon Armand Magloire Kalou,2011/2012,0,1,0,Chelsea,Right Wing,5,0,0,Premier League,2011/2012,2011/2012,2011
+Sami Hyypiä,2003/2004,1,2,0,Liverpool,Left Center Back,60,0,0,Premier League,2003/2004,2003/2004,2003
+Sami Hyypiä,2004/2005,0,1,0,Liverpool,Left Center Back,5,0,0,Premier League,2004/2005,2004/2005,2004
+Samir Nasri,2015/2016,2,14,0,Manchester City,Left Midfield,170,0,0,Premier League,2015/2016,2015/2016,2015
+Sandro Ranieri Guimarães Cordeiro,2015/2016,0,3,0,West Bromwich Albion,Left Defensive Midfield,15,0,0,Premier League,2015/2016,2015/2016,2015
+Santiago Cazorla González,2015/2016,0,24,0,Arsenal,Left Center Midfield,120,0,0,Premier League,2015/2016,2015/2016,2015
+Scott Dann,2015/2016,5,32,0,Crystal Palace,Right Center Back,410,0,0,Premier League,2015/2016,2015/2016,2015
+Scott Parker,2003/2004,0,2,0,Charlton Athletic,Right Center Midfield,10,0,0,Premier League,2003/2004,2003/2004,2003
+Scott Sinclair,2015/2016,2,17,0,Aston Villa,Left Wing,185,0,0,Premier League,2015/2016,2015/2016,2015
+Sean Davis,2003/2004,0,1,0,Fulham,Right Center Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+Sebastian Larsson,2015/2016,0,6,0,Sunderland,Right Center Midfield,30,0,0,Premier League,2015/2016,2015/2016,2015
+Sebastian Prödl,2015/2016,2,12,0,Watford,Right Center Back,160,0,0,Premier League,2015/2016,2015/2016,2015
+Sebastián Coates Nión,2015/2016,0,7,0,Sunderland,Right Center Back,35,0,0,Premier League,2015/2016,2015/2016,2015
+Serge Gnabry,2015/2016,0,2,0,West Bromwich Albion,Right Midfield,10,0,0,Premier League,2015/2016,2015/2016,2015
+Sergio Leonel Agüero del Castillo,2015/2016,24,118,0,Manchester City,Center Forward,1790,0,0,Premier League,2015/2016,2015/2016,2015
+Seth Johnson,2003/2004,0,1,0,Leeds United,Left Defensive Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+Seydou Doumbia,2015/2016,0,1,0,Newcastle United,Left Center Midfield,5,0,0,Premier League,2015/2016,2015/2016,2015
+Shane Long,2015/2016,10,63,0,Southampton,Center Forward,815,0,0,Premier League,2015/2016,2015/2016,2015
+Shania Hayles,2020/2021,2,19,0,Aston Villa,Center Forward,195,0,0,Premier League,2020/2021,2020/2021,2020
+Shaun Wright-Phillips,2003/2004,0,1,0,Manchester City,Right Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+Shinji Okazaki,2015/2016,5,44,0,Leicester City,Right Center Forward,470,0,0,Premier League,2015/2016,2015/2016,2015
+Siem Stefan de Jong,2015/2016,0,8,0,Newcastle United,Center Attacking Midfield,40,0,0,Premier League,2015/2016,2015/2016,2015
+Simon Charlton,2003/2004,0,1,0,Bolton Wanderers,Left Back,5,0,0,Premier League,2003/2004,2003/2004,2003
+Simon Davies,2003/2004,0,1,0,Tottenham Hotspur,Right Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+Simon Francis,2015/2016,0,6,0,AFC Bournemouth,Right Back,30,0,0,Premier League,2015/2016,2015/2016,2015
+Sophie Haywood,2020/2021,0,2,0,Aston Villa,Left Center Midfield,10,0,0,Premier League,2020/2021,2020/2021,2020
+Stan Lazaridis,2003/2004,0,2,0,Birmingham City,Left Wing,10,0,0,Premier League,2003/2004,2003/2004,2003
+Steed Malbranque,2003/2004,0,8,0,Fulham,Left Midfield,40,0,0,Premier League,2003/2004,2003/2004,2003
+Stephen Clemence,2003/2004,0,3,0,Birmingham City,Left Center Midfield,15,0,0,Premier League,2003/2004,2003/2004,2003
+Stephen Ireland,2015/2016,0,3,0,Stoke City,Center Attacking Midfield,15,0,0,Premier League,2015/2016,2015/2016,2015
+Stephen Kingsley,2015/2016,0,1,0,Swansea City,Left Back,5,0,0,Premier League,2015/2016,2015/2016,2015
+Steve Cook,2015/2016,4,26,0,AFC Bournemouth,Left Center Back,330,0,0,Premier League,2015/2016,2015/2016,2015
+Steve McManaman,2003/2004,0,1,0,Manchester City,Right Center Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+Steve Stone,2003/2004,0,1,0,Portsmouth,Right Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+Steve Watson,2003/2004,0,2,0,Everton,Right Midfield,10,0,0,Premier League,2003/2004,2003/2004,2003
+Steven Berghuis,2015/2016,0,7,0,Watford,Left Midfield,35,0,0,Premier League,2015/2016,2015/2016,2015
+Steven Caulker,2015/2016,0,4,0,Southampton,Right Center Back,20,0,0,Premier League,2015/2016,2015/2016,2015
+Steven Davis,2015/2016,5,20,0,Southampton,Center Attacking Midfield,350,0,0,Premier League,2015/2016,2015/2016,2015
+Steven Fletcher,2015/2016,6,42,0,Sunderland,Center Forward,510,0,0,Premier League,2015/2016,2015/2016,2015
+Steven Gerrard,2003/2004,0,4,0,Liverpool,Left Defensive Midfield,20,0,0,Premier League,2003/2004,2003/2004,2003
+Steven Gerrard,2004/2005,1,2,0,Liverpool,Right Center Midfield,60,0,0,Premier League,2004/2005,2004/2005,2004
+Steven Gerrard,2006/2007,0,4,0,Liverpool,Center Attacking Midfield,20,0,0,Premier League,2006/2007,2006/2007,2006
+Steven Naismith,2015/2016,4,26,0,Norwich City,Center Attacking Midfield,330,0,0,Premier League,2015/2016,2015/2016,2015
+Steven Pienaar,2015/2016,0,2,0,Everton,Left Wing,10,0,0,Premier League,2015/2016,2015/2016,2015
+Steven Taylor,2015/2016,0,1,0,Newcastle United,Right Center Back,5,0,0,Premier League,2015/2016,2015/2016,2015
+Steven Whittaker,2015/2016,1,8,0,Norwich City,Right Back,90,0,0,Premier League,2015/2016,2015/2016,2015
+Stine Larsen,2020/2021,1,32,0,Aston Villa,Center Forward,210,0,0,Premier League,2020/2021,2020/2021,2020
+Stylianos Giannakopoulos,2003/2004,0,1,0,Bolton Wanderers,Right Wing,5,0,0,Premier League,2003/2004,2003/2004,2003
+Stéphane Sessègnon,2015/2016,2,28,0,West Bromwich Albion,Right Midfield,240,0,0,Premier League,2015/2016,2015/2016,2015
+Sullay Kaikai,2015/2016,0,3,0,Crystal Palace,Left Midfield,15,0,0,Premier League,2015/2016,2015/2016,2015
+Sulzeer Jeremiah ''Sol' Campbell,2003/2004,1,11,0,Arsenal,Left Center Back,105,0,0,Premier League,2003/2004,2003/2004,2003
+Sung-Yeung Ki,2015/2016,2,24,0,Swansea City,Left Center Midfield,220,0,0,Premier League,2015/2016,2015/2016,2015
+Sylvain Distin,2003/2004,0,2,0,Manchester City,Left Center Back,10,0,0,Premier League,2003/2004,2003/2004,2003
+Sylvain Distin,2015/2016,0,2,0,AFC Bournemouth,Left Center Back,10,0,0,Premier League,2015/2016,2015/2016,2015
+Sylvain Legwinski,2003/2004,0,4,0,Fulham,Center Midfield,20,0,0,Premier League,2003/2004,2003/2004,2003
+Sylvain Wiltord,2003/2004,3,18,0,Arsenal,Right Center Forward,240,0,0,Premier League,2003/2004,2003/2004,2003
+Szilárd Németh,2003/2004,0,3,0,Middlesbrough,Left Center Forward,15,0,0,Premier League,2003/2004,2003/2004,2003
+Séamus Coleman,2015/2016,1,26,0,Everton,Right Back,180,0,0,Premier League,2015/2016,2015/2016,2015
+Sébastien Aymar Bassong Nguena,2015/2016,1,20,0,Norwich City,Left Center Back,150,0,0,Premier League,2015/2016,2015/2016,2015
+Tammy Bakumo-Abraham,2015/2016,0,2,0,Chelsea,Center Forward,10,0,0,Premier League,2015/2016,2015/2016,2015
+Teddy Sheringham,2003/2004,1,1,0,Portsmouth,Right Center Forward,55,0,0,Premier League,2003/2004,2003/2004,2003
+Theo Walcott,2015/2016,5,46,0,Arsenal,Center Forward,480,0,0,Premier League,2015/2016,2015/2016,2015
+Thierry Henry,2003/2004,30,194,0,Arsenal,Left Center Forward,2470,0,0,Premier League,2003/2004,2003/2004,2003
+Thomas Gravesen,2003/2004,0,2,0,Everton,Left Center Midfield,10,0,0,Premier League,2003/2004,2003/2004,2003
+Thomas Hitzlsperger,2003/2004,0,3,0,Aston Villa,Right Center Midfield,15,0,0,Premier League,2003/2004,2003/2004,2003
+Tobias Linderoth,2003/2004,0,1,0,Everton,Center Defensive Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+Toby Alderweireld,2015/2016,4,41,0,Tottenham Hotspur,Right Center Back,405,0,0,Premier League,2015/2016,2015/2016,2015
+Tokelo Anthony Rantie,2015/2016,0,1,0,AFC Bournemouth,Center Forward,5,0,0,Premier League,2015/2016,2015/2016,2015
+Tom Carroll,2015/2016,1,5,0,Tottenham Hotspur,Left Defensive Midfield,75,0,0,Premier League,2015/2016,2015/2016,2015
+Tom Cleverley,2015/2016,2,24,0,Everton,Left Wing,220,0,0,Premier League,2015/2016,2015/2016,2015
+Tom Davies,2015/2016,0,1,0,Everton,Center Attacking Midfield,5,0,0,Premier League,2015/2016,2015/2016,2015
+Tomasz Radziński,2003/2004,2,5,0,Everton,Right Center Forward,125,0,0,Premier League,2003/2004,2003/2004,2003
+Tommy Elphick,2015/2016,1,5,0,AFC Bournemouth,Right Center Back,75,0,0,Premier League,2015/2016,2015/2016,2015
+Tony Hibbert,2015/2016,0,1,0,Everton,Right Back,5,0,0,Premier League,2015/2016,2015/2016,2015
+Trent Alexander-Arnold,2017/2018,0,1,0,Liverpool,Right Back,5,0,0,Premier League,2017/2018,2017/2018,2017
+Trent Alexander-Arnold,2018/2019,0,1,0,Liverpool,Right Back,5,0,0,Premier League,2018/2019,2018/2019,2018
+Troy Deeney,2015/2016,13,94,0,Watford,Right Center Forward,1120,0,0,Premier League,2015/2016,2015/2016,2015
+Trésor Lomana LuaLua,2003/2004,0,3,0,Portsmouth,Left Center Forward,15,0,0,Premier League,2003/2004,2003/2004,2003
+Tugay Kerimoğlu,2003/2004,0,2,0,Blackburn Rovers,Right Center Midfield,10,0,0,Premier League,2003/2004,2003/2004,2003
+Tyler Roberts,2015/2016,0,1,0,West Bromwich Albion,Right Wing,5,0,0,Premier League,2015/2016,2015/2016,2015
+Ulises Hernán de la Cruz Bernardo,2003/2004,0,1,0,Aston Villa,Right Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+Vadis Odjidja-Ofoe,2015/2016,0,3,0,Norwich City,Center Attacking Midfield,15,0,0,Premier League,2015/2016,2015/2016,2015
+Valon Behrami,2015/2016,0,1,0,Watford,Left Center Midfield,5,0,0,Premier League,2015/2016,2015/2016,2015
+Victor Chinedu Anichebe,2015/2016,0,14,0,West Bromwich Albion,Center Forward,70,0,0,Premier League,2015/2016,2015/2016,2015
+Victor Moses,2015/2016,1,21,0,West Ham United,Right Wing,155,0,0,Premier League,2015/2016,2015/2016,2015
+Victor Wanyama,2015/2016,1,31,0,Southampton,Right Defensive Midfield,205,0,0,Premier League,2015/2016,2015/2016,2015
+Vincent Kompany,2015/2016,2,11,0,Manchester City,Right Center Back,155,0,0,Premier League,2015/2016,2015/2016,2015
+Virgil van Dijk,2015/2016,3,29,0,Southampton,Left Center Back,295,0,0,Premier League,2015/2016,2015/2016,2015
+Virgil van Dijk,2017/2018,0,1,0,Liverpool,Left Center Back,5,0,0,Premier League,2017/2018,2017/2018,2017
+Virgil van Dijk,2018/2019,0,1,0,Liverpool,Left Center Back,5,0,0,Premier League,2018/2019,2018/2019,2018
+Vladimir Smicer,2003/2004,0,1,0,Liverpool,Left Midfield,5,0,0,Premier League,2003/2004,2003/2004,2003
+Vladimir Smicer,2004/2005,2,3,0,Liverpool,Right Midfield,115,0,0,Premier League,2004/2005,2004/2005,2004
+Vurnon Anita,2015/2016,1,8,0,Newcastle United,Right Back,90,0,0,Premier League,2015/2016,2015/2016,2015
+Wayne Bridge,2003/2004,0,1,0,Chelsea,Left Back,5,0,0,Premier League,2003/2004,2003/2004,2003
+Wayne Mark Rooney,2003/2004,0,6,0,Everton,Left Wing,30,0,0,Premier League,2003/2004,2003/2004,2003
+Wayne Routledge,2015/2016,2,18,0,Swansea City,Left Wing,190,0,0,Premier League,2015/2016,2015/2016,2015
+Wes Hoolahan,2015/2016,4,26,0,Norwich City,Center Attacking Midfield,330,0,0,Premier League,2015/2016,2015/2016,2015
+Wes Morgan,2015/2016,2,21,0,Leicester City,Right Center Back,205,0,0,Premier League,2015/2016,2015/2016,2015
+Wilfried Guemiand Bony,2015/2016,4,61,0,Manchester City,Center Forward,505,0,0,Premier League,2015/2016,2015/2016,2015
+Wilfried Zaha,2015/2016,2,33,0,Crystal Palace,Right Wing,265,0,0,Premier League,2015/2016,2015/2016,2015
+William Gallas,2003/2004,0,3,0,Chelsea,Right Center Back,15,0,0,Premier League,2003/2004,2003/2004,2003
+Willian Borges da Silva,2015/2016,5,59,0,Chelsea,Right Wing,545,0,0,Premier League,2015/2016,2015/2016,2015
+Winston Reid,2015/2016,1,18,0,West Ham United,Right Center Back,140,0,0,Premier League,2015/2016,2015/2016,2015
+Xabier Alonso Olano,2004/2005,1,4,0,Liverpool,Left Defensive Midfield,70,0,0,Premier League,2004/2005,2004/2005,2004
+Xabier Alonso Olano,2006/2007,0,1,0,Liverpool,Left Center Midfield,5,0,0,Premier League,2006/2007,2006/2007,2006
+Xherdan Shaqiri,2015/2016,3,39,0,Stoke City,Right Wing,345,0,0,Premier League,2015/2016,2015/2016,2015
+Yakubu Aiyegbeni,2003/2004,1,8,0,Portsmouth,Right Center Forward,90,0,0,Premier League,2003/2004,2003/2004,2003
+Yann Gérard M''Vila,2015/2016,1,30,0,Sunderland,Left Center Midfield,200,0,0,Premier League,2015/2016,2015/2016,2015
+Yann Kermorgant,2015/2016,0,2,0,AFC Bournemouth,Center Forward,10,0,0,Premier League,2015/2016,2015/2016,2015
+Yannick Bolasie Yala,2015/2016,5,58,0,Crystal Palace,Left Wing,540,0,0,Premier League,2015/2016,2015/2016,2015
+Yoan Gouffran,2015/2016,0,3,0,Newcastle United,Left Attacking Midfield,15,0,0,Premier League,2015/2016,2015/2016,2015
+Yohan Cabaye,2015/2016,5,69,0,Crystal Palace,Right Defensive Midfield,595,0,0,Premier League,2015/2016,2015/2016,2015
+Younes Kaboul,2015/2016,0,11,0,Sunderland,Left Center Back,55,0,0,Premier League,2015/2016,2015/2016,2015
+Youri Djorkaeff,2003/2004,0,3,0,Bolton Wanderers,Left Midfield,15,0,0,Premier League,2003/2004,2003/2004,2003
+Youssouf Chafiq Mulumbu Ngangu,2015/2016,0,3,0,Norwich City,Left Defensive Midfield,15,0,0,Premier League,2015/2016,2015/2016,2015
+Zat Knight,2003/2004,0,1,0,Fulham,Left Center Back,5,0,0,Premier League,2003/2004,2003/2004,2003
+Àngel Rangel Zaragoza,2015/2016,0,14,0,Swansea City,Right Back,70,0,0,Premier League,2015/2016,2015/2016,2015
+Émerson Augusto Thome,2003/2004,0,1,0,Bolton Wanderers,Right Center Back,5,0,0,Premier League,2003/2004,2003/2004,2003
+Łukasz Fabiański,2015/2016,0,1,0,Swansea City,Goalkeeper,5,0,0,Premier League,2015/2016,2015/2016,2015
