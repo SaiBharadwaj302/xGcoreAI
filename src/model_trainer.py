@@ -21,8 +21,6 @@ from utils.config import MIN_ROWS_PER_LEAGUE, MANIFEST_PATH
 
 
 # --- PATHS ---
-CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
-ROOT_DIR = os.path.dirname(CURRENT_DIR)
 LEAGUES_DIR = os.path.join(ROOT_DIR, "data", "processed", "leagues")
 MODEL_DIR = os.path.join(ROOT_DIR, "models")
 os.makedirs(MODEL_DIR, exist_ok=True)
@@ -47,7 +45,15 @@ def _add_engineered_features(ldf):
     - start_x_norm, start_y_norm (normalized coordinates 0..1)
     - player_last5_goals, player_last5_attempts, player_last5_conv
     """
-    # angle transforms
+    
+    # --- 1. PRE-SORTING FOR DATA INTEGRITY ---
+    # We must sort by time to ensure rolling windows only look at the PAST.
+    # We check for potential time columns in order of specificity.
+    sort_cols = [c for c in ['season', 'match_date', 'date', 'match_id', 'minute'] if c in ldf.columns]
+    if sort_cols:
+        ldf = ldf.sort_values(by=sort_cols, ascending=True)
+
+    # --- 2. Geometric Features ---
     try:
         ang_rad = np.deg2rad(ldf['visible_angle'].fillna(0).astype(float))
         ldf['angle_sin'] = np.sin(ang_rad)
@@ -72,16 +78,23 @@ def _add_engineered_features(ldf):
     else:
         ldf['is_header'] = 0
 
-    # rolling player form features (last 5 shots before current)
+    # --- 3. Rolling Player Form (Data Leakage Fix) ---
+    # Rolling player form features (last 5 shots before current)
     if 'player_name' in ldf.columns and 'is_goal' in ldf.columns:
         # group-preserve order as-is; compute shifted rolling sum
         def compute_rolling(g):
+            # Do NOT sort inside the group; we rely on the global sort above.
             g = g.copy()
-            g['player_last5_goals'] = g['is_goal'].shift().rolling(window=5, min_periods=1).sum().fillna(0)
-            g['player_last5_attempts'] = g['is_goal'].shift().rolling(window=5, min_periods=1).count().fillna(0)
+            # .shift() ensures we don't use the CURRENT outcome to predict the CURRENT shot.
+            shifted_goals = g['is_goal'].shift()
+            
+            g['player_last5_goals'] = shifted_goals.rolling(window=5, min_periods=1).sum().fillna(0)
+            g['player_last5_attempts'] = shifted_goals.rolling(window=5, min_periods=1).count().fillna(0)
             g['player_last5_conv'] = g['player_last5_goals'] / (g['player_last5_attempts'] + 1e-6)
             return g
-        ldf = ldf.groupby('player_name', sort=False).apply(compute_rolling).reset_index(drop=True)
+        
+        # group_keys=False keeps the original index structure
+        ldf = ldf.groupby('player_name', sort=False, group_keys=False).apply(compute_rolling)
 
     # fill any remaining NaNs
     ldf.fillna(0, inplace=True)
@@ -160,7 +173,7 @@ def run_training(hpo: bool = False, league_filter: str = None):
         _encode_categoricals(ldf)
         ldf = _add_engineered_features(ldf)
 
-        # Extend feature list with engineered ones (student/simple selection)
+        # Extend feature list with engineered ones
         feat_list = features + ['angle_sin', 'angle_cos', 'dist_to_goal_center', 'is_header', 'start_x_norm', 'start_y_norm', 'player_last5_conv']
         # Ensure features exist
         feat_list = [f for f in feat_list if f in ldf.columns]
@@ -168,28 +181,52 @@ def run_training(hpo: bool = False, league_filter: str = None):
         X = ldf[feat_list].fillna(0)
         y = ldf['is_goal']
 
+        # --- CLASS IMBALANCE & STRATIFICATION ---
+        # 1. Stratified Split: Keeps goal% consistent between Train and Test
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
+        
+        # 2. Calculate Imbalance Ratio for XGBoost
+        # This tells the model how much more important a 'Goal' is compared to a 'Miss'
+        num_pos = y_train.sum()
+        num_neg = len(y_train) - num_pos
+        scale_pos_weight = float(num_neg) / float(num_pos) if num_pos > 0 else 1.0
+
+        print(f"Training model for league '{league_key}' with {len(ldf)} rows...")
+        print(f"   > Goals: {num_pos}, Misses: {num_neg} (Ratio: {scale_pos_weight:.2f})")
+
         # Cross-validation AUC (quick check)
+        # Note: We pass scale_pos_weight here too
         try:
-            cv_auc = float(np.mean(cross_val_score(xgb.XGBClassifier(n_estimators=100, learning_rate=0.05, max_depth=4, use_label_encoder=False), X, y, cv=3, scoring='roc_auc')))
+            cv_clf = xgb.XGBClassifier(n_estimators=100, learning_rate=0.05, max_depth=4, 
+                                       use_label_encoder=False, scale_pos_weight=scale_pos_weight, 
+                                       eval_metric='logloss')
+            cv_auc = float(np.mean(cross_val_score(cv_clf, X, y, cv=3, scoring='roc_auc')))
         except Exception:
             cv_auc = None
 
-        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-        print(f"Training model for league '{league_key}' with {len(ldf)} rows...")
+        # Base Classifier
+        clf = xgb.XGBClassifier(
+            n_estimators=250, 
+            learning_rate=0.05, 
+            max_depth=4, 
+            use_label_encoder=False, 
+            eval_metric='logloss',
+            scale_pos_weight=scale_pos_weight  # <--- CRITICAL FIX
+        )
 
-        clf = xgb.XGBClassifier(n_estimators=250, learning_rate=0.05, max_depth=4, use_label_encoder=False, eval_metric='logloss')
-
-        # Hyperparameter tuning (RandomizedSearchCV) when requested and dataset is reasonably large
+        # Hyperparameter tuning (RandomizedSearchCV) when requested
         if hpo and len(ldf) >= 300:
-            print(f"🔍 Running hyperparameter search for league '{league_key}' (this may take a while)...")
+            print(f"🔍 Running hyperparameter search for league '{league_key}'...")
             param_dist = {
                 'n_estimators': [100, 200, 300, 400],
                 'learning_rate': [0.01, 0.03, 0.05, 0.1],
                 'max_depth': [3, 4, 5, 6],
                 'subsample': [0.6, 0.8, 1.0],
-                'colsample_bytree': [0.6, 0.8, 1.0]
+                'colsample_bytree': [0.6, 0.8, 1.0],
+                # 'scale_pos_weight': [scale_pos_weight, 1, 10] # Optional: tune this too
             }
-            rnd = RandomizedSearchCV(xgb.XGBClassifier(use_label_encoder=False, eval_metric='logloss'), param_distributions=param_dist, n_iter=20, scoring='roc_auc', cv=3, random_state=42, n_jobs=1)
+            # Note: We don't tune scale_pos_weight in this simple grid, but we keep it in the base estimator
+            rnd = RandomizedSearchCV(clf, param_distributions=param_dist, n_iter=20, scoring='roc_auc', cv=3, random_state=42, n_jobs=1)
             try:
                 rnd.fit(X_train, y_train)
                 clf = rnd.best_estimator_
@@ -201,7 +238,9 @@ def run_training(hpo: bool = False, league_filter: str = None):
         else:
             clf.fit(X_train, y_train)
 
-        # Calibrate probabilities with Platt scaling if we have enough samples
+        # Calibrate probabilities
+        # NOTE: CalibratedClassifierCV might ignore scale_pos_weight during the calibration step,
+        # but the underlying model has learned from it.
         calibrator = None
         try:
             calibrator = CalibratedClassifierCV(clf, cv=3, method='sigmoid')
@@ -209,7 +248,7 @@ def run_training(hpo: bool = False, league_filter: str = None):
         except Exception:
             calibrator = None
 
-        # Save raw model and calibrator (if present)
+        # Save raw model and calibrator
         out_model = os.path.join(MODEL_DIR, f"goal_predictor_{league_key}.json")
         clf.save_model(out_model)
         if calibrator is not None:
@@ -227,7 +266,7 @@ def run_training(hpo: bool = False, league_filter: str = None):
             y_pred = (y_prob >= 0.5).astype(int)
             auc = float(roc_auc_score(y_test, y_prob)) if len(set(y_test)) > 1 else None
             acc = float(accuracy_score(y_test, y_pred))
-            # Brier score for probability calibration quality
+            
             try:
                 brier = float(brier_score_loss(y_test, y_prob))
             except Exception:
@@ -237,10 +276,10 @@ def run_training(hpo: bool = False, league_filter: str = None):
             acc = None
             brier = None
 
-        # Update manifest and add Brier
+        # Update manifest
         relpath = os.path.relpath(out_model, ROOT_DIR)
         _update_manifest(league_key, relpath, len(ldf), auc, acc)
-        # Also save a short training report per league
+        
         try:
             report = {
                 'league': league_key,
@@ -248,16 +287,16 @@ def run_training(hpo: bool = False, league_filter: str = None):
                 'auc': auc,
                 'accuracy': acc,
                 'brier': brier,
-                'cv_auc': cv_auc
+                'cv_auc': cv_auc,
+                'class_ratio_used': scale_pos_weight
             }
             with open(os.path.join(MODEL_DIR, f'training_report_{league_key}.json'), 'w', encoding='utf-8') as fh:
                 json.dump(report, fh, indent=2)
         except Exception:
             pass
 
-        # Produce over/under performer report: per-player goals vs xG (sum of model predictions)
+        # Produce over/under performer report
         try:
-            # Generate model_xg for the whole league dataset
             XB = X.fillna(0)
             if calibrator is not None:
                 preds = calibrator.predict_proba(XB)[:, 1]
@@ -271,7 +310,7 @@ def run_training(hpo: bool = False, league_filter: str = None):
         except Exception as e:
             print(f"⚠️ Could not generate overperformance report for {league_key}: {e}")
 
-        print(f"✅ Saved league model: {out_model} ({len(ldf)} rows) | AUC: {auc} | ACC: {acc} | CV_AUC: {cv_auc}")
+        print(f"✅ Saved league model: {out_model} ({len(ldf)} rows) | AUC: {auc} | Ratio: {scale_pos_weight:.2f}")
 
 
 if __name__ == "__main__":
