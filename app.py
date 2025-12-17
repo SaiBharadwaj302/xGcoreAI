@@ -54,8 +54,8 @@ shots_df, stats_df, models_map, calibrators_map = load_resources()
 if shots_df is None:
     st.stop()
 
-# Prefer using per-league CSVs in data/processed/leagues when available
-LEAGUES_DIR = os.path.join(ROOT_DIR, 'data', 'processed', 'leagues')
+# Prefer using per-league CSVs in Data/processed/leagues when available
+LEAGUES_DIR = os.path.join(ROOT_DIR, 'Data', 'processed', 'leagues')
 league_file_map = {}  # display_name -> file_key (sanitized)
 if os.path.exists(LEAGUES_DIR):
     for fn in os.listdir(LEAGUES_DIR):
@@ -69,14 +69,14 @@ if os.path.exists(LEAGUES_DIR):
         # try per-league CSV first
         fk = league_file_map.get(display_name)
         if fk:
-            sp = os.path.join(ROOT_DIR, 'data', 'processed', 'leagues', f"stats_{fk}.csv")
+            sp = os.path.join(ROOT_DIR, 'Data', 'processed', 'leagues', f"stats_{fk}.csv")
             if os.path.exists(sp):
                 try:
                     base_stats = pd.read_csv(sp)
                     # If there is a corresponding shots file, ensure any high-impact
                     # players present in shots but missing from stats are included.
                     try:
-                        shots_p = os.path.join(ROOT_DIR, 'data', 'processed', 'leagues', f"shots_{fk}.csv")
+                        shots_p = os.path.join(ROOT_DIR, 'Data', 'processed', 'leagues', f"shots_{fk}.csv")
                         if os.path.exists(shots_p):
                             sdet = pd.read_csv(shots_p)
                             # aggregate basic tallies from shots for players not in base_stats
@@ -138,7 +138,7 @@ with c1:
 with c2:
     # Require per-league files to be present. Do not offer a global option anymore.
     if not league_file_map:
-        st.error("❌ No per-league CSVs found in `data/processed/leagues/`. Place `shots_{league}.csv` files there and restart.")
+        st.error("❌ No per-league CSVs found in `Data/processed/leagues/`. Place `shots_{league}.csv` files there and restart.")
         st.stop()
 
     league_options = sorted(list(league_file_map.keys()))
@@ -264,8 +264,8 @@ def _ensure_year_column(df: pd.DataFrame, target_col: str = 'season_year') -> pd
 # Load per-league data from leagues folder when selected; otherwise fall back to global DataFrames
 # active_league is a display name; map to file key and require the files
 file_key = league_file_map.get(active_league)
-shots_path = os.path.join(ROOT_DIR, 'data', 'processed', 'leagues', f"shots_{file_key}.csv")
-stats_path = os.path.join(ROOT_DIR, 'data', 'processed', 'leagues', f"stats_{file_key}.csv")
+shots_path = os.path.join(ROOT_DIR, 'Data', 'processed', 'leagues', f"shots_{file_key}.csv")
+stats_path = os.path.join(ROOT_DIR, 'Data', 'processed', 'leagues', f"stats_{file_key}.csv")
 
 if not os.path.exists(shots_path):
     st.error(f"❌ Missing per-league shots file: {shots_path}")
