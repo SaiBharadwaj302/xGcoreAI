@@ -44,8 +44,7 @@ class SafeModel:
         self._booster = booster
         self.classes_ = np.array([0, 1])
         
-        # --- 🚨 HARDCODED FEATURE LIST (VERIFIED) 🚨 ---
-        # This forces the cloud app to use the exact order from your local machine.
+        # --- 🚨 YOUR HARDCODED LIST 🚨 ---
         self.feature_names = [
             'start_x', 'start_y', 'distance', 'visible_angle', 
             'body_part_code', 'technique_code', 'angle_sin', 'angle_cos', 
@@ -54,17 +53,18 @@ class SafeModel:
         ]
 
     def predict_proba(self, X):
+        # 1. Ensure DataFrame
         data = X.copy() if isinstance(X, pd.DataFrame) else pd.DataFrame(X)
         
-        # --- A. STANDARDIZE INPUTS ---
+        # 2. STANDARDIZE INPUTS (Handle 'x' vs 'start_x')
         if 'x' in data.columns and 'start_x' not in data.columns:
             data['start_x'] = data['x']
         if 'y' in data.columns and 'start_y' not in data.columns:
             data['start_y'] = data['y']
 
-        # --- B. FEATURE ENGINEERING ---
+        # 3. FEATURE ENGINEERING (Calculate Physics)
         if 'start_x' in data.columns and 'start_y' in data.columns:
-            # Physics Calculations
+            # Distance / Angle
             if 'distance' not in data.columns:
                 data['distance'] = np.sqrt((120 - data['start_x'])**2 + (40 - data['start_y'])**2)
             if 'visible_angle' not in data.columns:
@@ -84,26 +84,37 @@ class SafeModel:
             if 'start_y_norm' not in data.columns:
                 data['start_y_norm'] = data['start_y'] / 80.0
 
-        # --- C. ALIGNMENT ---
-        # Add missing columns as 0.0
+        # 4. ALIGNMENT & TYPE FORCING
+        # Force everything to be simple floats. No 'category' types allowed.
         for feat in self.feature_names:
             if feat not in data.columns:
                 data[feat] = 0.0
         
-        # FORCE EXACT ORDER
+        # Force Exact Order
         data = data[self.feature_names]
+        
+        # Force Float Type (Fixes XGBoost 2.0+ Categorical Crash)
+        data = data.astype(float)
 
-        # --- D. PREDICT ---
-        dmat = xgb.DMatrix(data, enable_categorical=True)
+        # 5. DEBUGGING (Look at your sidebar!)
+        # This will show you exactly what the model is seeing.
+        # If 'distance' is 0 here, we know the calc failed.
+        if len(data) == 1:
+            st.sidebar.markdown("### 🛠️ Debug: Live Model Input")
+            st.sidebar.json(data.iloc[0].to_dict())
+
+        # 6. PREDICT
+        # REMOVED 'enable_categorical=True' -> This was likely the cause of the 0% error
+        dmat = xgb.DMatrix(data) 
         preds = self._booster.predict(dmat)
         return np.column_stack((1 - preds, preds))
 
     def get_booster(self):
         return self._booster
 
-# Renamed to v3 to FORCE cache clear on Streamlit Cloud
+# Changed function name to 'load_resources_v4' to FORCE cache clear
 @st.cache_resource
-def load_resources_v3():
+def load_resources_v4():
     # --- 1. LOAD SHOTS ---
     shots_path = resolve_processed_file("shots_final.csv")
     shots_df = pd.read_csv(shots_path) if shots_path else pd.DataFrame()
@@ -124,16 +135,18 @@ def load_resources_v3():
                 
                 model_loaded = None
                 try:
+                    # Try standard load
                     m = xgb.XGBClassifier()
                     m.load_model(path)
                     if not hasattr(m, '_estimator_type'):
+                         # Force fallback if metadata missing
                         raise ValueError("Missing metadata")
                     model_loaded = m
                 except Exception:
+                    # Fallback to SafeModel
                     try:
                         booster = xgb.Booster()
                         booster.load_model(path)
-                        # Use SafeModel with hardcoded features
                         model_loaded = SafeModel(booster, model_path=path)
                     except Exception as e:
                         st.error(f"❌ Failed to load `{fname}`: {e}")
@@ -165,5 +178,5 @@ def load_resources_v3():
 
     return shots_df, stats_df, models_map, calibrators_map
 
-# Map the old function name to the new one so app.py doesn't crash
-load_resources = load_resources_v3
+# Map function so app.py finds it
+load_resources = load_resources_v4
