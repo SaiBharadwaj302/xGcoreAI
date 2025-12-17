@@ -1,76 +1,114 @@
 # xG CoreAI
 
-A Streamlit-based AI toolkit for exploring football shot data, predicting xG outcomes, and benchmarking squad performance per-league. The app loads per-league shots, stats, and pre-trained models/calibrators to paint tactical pitches, squad selection, confidence radars, and sniper-shot maps.
+**Where xG meets intelligence in football analytics.**
 
-## Key Features
-- **Simulation & Best XI tabs** powered by `app/tabs.py`, showing calibrated metrics, tactical pitch plots, and squad lineups with player annotations.
-- **Model confidence radar** that compares actual goals vs predicted xG for standout players and provides selectable focus insights.
-- **Sniper Map** that overlays goals/misses on a cyber pitch with per-player filtering (league, team, season/year).
-- **Modular utilities** (`utils/`) supporting configuration, visualization helpers, and data loading that discovers leagues, stats, suggestions, and model/calibrator files.
+xG CoreAI is a modular Streamlit application plus supporting utilities that help analysts, scouts, and coaches go from raw shot and player data to actionable tactical narratives. The project combines calibrated xG models, squad-visualization dashboards, and export-friendly charts that make deep dives into finishing, positioning, and model confidence effortless.
 
-## Repository Layout
+---
+
+## 🔑 Core Capabilities
+
+- **Simulation & tactical analysis:** The tabbed UI (app/tabs.py) offers simulations, calibrated metrics, and tactical pitch plots powered by mplsoccer.
+- **Best XI generator:** Auto-assembles squad lineups with performance annotations to highlight finishing efficiency and defensive balance.
+- **Model confidence radar:** Compares actual goals against predicted xG to spotlight under/over-performing players.
+- **Sniper maps:** Plot goals and misses on a neon-inspired cyber pitch with filters for leagues, seasons, teams, and players.
+- **Auto-discovery loader:** The utils.data_loader module pulls shots, stats, and models, handling missing files gracefully while surfacing helpful diagnostics.
+
+---
+
+## 📁 Repository layout
+
 ```
-app.py                 # Streamlit entrypoint (tabs, context, data prep)
-app/                   # Refactored UI tab helpers + TabContext
-src/                   # Model training toolkit (xgboost, preprocessing, trainers)
-utils/                 # Shared helpers, configurations, visualizers
-Data/                  # Raw league shot exports (ignored in git by default)
-models/                # Trained models + calibrators per league
-requirements.txt       # Python packages to install
-Dockerfile             # Container recipe for running the Streamlit app
-.dockerignore          # Keeps local artifacts out of Docker context
+xGcoreAI/
+├── app.py                 # Main Streamlit entry point
+├── app/                   # UI components, tabs, TabContext, helpers
+├── src/                   # Model tooling: trainers, preprocessors
+├── utils/                 # Shared helpers, visualizers, data_loader
+├── Data/                  # Raw + processed league exports (ignored)
+├── models/                # Calibrated models and manifest metadata
+├── requirements.txt       # Python dependencies
+├── Dockerfile             # Container recipe
+└── scripts/               # Deployment helpers (prepare_data.py)
 ```
 
-## Local Setup
-1. **Clone & activate environment**
-   ```bash
-   git clone https://github.com/<you>/xGcoreAI.git
-   cd xGcoreAI
-   python -m venv .venv
-   .\.venv\Scripts\activate
-   ```
-2. **Install dependencies**
-   ```bash
-   pip install --upgrade pip
-   pip install -r requirements.txt
-   ```
-3. **Prepare per-league data**
-   - Place per-league CSV exports in `Data/processed/leagues/` using the naming schema `shots_<league>.csv` and `stats_<league>.csv` (e.g. `shots_premier_league.csv`).
-   - You can derive exports from your own database or use the preprocessing scripts under `src/` to convert a raw source into the required format.
-   - If raw data is not available, the app will fall back to aggregated stats derived from the global `shots_df`/`stats_df` loaded via `utils.data_loader`.
-4. **Download/Train Models**
-   - Pre-trained models/calibrators go inside `models/` with names like `goal_predictor_<league>.json` and `_calibrator.joblib`. Replace them with your own training outputs if needed.
-   - Optionally train models using `src/model_trainer.py` once data is in place: `python src/model_trainer.py`.
-5. **Run the app**
-   ```bash
-   streamlit run app.py
-   ```
-   Access the UI at `http://localhost:8501`.
+## 🛠️ Local setup
 
-## Dockerized Deployment
-1. **Build the image**
-   ```bash
-   docker build -t xgcoreai:latest .
-   ```
-2. **Run the container (bind data/models if not baked into image)**
-   ```bash
-   docker run -p 8501:8501 \
-     -v "$(pwd)/Data:/app/Data" \
-     -v "$(pwd)/models:/app/models" \
-     xgcoreai:latest
-   ```
-3. **Visit `http://localhost:8501`** in your browser. The container uses `streamlit` to serve the app on port 8501 with league data/models available through the mounted volumes.
+1. Clone & create virtual environment
 
-## Data Pipeline Notes
-- `Data/raw/` and `Data/processed/` are ignored from git; keep your raw shot exports there.
-- Use the preprocessing scripts to unify column names and compute engineered features via `src/preprocess.py`. The global loader automatically looks for `models/manifest.json` to populate `league_file_map` and metrics.
-- **Visualizations** are handled in `utils/visualisations.py` and `app/tabs.py`. `draw_cyber_pitch()` uses `mplsoccer.Pitch` for neon-style shot and best-XI boards, while other charts rely on matplotlib (radar plots in the Model Confidence tab, scatter layouts, and pitch overlays). The Streamlit renderers call these helpers to keep consistent colors, legends, and layout tweaks.
-- If you only have raw shots and not stats, the app attempts to rebuild player stats by aggregating goals/shots per player.
+```
+git clone https://github.com/<you>/xGcoreAI.git
+cd xGcoreAI
+python -m venv .venv
+# Windows
+.\.venv\Scripts\activate
+# macOS/Linux
+source .venv/bin/activate
+```
 
-## Contribution Tips
-- Keep `app/tabs.py` synced with new UI requirements; it now houses `TabContext` plus the `render_simulation_tab`/`render_squad_genome_tab` helpers.
-- Update `utils/helpers.py` or `utils/visualisations.py` when adding new derived columns or visualization tweaks.
-- Use `pip freeze` to capture any added dependencies before editing `requirements.txt`.
+2. Install dependencies
 
+```
+pip install --upgrade pip
+pip install -r requirements.txt
+```
 
+3. Prepare processed data
 
+Place league exports in Data/processed/leagues/ with the following naming convention:
+
+- Shots: shots_<league_key>.csv (e.g., shots_premier_league.csv)
+- Stats: stats_<league_key>.csv (e.g., stats_premier_league.csv)
+
+If a per-league stats file is missing, the loader aggregates goals and shots from the global shots feed to keep the tabs functional.
+
+4. Provide models
+
+Ensure trained models (goal_predictor_<league>.json) and calibrators (*_calibrator.joblib) live inside the models/ directory.[^1]
+
+```
+python src/model_trainer.py
+```
+
+5. Run the app
+
+```
+streamlit run app.py
+```
+
+Browse http://localhost:8501/ to explore the dashboard.
+
+---
+
+## 🐳 Dockerized deployment
+
+1. Build the image
+
+```
+docker build -t xgcoreai:latest .
+```
+
+2. Run the container with mounted data/model volumes
+
+```
+docker run -p 8501:8501 \
+	-v "$(pwd)/Data:/app/Data" \
+	-v "$(pwd)/models:/app/models" \
+	xgcoreai:latest
+```
+
+Optionally, run the helper script before launching Streamlit so the container path contains the processed CSVs:
+
+```
+python scripts/prepare_data.py
+streamlit run app.py
+```
+
+---
+
+## 📊 Data & visualization notes
+
+- `Data/raw/` and `Data/processed/` stay out of GitHub by default; preprocess raw exports with src/preprocess.py.
+- `utils/visualisations.py` contains shared plotting utilities, including mplsoccer pitches and radar helpers.
+- The global loader scans `models/manifest.json` to auto-populate league metadata and performance metrics.
+
+[^1]: You may train new models with the provided scripts; pre-trained JSON models are already distributed in models/.
