@@ -6,7 +6,7 @@ xG CoreAI is a modular Streamlit application plus supporting utilities that help
 
 ---
 
-## 🔑 Core Capabilities
+##  Core Capabilities
 
 - **Simulation & tactical analysis:** The tabbed UI (app/tabs.py) offers simulations, calibrated metrics, and tactical pitch plots powered by mplsoccer.
 - **Best XI generator:** Auto-assembles squad lineups with performance annotations to highlight finishing efficiency and defensive balance.
@@ -16,7 +16,7 @@ xG CoreAI is a modular Streamlit application plus supporting utilities that help
 
 ---
 
-## 📁 Repository layout
+##  Repository layout
 
 ```
 xGcoreAI/
@@ -31,7 +31,7 @@ xGcoreAI/
 └── scripts/               # Deployment helpers (prepare_data.py)
 ```
 
-## 🛠️ Local setup
+##  Local setup
 
 1. Clone & create virtual environment
 
@@ -79,7 +79,7 @@ Browse http://localhost:8501/ to explore the dashboard.
 
 ---
 
-## 🐳 Dockerized deployment
+##  Dockerized deployment
 
 1. Build the image
 
@@ -105,8 +105,3 @@ streamlit run app.py
 
 ---
 
-## 📊 Data & visualization notes
-
-- `Data/raw/` and `Data/processed/` stay out of GitHub by default; preprocess raw exports with src/preprocess.py.
-- `utils/visualisations.py` contains shared plotting utilities, including mplsoccer pitches and radar helpers.
-- The global loader scans `models/manifest.json` to auto-populate league metadata and performance metrics.
