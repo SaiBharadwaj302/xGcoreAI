@@ -4,5 +4,6 @@ numpy
 xgboost
 scikit-learn
 matplotlib
+mplcursors
 pulp
 scipy
